@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+.env
+*.swp
+*~
+
+# Task working artifacts (keep structure, ignore large binaries if needed)
+# tasks/*/inputs.zip
+# tasks/*/golden.zip
