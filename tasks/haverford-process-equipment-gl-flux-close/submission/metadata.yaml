@@ -1,0 +1,31 @@
+slug: haverford-process-equipment-gl-flux-close
+seed_id: haverford-process-equipment-gl-flux-close
+
+onet:
+  occupation: Treasurers and Controllers
+  code: "11-3031.01"
+  tasks:
+    - Prepare or direct preparation of financial statements, business activity reports, financial position forecasts, annual budgets, or reports required by regulatory agencies.
+    - Analyze the financial details of past, present, and expected operations to identify development opportunities and areas where improvement is needed.
+    - Maintain current knowledge of organizational policies and procedures, federal and state policies and directives, and current accounting standards.
+  skills:
+    - Critical Thinking
+    - Mathematics
+    - Reading Comprehension
+    - Monitoring
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: flux_close_pack_haverford-process-equipment.xlsx
+  format: xlsx
+
+input_files:
+  - haverford-process-equipment_trial_balance.xlsx
+  - haverford-process-equipment_support_schedules.csv
+  - flux_threshold_and_aje_memo.txt
+
+sector: Finance and Insurance

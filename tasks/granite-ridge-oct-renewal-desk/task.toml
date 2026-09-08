@@ -1,0 +1,36 @@
+# Harbor-compatible task metadata for CodeExecutionEnvironment packaging.
+# Keep in sync with metadata.yaml / portal Section 1.
+
+schema_version = "1.0"
+
+[metadata]
+sector = "Finance and Insurance"
+occupation = "Insurance Underwriters"
+occupation_code = "13-2053.00"
+difficulty_tier = "core"
+category = "finance"
+tags = [
+  "commercial-property",
+  "habitational",
+  "renewal-underwriting",
+  "multi-family",
+  "loss-ratio",
+  "referral-routing",
+  "location-schedule",
+]
+expert_time_estimate_hours = 5
+difficulty_explanation = "October habitational renewal desk review: reconcile account list vs location schedule vs 36-month loss run under granite_ridge_routing_notes.txt hierarchy; route 36 accounts Quote/Refer/Decline/Ask Broker with inspection, subsidized, vacancy, pool, TIV/unit, and cat-exclusion judgments."
+
+[agent]
+timeout_sec = 1800.0
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+allow_internet = false

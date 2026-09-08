@@ -1,0 +1,58 @@
+Granite Ridge Apartment Partners — Habitational Renewal Routing Notes
+Program: GRP-HAB-MW Multi-Family | Effective batch: October 1 | UW desk reference GRP-RNW-2025-10
+
+Purpose
+These notes govern October renewal routing for the Midwest habitational book. When the renewal account list export disagrees with the policy location schedule or 36-month loss run, apply the hierarchy in Section 1 before assigning Quote, Refer, Decline, or Ask Broker on renewal_underwriting_review.xlsx.
+
+Section 1 — Source hierarchy
+1. granite_ridge_routing_notes.txt (this file) controls routing thresholds and documentation requirements.
+2. granite_ridge_loss_run_36mo.csv governs loss history and recomputed loss ratios when the account list loss ratio appears stale or incomplete.
+3. granite_ridge_location_schedule.csv governs location TIV, unit counts, subsidized units, vacancy flags, life-safety inspection dates, and pool liability flags.
+4. granite_ridge_renewal_accounts.csv is a summary export only. Do not quote solely on account-level occupancy, unit count, TIV, or loss ratio when location or loss detail conflicts.
+
+Section 2 — Disposition definitions
+Quote: Account meets appetite, documentation complete, no mandatory referral trigger active.
+Refer: Underwriter review required before bind; may quote after clearance.
+Decline: Account exceeds decline threshold or fails appetite.
+Ask Broker: Material exposure change pending broker confirmation; do not quote until updated.
+
+Section 3 — Loss ratio rules (36 months, attritional)
+Recompute account loss ratio as (sum of paid_amount + reserved_amount for all locations on the account) divided by expiring_premium, excluding rows with a non-blank cat_code.
+Decline if recomputed loss ratio is 70% or greater.
+Refer if recomputed loss ratio is 45% or greater but below 70%.
+Refer if any single location has total incurred (paid plus reserved) of $250,000 or more in the 36-month window, even when the account-level summary looks acceptable.
+
+Section 4 — Unit count and TIV reconciliation
+Refer if absolute difference between account unit_count on the account list and the sum of unit_count on the location schedule exceeds 5% of account unit_count.
+Refer if absolute difference between account_tiv on the account list and the sum of building_tiv on the location schedule exceeds 3% of account_tiv.
+Document the variance on Loss_Reconciliation and Location_Exceptions.
+
+Section 5 — Life-safety inspections and pool remediation
+Refer any location where sprinkler_inspection_date or fire_alarm_inspection_date is more than 30 days before the batch effective date (October 1, 2025) without a renewed certificate on file.
+Refer any account with pool_liability_flag of pending_fence_po until completion evidence is uploaded.
+Completed inspections within the grace window may be quoted if all other triggers are clear.
+
+Section 6 — Subsidized housing and vacancy
+Refer any location with subsidized_unit_count greater than zero before Quote, even if the account summary subsidized_housing_flag is N.
+Flag subsidized locations on Location_Exceptions and cite Section 6 for endorsement documentation requirements.
+Ask Broker when vacancy_flag is Y on any location and broker_confirmation is no on that row.
+Refer when account occupancy_pct implies full occupancy but any location row shows vacancy_flag Y without a documented turnover exception in broker files.
+
+Section 7 — Documentation requirements
+Account_Routing must list all accounts in the October batch (36 accounts in the current export).
+Every Refer, Decline, and Ask Broker row requires a one-line rationale citing the rule section and source file.
+Rules_Citations must cite this file for loss-ratio, inspection-lapse, subsidized-housing, unit-count, and vacancy referral triggers.
+Loss_Reconciliation must show recomputed ratios wherever the account list ratio differs from the loss run by more than 5 points.
+
+Section 8 — Prior disposition field
+prior_disposition and renewal_ready_flag on the account list are informational. They do not override referral triggers from location or loss files.
+
+Section 9 — Cat losses
+Catastrophe-coded rows (cat_code populated) are tracked separately. Exclude them from attritional loss-ratio calculations unless CUO memo GRP-CAT-2025-03 applies; default treatment is exclusion for routing thresholds in Section 3.
+
+Section 10 — Desk contacts and student housing
+Renewal desk lead: M. Calderon | Subsidized housing queue: GRP-SUB-HAB | Broker update queue: GRP-BRK-UPD
+Any account whose named insured is Campus Edge Housing Co. (student-housing book; currently GR-2007 and GR-2065) requires a Section 10 appetite note on Location_Exceptions stating that GRP-APPETITE review must be submitted before bind, even if no vacancy_flag is set. Do not state that clearance has already been obtained unless a separate CUO clearance memo is in the file package.
+Questions on ambiguous student-housing seasonal vacancy go to GRP-APPETITE before bind.
+
+End of routing notes.

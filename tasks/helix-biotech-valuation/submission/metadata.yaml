@@ -1,0 +1,30 @@
+slug: helix-biotech-valuation
+seed_id: helix-biotech-valuation
+
+onet:
+  occupation: Financial and Investment Analysts
+  code: 13-2051.00
+  tasks:
+    - Employ financial models to develop solutions to financial problems or to assess the financial or capital impact of transactions.
+    - Inform investment decisions by analyzing financial information to forecast business, industry, or economic conditions.
+    - Perform securities valuation or pricing.
+  skills:
+    - Critical Thinking
+    - Reading Comprehension
+    - Mathematics
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: valuation_draft.xlsx
+  format: xlsx
+
+input_files:
+  - cohort_summary.xlsx
+  - cap_table.csv
+  - investor_brief.txt
+
+sector: Finance and Insurance

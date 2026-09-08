@@ -1,0 +1,36 @@
+invoice_id,invoice_date,ship_date,counterparty,counterparty_code,description,amount_usd,fob_terms,status_flag,bol_or_ref,notes
+INV-AR-8601,2026-06-12,2026-06-12,Northline Canada Ltd,NLC,Prior period - settled July sweep,44220.18,FOB_ShippingPoint,Settled,BOL-8601,Paid 2026-07-08
+INV-AR-8612,2026-06-20,2026-06-21,Northline Mexico SA de CV,NLM,Prior period - settled July sweep,28110.40,FOB_ShippingPoint,Settled,BOL-8612,Paid 2026-07-08
+INV-AR-8620,2026-07-02,2026-07-03,Northline Canada Ltd,NLC,Prior period - settled July sweep,19880.55,FOB_ShippingPoint,Settled,BOL-8620,Paid 2026-07-08
+INV-AR-8633,2026-07-08,2026-07-09,Northline Mexico SA de CV,NLM,Prior period - settled July sweep,33440.22,FOB_ShippingPoint,Settled,BOL-8633,Paid 2026-07-08
+INV-AR-8640,2026-07-18,2026-07-18,Northline Canada Ltd,NLC,Prior period - settled Aug 5 wire,12640.18,n/a,Settled,MSA-NLC,Mgmt fee June remainder
+INV-AR-8655,2026-07-22,2026-07-23,Northline Mexico SA de CV,NLM,Prior period - settled Aug 5 wire,21220.40,FOB_ShippingPoint,Settled,BOL-8655,
+INV-AR-8660,2026-07-28,2026-07-29,Northline Canada Ltd,NLC,Prior period - settled Aug 5 wire,8880.22,FOB_ShippingPoint,Settled,BOL-8660,
+INV-AR-8668,2026-07-30,2026-07-30,Northline Mexico SA de CV,NLM,Prior period - settled Aug 5 wire,15110.55,FOB_ShippingPoint,Settled,BOL-8668,
+INV-AR-8688,2026-08-04,2026-08-05,Northline Mexico SA de CV,NLM,Consumables / tooling inserts,38820.40,FOB_ShippingPoint,Open,BOL-8688-MX,Received 8/8
+INV-AR-8702,2026-08-01,2026-08-01,Northline Canada Ltd,NLC,Engineering support hours - August,6420.18,n/a,Open,TS-8702,Service; no BOL
+INV-AR-8708,2026-08-03,2026-08-03,Northline Mexico SA de CV,NLM,Engineering support hours - August,5880.40,n/a,Open,TS-8708,Service; no BOL
+INV-AR-8715,2026-08-06,2026-08-07,Northline Canada Ltd,NLC,Fixture repair billable,9220.55,FOB_ShippingPoint,Open,BOL-8715-CA,Received 8/9
+INV-AR-8722,2026-08-08,2026-08-09,Northline Mexico SA de CV,NLM,Fixture repair billable,7640.18,FOB_ShippingPoint,Open,BOL-8722-MX,Received 8/11
+INV-AR-8730,2026-08-10,2026-08-10,Northline Canada Ltd,NLC,IT shared services August,4110.22,n/a,Open,IT-ALLOC-08,
+INV-AR-8738,2026-08-13,2026-08-13,Northline Mexico SA de CV,NLM,IT shared services August,3880.40,n/a,Open,IT-ALLOC-08,
+INV-AR-8744,2026-08-16,2026-08-17,Northline Canada Ltd,NLC,Prototype brackets,11220.18,FOB_ShippingPoint,Open,BOL-8744-CA,Received 8/19
+INV-AR-8750,2026-08-18,2026-08-19,Northline Mexico SA de CV,NLM,Prototype brackets,10440.55,FOB_ShippingPoint,Open,BOL-8750-MX,Received 8/21
+INV-AR-8758,2026-08-21,2026-08-21,Northline Canada Ltd,NLC,Warranty rebill - OEM customer pass-through,2840.22,n/a,Open,WR-8758,Disputed by Canada ops - still open on AR
+INV-AR-8764,2026-08-22,2026-08-23,Northline Mexico SA de CV,NLM,Gauge calibration kit,4520.18,FOB_ShippingPoint,Open,BOL-8764-MX,Received 8/25
+INV-AR-8766,2026-07-15,2026-07-15,Northline Canada Ltd,NLC,Q3 management fee allocation,41220.18,n/a,Open,MSA-NLC-2026,Canada booked AP 8/2
+INV-AR-8771,2026-08-24,2026-08-24,Northline Canada Ltd,NLC,HR shared services August,3220.40,n/a,Open,HR-ALLOC-08,
+INV-AR-8778,2026-08-25,2026-08-25,Northline Mexico SA de CV,NLM,HR shared services August,2980.55,n/a,Open,HR-ALLOC-08,
+INV-AR-8785,2026-08-26,2026-08-26,Northline Canada Ltd,NLC,Safety supplies recharge,1640.18,FOB_ShippingPoint,Open,BOL-8785-CA,Received 8/27
+INV-AR-8790,2026-08-11,2026-08-12,Northline Canada Ltd,NLC,Machined components lot Q3-12,92880.40,FOB_ShippingPoint,Open,BOL-8790-CA,Received Canada 8/14
+INV-AR-8798,2026-08-27,2026-08-27,Northline Mexico SA de CV,NLM,Safety supplies recharge,1480.40,n/a,Open,PO-8798,Local buy - parent rebill
+INV-AR-8805,2026-08-28,2026-08-28,Northline Canada Ltd,NLC,Quality lab overtime recharge,2110.55,n/a,Open,QL-8805,
+INV-AR-8812,2026-08-14,2026-08-15,Northline Mexico SA de CV,NLM,Spare parts kit - press line,64220.55,FOB_ShippingPoint,Open,BOL-8812-MX,Received Queretaro 8/18
+INV-AR-8818,2026-08-29,2026-08-29,Northline Mexico SA de CV,NLM,Quality lab overtime recharge,1920.18,n/a,Open,QL-8818,
+INV-AR-8820,2026-08-19,2026-08-20,Northline Canada Ltd,NLC,DUPLICATE - void of partial 8790 billing error,15500.00,FOB_ShippingPoint,Void,VOID-8820,Controller voided 8/22; do not settle
+INV-AR-8830,2026-08-30,2026-08-30,Northline Canada Ltd,NLC,Freight prepaid recharge,3440.22,n/a,Open,FR-8830,
+INV-AR-8841,2026-08-27,2026-08-28,Northline Canada Ltd,NLC,Custom tooling package - press cell 4,185420.18,FOB_ShippingPoint,InTransit,BOL-8841-CA,Departed Toledo dock 8/28; Canada receipt expected 9/2
+INV-AR-8848,2026-08-30,2026-08-30,Northline Mexico SA de CV,NLM,Freight prepaid recharge,2880.40,n/a,Open,FR-8848,
+INV-AR-8855,2026-08-28,2026-08-29,Northline Mexico SA de CV,NLM,Press rebuild modules,128440.00,FOB_ShippingPoint,InTransit,BOL-8855-MX,In transit Laredo corridor; receipt expected 9/3
+INV-AR-8860,2026-08-31,2026-08-31,Northline Canada Ltd,NLC,Month-end true-up estimate (provisional),5000.00,n/a,Provisional,EST-8860,Controller: provisional - exclude until final invoice
+INV-AR-8866,2026-08-31,2026-08-31,Northline Mexico SA de CV,NLM,Month-end true-up estimate (provisional),4500.00,n/a,Provisional,EST-8866,Controller: provisional - exclude until final invoice

@@ -1,0 +1,40 @@
+MERIDIAN PROPERTY GROUP — PROPERTY ACCOUNTING
+Meridian Commons CAM Estimated Billing Register — Calendar Year 2025
+Prepared by: A. Nguyen, Property Accountant
+As of: 2025-12-28
+
+Purpose
+This register summarizes estimated common-area maintenance charges billed to occupied
+tenants during 2025. Estimates were set in January from the 2024 CAM pool forecast and
+were not formally reforecast after the Contour Fitness expansion. Controllers asked for
+this extract ahead of the year-end true-up so allocated actuals can be compared to cash
+already collected through monthly CAM invoices.
+
+Billing policy used in 2025
+Monthly CAM invoices equal one-twelfth of each tenant's estimated annual CAM charge.
+Estimated annual charges used January pro-rata shares from the lease abstract in effect
+on 2025-01-01. Contour Fitness expanded on 2025-07-01; the billing system was never
+updated, so Contour continued to receive invoices based on its pre-expansion 18.2% share
+for July through December. No mid-year catch-up invoice was issued.
+
+Tenant estimated CAM billed (annual total invoiced in 2025)
+
+Suite T-101 Harbor Coffee Co — billed $43,200.00
+Suite T-104 Ridgeway Dental — billed $13,774.00 (estimate held at the lease CAM cap)
+Suite T-107 Meridian Outfitters — billed $98,400.00
+Suite T-112 Lakeside Books — billed $46,800.00 (billing alias on two invoices shows "Lakeside Bookshop"; same TIN)
+Suite T-118 Contour Fitness — billed $92,160.00 (entire year at 18.2% share)
+
+Suite T-122 remained vacant after March and was not billed.
+
+Open items for Controllers
+1. Contour expansion documentation is on the lease abstract workbook; billing did not follow it.
+2. Ridgeway Dental's estimate already sits at the $4.85/SF cap on 2,840 SF ($13,774). Confirm whether
+   actual allocation before cap still exceeds that figure.
+3. Marketing co-op invoices hit GL 6450; confirm whether any tenant lease pulls marketing into CAM.
+4. Large roof and HVAC replacement invoices hit R&M and HVAC accounts; confirm capital exclusions
+   before tenant true-ups are issued.
+
+Totals above are billed amounts only. Do not treat them as the final CAM pool or as approved
+true-up figures. The true-up workbook should recompute eligible expenses from the GL extract and
+apply current lease economics from the abstract file.

@@ -1,0 +1,33 @@
+ap_id,booked_date,counterparty_books,currency,amount_local,vendor_ref,parent_invoice_ref,fx_rate_used,status_flag,notes
+AP-C-401,2026-07-05,Northline Canada Ltd,CAD,60680.22,PO-CA-7601,INV-AR-8601,1.3680,Settled,Paid July sweep
+AP-M-180,2026-07-06,Northline Mexico SA de CV,MXN,522280.40,PO-MX-4201,INV-AR-8612,18.4200,Settled,Paid July sweep
+AP-C-410,2026-07-12,Northline Canada Ltd,CAD,27280.40,PO-CA-7620,INV-AR-8620,1.3680,Settled,Paid July sweep
+AP-M-188,2026-07-14,Northline Mexico SA de CV,MXN,621220.18,PO-MX-4233,INV-AR-8633,18.4200,Settled,Paid July sweep
+AP-C-418,2026-07-20,Northline Canada Ltd,CAD,17340.18,MSA-NLC,INV-AR-8640,1.3680,Settled,Paid Aug 5
+AP-M-194,2026-07-24,Northline Mexico SA de CV,MXN,394220.55,PO-MX-4255,INV-AR-8655,18.4200,Settled,Paid Aug 5
+AP-C-425,2026-07-28,Northline Canada Ltd,CAD,12160.55,PO-CA-7660,INV-AR-8660,1.3680,Settled,Paid Aug 5
+AP-M-198,2026-07-31,Northline Mexico SA de CV,MXN,280880.22,PO-MX-4268,INV-AR-8668,18.4200,Settled,Paid Aug 5
+AP-C-442,2026-08-02,Northline Canada Ltd,CAD,56570.58,MSA-NLC-2026,INV-AR-8766,1.3724,Open,July mgmt fee - booked after July close
+AP-M-220,2026-08-03,Northline Mexico SA de CV,MXN,109220.40,TS-8708,INV-AR-8708,18.5800,Open,
+AP-C-460,2026-08-07,Northline Canada Ltd,CAD,8810.22,TS-8702,INV-AR-8702,1.3724,Open,Under Sep 3 threshold - leave for Oct
+AP-M-205,2026-08-08,Northline Mexico SA de CV,MXN,721283.03,PO-MX-4388,INV-AR-8688,18.5800,Open,
+AP-C-462,2026-08-09,Northline Canada Ltd,CAD,12650.40,PO-CA-7715,INV-AR-8715,1.3724,Open,
+AP-M-222,2026-08-11,Northline Mexico SA de CV,MXN,141980.18,PO-MX-4422,INV-AR-8722,18.5800,Open,Below materiality - roll to next close
+AP-C-464,2026-08-13,Northline Canada Ltd,CAD,5640.18,IT-ALLOC,INV-AR-8730,1.3724,Open,IT allocation - immaterial this sweep
+AP-M-224,2026-08-13,Northline Mexico SA de CV,MXN,72100.55,IT-ALLOC,INV-AR-8738,18.5800,Open,
+AP-C-441,2026-08-14,Northline Canada Ltd,CAD,127060.39,PO-CA-7790,INV-AR-8790,1.3680,Open,Booked at July month-end CAD rate
+AP-C-448,2026-08-15,Northline Canada Ltd,CAD,127060.39,PO-CA-7790-DUP,INV-AR-8790,1.3680,Void,Duplicate of AP-C-441 - AP clerk void 8/16
+AP-M-210,2026-08-18,Northline Mexico SA de CV,MXN,1193217.82,PO-MX-4412,INV-AR-8812,18.5800,Open,
+AP-C-466,2026-08-19,Northline Canada Ltd,CAD,15400.55,PO-CA-7744,INV-AR-8744,1.3724,Open,
+AP-C-455,2026-08-20,Northline Canada Ltd,CAD,22840.55,PO-CA-LOCAL-12,,1.3724,Open,Local Canada vendor reclassed to intercompany - no parent invoice
+AP-C-468,2026-08-21,Northline Canada Ltd,CAD,3890.22,WR-8758,INV-AR-8758,1.3724,Disputed,Canada disputes warranty rebill
+AP-M-226,2026-08-21,Northline Mexico SA de CV,MXN,194000.22,PO-MX-4450,INV-AR-8750,18.5800,Open,Hold for Oct sweep
+AP-C-470,2026-08-24,Northline Canada Ltd,CAD,4420.40,HR-ALLOC,INV-AR-8771,1.3724,Open,
+AP-M-228,2026-08-25,Northline Mexico SA de CV,MXN,84000.40,PO-MX-4464,INV-AR-8764,18.5800,Open,
+AP-M-230,2026-08-25,Northline Mexico SA de CV,MXN,55380.18,HR-ALLOC,INV-AR-8778,18.5800,Open,HR shared-cost - defer
+AP-C-472,2026-08-27,Northline Canada Ltd,CAD,2250.18,PO-CA-7785,INV-AR-8785,1.3724,Open,Small PO - next cycle
+AP-M-232,2026-08-27,Northline Mexico SA de CV,MXN,27500.55,PO-MX-4478,INV-AR-8798,18.5800,Open,
+AP-C-474,2026-08-29,Northline Canada Ltd,CAD,2890.55,QL-8805,INV-AR-8805,1.3724,Open,
+AP-M-234,2026-08-29,Northline Mexico SA de CV,MXN,35680.22,QL-8818,INV-AR-8818,18.5800,Open,QC chargeback - next cycle
+AP-C-476,2026-08-30,Northline Canada Ltd,CAD,4720.22,FR-8830,INV-AR-8830,1.3724,Open,Freight true-up queued for Oct
+AP-M-236,2026-08-30,Northline Mexico SA de CV,MXN,53520.40,FR-8848,INV-AR-8848,18.5800,Open,

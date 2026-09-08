@@ -1,0 +1,221 @@
+{
+  "criteria": [
+    {
+      "id": "deliverable_filename",
+      "text": "The final deliverable is an Excel workbook named flux_close_pack_haverford-process-equipment.xlsx.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "section_flux_workpaper",
+      "text": "The workbook includes a material flux workpaper section (equivalent label acceptable).",
+      "weight": 1,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "section_proposed_ajes",
+      "text": "The workbook includes a proposed adjusting entries section (equivalent label acceptable).",
+      "weight": 1,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "section_support_reconcile",
+      "text": "The workbook includes a support reconciliation section (equivalent label acceptable).",
+      "weight": 1,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "section_close_readiness",
+      "text": "The workbook includes a close-readiness decision section (equivalent label acceptable).",
+      "weight": 1,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "memo_hierarchy",
+      "text": "The workbook states that flux_threshold_and_aje_memo.txt governs over the plant controller clean-close / no-AJE language in haverford-process-equipment_trial_balance.xlsx.",
+      "weight": 5,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "close_status_ready_with_ajes",
+      "text": "Close readiness is Ready with AJEs.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "flux_cash_investigated",
+      "text": "The flux workpaper investigates Cash - Operating (account 1000) as a balance-sheet threshold hit.",
+      "weight": 2,
+      "type": "subjective",
+      "category": "coverage"
+    },
+    {
+      "id": "flux_ar_investigated",
+      "text": "The flux workpaper investigates Accounts Receivable (account 1100) as a balance-sheet threshold hit.",
+      "weight": 2,
+      "type": "subjective",
+      "category": "coverage"
+    },
+    {
+      "id": "flux_inventory_investigated",
+      "text": "The flux workpaper investigates Inventory (account 1200) as a balance-sheet threshold hit.",
+      "weight": 2,
+      "type": "subjective",
+      "category": "coverage"
+    },
+    {
+      "id": "flux_maintenance_investigated",
+      "text": "The flux workpaper investigates Maintenance & Repairs (account 5600) as a P&L threshold hit.",
+      "weight": 3,
+      "type": "subjective",
+      "category": "coverage"
+    },
+    {
+      "id": "aje_void_reverse_amount",
+      "text": "Proposed adjusting entries reverse voided INV-9918 revenue and AR of approximately $55,280.40.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "aje_void_accounts",
+      "text": "The void reverse debits Product Sales (4100) and credits Accounts Receivable (1100).",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "aje_warranty_amount",
+      "text": "Proposed adjusting entries reduce Accrued Warranty by approximately $34,555.37 to the W-04 governing support ending balance of $147,885.18.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "warranty_source_variance_disclosed",
+      "text": "The workbook discloses the approximately $6,000.00 variance between the warranty detail roll W-01+W-02+W-03 ($153,885.18) and W-04 ($147,885.18).",
+      "weight": 2,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "warranty_w04_governing_exception",
+      "text": "The workbook identifies W-04 as the selected governing support figure for the warranty true-up and treats the detail-roll versus W-04 gap as an open source reconciliation exception.",
+      "weight": 2,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "aje_prepaid_amort",
+      "text": "Proposed adjusting entries book August prepaid insurance amortization of approximately $8,417.25.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "aje_inventory_writedown",
+      "text": "Proposed adjusting entries write inventory down by approximately $28,425.63 to the physical count support total.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "aje_freight_accrual",
+      "text": "Proposed adjusting entries accrue open freight of approximately $41,288.40.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "aje_pto_trueup",
+      "text": "Proposed adjusting entries reduce Accrued PTO by approximately $23,779.63 to the HR support total.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "aje_capex_reclass_amount",
+      "text": "Proposed adjusting entries capitalize the CAP-8821 CNC rebuild of approximately $62,418.55 out of Maintenance & Repairs into PP&E.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "aje_capex_accounts",
+      "text": "The CapEx reclass debits PP&E - Machinery (1600) and credits Maintenance & Repairs (5600).",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "aje_freight_accounts",
+      "text": "The freight accrual debits Freight-In / Outbound (5400) and credits Accrued Freight (2210).",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "support_schedule_refs_on_ajes",
+      "text": "Each proposed adjusting entry cites a support-schedule line or schedule reference for the amount.",
+      "weight": 2,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "je_activity_refs_where_applicable",
+      "text": "Proposed adjusting entries that rely on JE activity (including the void reverse and CapEx reclass) cite the applicable JE activity reference.",
+      "weight": 2,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "ajes_balanced",
+      "text": "Total proposed AJE debits equal total proposed AJE credits.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "neg_ready_while_ajes_unposted",
+      "text": "The workbook recommends Ready while required adjusting entries remain unposted.",
+      "weight": -4,
+      "type": "negative",
+      "category": "accuracy"
+    },
+    {
+      "id": "neg_plant_clean_ready",
+      "text": "The workbook recommends Ready / soft-close with no adjusting entries based on the plant controller clean-close note.",
+      "weight": -5,
+      "type": "negative",
+      "category": "accuracy"
+    },
+    {
+      "id": "neg_leave_void_unreversed",
+      "text": "The workbook recommends leaving the voided August INV-9918 revenue and AR postings unreversed in the GL.",
+      "weight": -5,
+      "type": "negative",
+      "category": "accuracy"
+    },
+    {
+      "id": "neg_expense_capex_rebuild",
+      "text": "The workbook instructs leaving the CapEx-qualifying CAP-8821 rebuild in Maintenance & Repairs expense rather than capitalizing it to PP&E.",
+      "weight": -4,
+      "type": "negative",
+      "category": "accuracy"
+    },
+    {
+      "id": "neg_hold_for_flux_only",
+      "text": "The workbook recommends Hold close solely because material flux explanations exist, after a complete quantified AJE pack is prepared.",
+      "weight": -3,
+      "type": "negative",
+      "category": "accuracy"
+    }
+  ]
+}

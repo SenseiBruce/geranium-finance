@@ -1,0 +1,39 @@
+Vesper Culinary Brands  -  Kiln Spice Works Tuck-In Acquisition Memo
+Prepared by Corporate Development | August 14, 2025
+Distribution: Finance, Corporate Controller, Treasury Operations, FP&A
+
+Summary
+Vesper Culinary Brands completed the tuck-in acquisition of Kiln Spice Works on August 12, 2025. Kiln is a specialty dry-spice and rub manufacturer selling through club, grocery, and foodservice distributors in the United States. For Q3 2025 consolidated management reporting and the Friday board packet, only revenue earned on or after the economic close date may be attributed to Vesper ownership. Pre-close Kiln billings that remain in the brand ledger as posted must not roll into the consolidated Q3 net revenue figure used for board materials.
+
+Background and deal chronology
+Kiln operated as an independent seller through early August. The stock purchase agreement was signed August 6, 2025, with economic transfer and ownership start effective August 12, 2025 per Schedule 2.1 of the disclosure package. Billing continued on Kiln's legacy entity code during the transition week, which means the consolidated brand ledger extract still contains July and early-August Kiln rows tagged posted. Those rows reflect Kiln's standalone activity before Vesper ownership; they are real invoices that simply fall outside Vesper's ownership window.
+
+A sales operations email circulated August 13 describing "full quarter Kiln contribution" for internal pipeline tracking. That note is a commercial forecast convenience only. It does not override Corporate Development close mechanics or this memo's ownership treatment for the board package. Controllers should ignore the full-quarter sales note when building consolidated Q3 revenue.
+
+Transaction structure and key dates
+- Transaction document: stock purchase agreement
+- Signing date: August 6, 2025
+- Closing date and governing ownership start date: August 12, 2025 (Schedule 2.1)
+- Reporting entity after close: Kiln Spice Works LLC (wholly owned subsidiary of Vesper Culinary Brands)
+- Pre-close activity through August 11, 2025 remains outside Vesper consolidated totals for Q3 2025
+- Post-close activity from August 12, 2025 through September 30, 2025 is in scope for Q3 consolidation subject to the proration guidance below
+
+Ownership / proration treatment for Q3 consolidation (governing authority)
+The permitted ownership treatment for Q3 consolidation, including the 50/92 proration method, is established by this acquisition memo. Q3 2025 runs July 1, 2025 through September 30, 2025 (92 calendar days). Post-close ownership covers August 12, 2025 through September 30, 2025 inclusive (50 days).
+
+Finance should apply a 50/92 proration factor to Kiln Spice Works gross Q3 revenue that survives standard revenue exclusions when consolidating, unless a pure transaction-level ownership cutoff is documented and the controller signs off on that alternative method. No controller sign-off for the transaction-date cutoff is attached to this packet; until such approval is obtained, treat the cutoff approach as a conditional scenario only.
+
+Recommended practice for this close: start from Kiln ledger rows with status posted (and in currency USD), exclude void, cancelled, duplicate, and out_of_period statuses, then either (a) drop rows dated before August 12 and sum the remainder, or (b) sum all in-period posted Kiln rows for the full quarter and multiply by 50/92. Do not mix both methods. Do not apply proration on top of an already ownership-cutoff sum. Retain a clear record of which ownership method is used for board reporting and whether controller approval for the cutoff alternative exists.
+
+Systems and extract notes
+The brand ledger extract still contains July and early-August Kiln rows from the pre-close billing run. Transactions occurring before the ownership start date are treated according to the ownership method above. Void and cancelled rows are excluded. Qualifying post-close transactions follow the selected ownership treatment. Identify affected rows from the ledger itself; do not rely on informal sales-ops forecasts.
+
+Controller review points
+- Confirm the August 12 close date matches Schedule 2.1 of the signed stock purchase agreement and the bank wire confirmation.
+- Tie August 12 and later Kiln billings to post-close service and shipment evidence where practical.
+- Confirm void and cancelled Kiln stubs do not inflate the ownership-window sum.
+- Coordinate with Treasury on EUR conversion for Brine & Barrel EU using brine_barrel_fx_and_period_reference.txt; Kiln itself bills in USD.
+
+Contact and sign-off
+N. Calder, VP Corporate Development
+cc: R. Vasquez, Corporate Controller; Treasury Operations mailbox VCB-FX series

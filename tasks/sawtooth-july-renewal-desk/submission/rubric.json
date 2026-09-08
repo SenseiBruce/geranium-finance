@@ -1,0 +1,151 @@
+{
+  "criteria": [
+    {
+      "id": "deliverable_filename",
+      "text": "The final deliverable is an Excel workbook named renewal_underwriting_review.xlsx.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "accounts_reviewed_count",
+      "text": "The workbook routes all 38 accounts in the July renewal batch.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "workbook_structure",
+      "text": "The workbook includes account routing, location exceptions, loss reconciliation, rules citations, and a disposition summary; equivalent section labels are acceptable.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "structure"
+    },
+    {
+      "id": "si1015_quote",
+      "text": "Account SI-1015 is assigned Quote on the account routing section.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "si1021_refer",
+      "text": "Account SI-1021 is assigned Refer on the account routing section for TIV variance between renewal_account_list.csv and policy_location_schedule.csv.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "si1042_refer",
+      "text": "Account SI-1042 is assigned Refer on the account routing section.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "si1088_refer",
+      "text": "Account SI-1088 is assigned Refer on the account routing section for pending roof mitigation.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "si1156_decline",
+      "text": "Account SI-1156 is assigned Decline on the account routing section.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "si1033_ask_broker",
+      "text": "Account SI-1033 is assigned Ask Broker on the account routing section.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "coastal_endorsement_flags",
+      "text": "The location exception documentation flags at least four coastal wind locations in zones CW-1 or CW-2.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "rules_source_cited",
+      "text": "The workbook cites underwriting_rules_notes.txt for routing thresholds and referral triggers.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "loss_run_reconciliation",
+      "text": "The loss reconciliation section shows recomputed loss ratios wherever renewal_account_list.csv differs from loss_run_36mo.csv by more than five points.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "si1156_recomputed_lr",
+      "text": "Account SI-1156 recomputed 36-month loss ratio is approximately 95.8%.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "si1042_location_incurred",
+      "text": "Location ORL-1042-B total incurred in the loss analysis is approximately $278,400.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "summary_quote_count",
+      "text": "The disposition summary reports approximately 28 Quote assignments.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "summary_refer_count",
+      "text": "The disposition summary reports approximately 7 Refer assignments.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "routing_rationale",
+      "text": "Every Refer, Decline, and Ask Broker account includes a one-line rationale tied to underwriting_rules_notes.txt or a source file.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "summary_formulas",
+      "text": "Disposition summary counts use formulas referencing the account routing section rather than hard-coded totals.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "cat_loss_in_attritional",
+      "text": "The deliverable includes the CAT-2419 catastrophe-coded loss for account SI-1075 in the attritional loss-ratio calculation.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "incomplete_account_list",
+      "text": "The deliverable routes fewer than 38 accounts from renewal_account_list.csv.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "stale_list_ratio_si1042",
+      "text": "The deliverable assigns Quote to account SI-1042 based solely on the renewal_account_list.csv loss ratio when loss_run_36mo.csv supports referral for ORL-1042-B.",
+      "weight": -3,
+      "type": "negative",
+      "category": "negative"
+    }
+  ]
+}

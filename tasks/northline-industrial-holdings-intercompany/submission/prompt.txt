@@ -1,0 +1,5 @@
+Controllers need the Sep 3 intercompany cash-sweep report before treasury releases wires against the Aug 31 close. Parent AR still does not line up to the Canada and Mexico AP mirrors. Local-currency balances, a stale Canada FX booking, in-transit goods, a voided duplicate, and an orphan AP line are all in the way. Apply the cut-off and FX policies in the memo.
+
+Work from the northline-industrial-holdings_ar_subledger.csv, northline-industrial-holdings_ap_mirror.csv, and intercompany_cutoff_and_fx_memo.txt source files.
+
+Please produce intercompany_settlement_northline-industrial-holdings.xlsx as the Controllers settlement report. Use the memo for Appendix A population, FOB cut-off, and Aug 31 FX. Build the AR settlement, convert matching AP for the FX tie-out, log exceptions, and state the Sep 3 netting / wire recommendation by counterparty for disbursement authorization. Where the AR and AP ledgers conflict, the memo governs.

@@ -1,0 +1,32 @@
+slug: whitaker-precision-components-loan-underwriting
+seed_id: whitaker-precision-components-loan-underwriting
+
+onet:
+  occupation: Loan Officers
+  code: "13-2072.00"
+  tasks:
+    - Analyze applicants' financial status, credit, and property evaluations to determine feasibility of granting loans.
+    - Approve loans within specified limits, and refer loan applications outside those limits to management for approval.
+    - Obtain and compile copies of loan applicants' credit histories, corporate financial statements, and other financial information.
+    - Compute payment schedules.
+  skills:
+    - Critical Thinking
+    - Reading Comprehension
+    - Mathematics
+    - Active Learning
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: loan_underwriting_decision_whitaker-precision-components.xlsx
+  format: xlsx
+
+input_files:
+  - whitaker-precision-components_borrower_financials.xlsx
+  - whitaker-precision-components_collateral_schedule.csv
+  - credit_policy_and_exception_memo.txt
+
+sector: Finance and Insurance

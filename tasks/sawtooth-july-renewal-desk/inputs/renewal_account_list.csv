@@ -1,0 +1,39 @@
+account_id,named_insured,state,expiring_premium,account_tiv,occupancy_class,prior_disposition,account_loss_ratio_36mo,renewal_ready_flag
+SI-1001,Piedmont Coil Works (SI-1001),SC,124204.61,10798836.0,Manufacturing,Quoted,33.1,Y
+SI-1004,Delta Packaging LLC (SI-1004),GA,95754.63,12626817.0,Processing,Quoted,35.7,Y
+SI-1007,Sunbelt Metal Fab (SI-1007),LA,72138.1,6160821.0,Warehouse,Quoted,17.7,Y
+SI-1010,Carolina Adhesives (SI-1010),LA,96238.67,13810693.0,Warehouse,Quoted,19.0,Y
+SI-1015,Lowcountry Plastics (SI-1015),GA,67340.0,6120000,Warehouse,Quoted,22.4,Y
+SI-1018,Tri-Rivers Warehousing (SI-1018),NC,57474.34,5064599.0,Warehouse,Quoted,31.0,Y
+SI-1021,Gulf Shore Machining (SI-1021),GA,95680.0,12450000,Office,Quoted,31.2,Y
+SI-1024,Appalachian Foods (SI-1024),NC,57346.44,12898518.0,Warehouse,Quoted,26.3,Y
+SI-1027,Meridian Conveyor (SI-1027),LA,97746.89,7195112.0,Processing,Quoted,35.8,Y
+SI-1030,Oak Hollow Lumber (SI-1030),GA,95765.06,13651204.0,Manufacturing,Quoted,18.8,Y
+SI-1033,Coastal Crate Co (SI-1033),GA,58420.0,4980000,Warehouse,Quoted,27.8,Y
+SI-1036,Riverbend Chemical (SI-1036),MS,73717.56,14890774.0,Warehouse,Quoted,25.0,Y
+SI-1039,Summit Fasteners (SI-1039),GA,73221.62,11723965.0,Processing,Quoted,16.3,Y
+SI-1042,Harbor Industrial Supply (SI-1042),FL,562400.0,9870000,Office,Quoted,38.1,Y
+SI-1045,Blue Ridge Motors (SI-1045),TN,67643.57,5389787.0,Manufacturing,Quoted,20.9,Y
+SI-1048,Magnolia Textiles (SI-1048),MS,82631.72,10369668.0,Manufacturing,Quoted,35.9,Y
+SI-1051,Keystone Pallet (SI-1051),TN,64712.23,5740002.0,Office,Quoted,19.3,Y
+SI-1054,Cumberland Pipe (SI-1054),SC,60833.21,5602435.0,Office,Quoted,28.6,Y
+SI-1057,Bayou Fabrication (SI-1057),FL,84084.76,13215833.0,Warehouse,Quoted,17.3,Y
+SI-1060,Highland Gear (SI-1060),LA,77098.06,11005560.0,Manufacturing,Quoted,33.9,Y
+SI-1063,Piedmont Coil Works (SI-1063),LA,124923.77,11529935.0,Office,Quoted,29.5,Y
+SI-1066,Delta Packaging LLC (SI-1066),MS,95075.18,8670342.0,Office,Quoted,15.2,Y
+SI-1069,Sunbelt Metal Fab (SI-1069),LA,69538.28,5546319.0,Warehouse,Quoted,31.6,Y
+SI-1072,Carolina Adhesives (SI-1072),GA,66177.59,12858681.0,Manufacturing,Quoted,33.7,Y
+SI-1075,Lowcountry Plastics (SI-1075),NC,119914.42,3553456.0,Processing,Quoted,15.1,Y
+SI-1078,Tri-Rivers Warehousing (SI-1078),SC,64742.79,7941793.0,Manufacturing,Quoted,14.9,Y
+SI-1081,Gulf Shore Machining (SI-1081),LA,79484.99,9510651.0,Manufacturing,Quoted,21.2,Y
+SI-1084,Appalachian Foods (SI-1084),MS,93380.25,7167091.0,Processing,Quoted,19.0,Y
+SI-1088,Meridian Conveyor (SI-1088),NC,71850.0,8450000,Processing,Renewal Ready,29.7,Y
+SI-1091,Oak Hollow Lumber (SI-1091),LA,122819.39,8876212.0,Manufacturing,Quoted,30.3,Y
+SI-1094,Coastal Crate Co (SI-1094),AL,113486.65,7140129.0,Processing,Quoted,35.4,Y
+SI-1097,Riverbend Chemical (SI-1097),NC,54165.91,8227321.0,Office,Quoted,31.7,Y
+SI-1100,Summit Fasteners (SI-1100),TN,102192.77,4367100.0,Warehouse,Quoted,14.7,Y
+SI-1103,Harbor Industrial Supply (SI-1103),AL,114337.36,10176148.0,Manufacturing,Quoted,17.5,Y
+SI-1106,Blue Ridge Motors (SI-1106),FL,81485.1,9536557.0,Warehouse,Quoted,27.6,Y
+SI-1109,Magnolia Textiles (SI-1109),GA,77814.93,11565096.0,Office,Quoted,34.1,Y
+SI-1112,Keystone Pallet (SI-1112),GA,87244.93,9710425.0,Warehouse,Quoted,21.6,Y
+SI-1156,Cumberland Pipe (SI-1156),GA,112400.0,14280000,Warehouse,Quoted,52.0,Y

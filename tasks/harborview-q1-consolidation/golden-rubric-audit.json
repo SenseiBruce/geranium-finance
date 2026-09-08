@@ -1,0 +1,151 @@
+{
+  "task": "harborview-q1-consolidation",
+  "criteria_count": 18,
+  "manual_review_required": true,
+  "items": [
+    {
+      "id": "deliverable_filename",
+      "weight": 2,
+      "type": "rigid",
+      "text": "The final deliverable includes an Excel workbook named consolidated_review_harborview_media_group.xlsx.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "assumptions_sheet",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The workbook includes an Assumptions sheet stating the Q1 2025 reporting period of January 1 through March 31, 2025.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "cad_rate",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The Assumptions sheet states the CAD-to-USD rate of 0.74.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "nimue_proration_factor",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The Assumptions sheet records Nimue Digital ownership starting February 1, 2025 with a proration factor of approximately 0.6556.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "rollup_sheets",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The workbook includes sheets covering Assumptions, Source_Data, Rollup, Reconciliation_Log, and Recommendation.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "total_consolidated",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The Rollup tab reports total consolidated Q1 2025 revenue of approximately $1,590,686.30.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "nimue_consolidated",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Nimue Digital's Consolidated USD on the Rollup tab is approximately $697,267.02, reflecting about 65.6% proration of its approximately $1,063,627.65 gross figure for the February 1, 2025 acquisition.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "excalibur_consolidated",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Excalibur Creative's Consolidated USD on the Rollup tab is approximately $452,853.28, reflecting CAD-to-USD conversion at the 0.74 period rate.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "lancelot_consolidated",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Lancelot Media's Consolidated USD on the Rollup tab is approximately $440,566.01, with a 100% proration factor reflecting full-quarter ownership.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "exclusion_log",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The Reconciliation_Log documents that void, cancelled, and out-of-period transactions were found and excluded across all three brands.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "fx_source_cited",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The Reconciliation_Log identifies excalibur_creative_fx_and_period_reference.txt as the source for the currency conversion rate.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "acquisition_source_cited",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The Reconciliation_Log identifies nimue_digital_acquisition_memo.txt as the source for the acquisition-date proration.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "judgment_documented",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The workbook documents judgment calls where source files disagree, including mid-period acquisition proration and exclusion of non-counting transactions.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "board_recommendation",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The Recommendation sheet states a board-facing recommendation to report the consolidated Q1 2025 figure after FX conversion, exclusions, and Nimue proration.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "rollup_formulas",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The Rollup tab Consolidated USD column uses live formulas rather than hard-coded values for derived totals.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "nimue_full_gross_error",
+      "weight": -5,
+      "type": "negative",
+      "text": "The deliverable reports Nimue Digital Consolidated USD on the Rollup tab as equal to its full gross USD figure of approximately $1,063,627.65 with no acquisition-date proration.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "excalibur_unconverted_error",
+      "weight": -5,
+      "type": "negative",
+      "text": "The deliverable reports Excalibur Creative Consolidated USD on the Rollup tab as approximately $611,842.27 in unconverted CAD-denominated gross.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "void_rows_included",
+      "weight": -3,
+      "type": "negative",
+      "text": "The deliverable includes void, cancelled, or post-period transactions in the consolidated Q1 2025 revenue total.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    }
+  ]
+}

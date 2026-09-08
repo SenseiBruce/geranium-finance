@@ -1,0 +1,137 @@
+{
+  "criteria": [
+    {
+      "id": "deliverable_filename",
+      "text": "The final deliverable is an Excel workbook named consolidated_review_harborview_media_group.xlsx.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "reporting_period",
+      "text": "The workbook states the Q1 2025 reporting period of January 1 through March 31, 2025.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "cad_rate",
+      "text": "The workbook states the CAD-to-USD rate of 0.74.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "lattice_proration_factor",
+      "text": "The workbook records Lattice Digital ownership starting February 1, 2025 with a proration factor of approximately 0.6556.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "workbook_structure",
+      "text": "The workbook clearly presents assumptions, source data, consolidated rollup by label, reconciliation of excluded transactions, and a board-facing recommendation; equivalent worksheet labels are acceptable.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "structure"
+    },
+    {
+      "id": "total_consolidated",
+      "text": "The workbook reports total consolidated Q1 2025 revenue of approximately $1,590,686.30.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "lattice_consolidated",
+      "text": "Lattice Digital consolidated USD is approximately $697,267.02, reflecting about 65.6% proration of its approximately $1,063,627.65 gross Q1 figure for the February 1, 2025 acquisition.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "cascade_consolidated",
+      "text": "Cascade Creative consolidated USD is approximately $452,853.28, reflecting CAD-to-USD conversion at the 0.74 period rate.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "beacon_consolidated",
+      "text": "Beacon Media consolidated USD is approximately $440,566.01 for the full quarter.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "exclusion_log",
+      "text": "The reconciliation documentation identifies void, cancelled, and out-of-period ledger rows that were excluded from consolidated revenue.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "fx_source_cited",
+      "text": "The workbook cites cascade_creative_fx_and_period_reference.txt as the source for the 0.74 CAD-to-USD rate.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "acquisition_source_cited",
+      "text": "The workbook cites lattice_digital_acquisition_memo.txt as the source for the February 1, 2025 acquisition and proration treatment.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "judgment_documented",
+      "text": "The workbook documents judgment calls where sources disagree, including mid-period acquisition proration and exclusion of non-counting transactions.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "board_recommendation",
+      "text": "The workbook includes a board-facing recommendation to report consolidated Q1 2025 revenue after FX conversion, exclusions, and Lattice acquisition proration.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "deliverable"
+    },
+    {
+      "id": "rollup_formulas",
+      "text": "Derived consolidated USD totals use live formulas rather than hard-coded values.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "ledger_source_used",
+      "text": "The workbook reconciles label totals to harborview_media_group_brand_ledger.csv rather than introducing revenue figures absent from that ledger.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "january_lattice_in_total",
+      "text": "The deliverable includes Lattice Digital revenue dated before February 1, 2025 in the consolidated Q1 2025 total.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "prior_year_row_in_total",
+      "text": "The deliverable includes transaction HM-4001 from December 2024 in the consolidated Q1 2025 revenue total.",
+      "weight": -4,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "april_row_in_total",
+      "text": "The deliverable includes transaction HM-3007 from April 2025 in the consolidated Q1 2025 revenue total.",
+      "weight": -3,
+      "type": "negative",
+      "category": "negative"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+asset_id,description,category,year,book_cost,appraisal_nolv,pledged_flag,rm_advance_pct,title_holder,notes
+CNC-4418-01,Haas VF-4SS vertical machining center (to be purchased),CNC_new,2026,612880.40,485220.18,Y,80,Whitaker Precision Components LLC,Purchase order PO-8841; deposit in soft-cost line
+CNC-4418-02,DMG MORI NLX2500 turning center (to be purchased),CNC_new,2026,788220.18,612880.40,Y,80,Whitaker Precision Components LLC,PO-8842
+CNC-4418-03,Mazak Integrex i-200S multitasking (to be purchased),CNC_new,2026,912440.55,728440.55,Y,80,Whitaker Precision Components LLC,PO-8843; longest lead item
+FIX-4418-10,Workholding fixtures / tombstones package,Fixtures,2026,248880.40,214880.40,Y,70,Whitaker Precision Components LLC,RM advance 70% — policy may differ
+BLD-ROCK-01,Plant building 4418 Kishwaukee St,RealEstate_related,1998,2140220.18,1850000.00,Y,65,Whitaker Realty LLC,Related-party title; RM treats as support collateral
+MILL-1998-04,Bridgeport Series I standard mill,Obsolete_manual,1998,18440.22,12400.55,Y,25,Whitaker Precision Components LLC,Age exceeds equipment advance schedule
+SOFT-4418,Install / freight / deposits pool,SoftCost,2026,95220.18,95220.18,Y,100,Whitaker Precision Components LLC,Borrower wants 100% advance on soft costs
+FL-LEASE-02,Toyota 8FGU25 forklift,Leased_equipment,2022,0.00,28440.00,Y,50,Toyota Industries Finance,Operating lease — not owned
+CNC-EXIST-11,Haas VF-2SS (existing),CNC_existing_encumbered,2019,142880.40,88420.18,N,0,Whitaker Precision Components LLC,Already pledged to Term A — not for new facility
+CNC-EXIST-12,Doosan Puma 2600 (existing),CNC_existing_encumbered,2018,168220.55,96220.40,N,0,Whitaker Precision Components LLC,Term A collateral
+CNC-EXIST-14,Okuma GENOS M560-V (existing),CNC_existing_encumbered,2020,198440.18,124880.55,N,0,Whitaker Precision Components LLC,Term A collateral
+CNC-EXIST-15,Mazak QT-250MY (existing),CNC_existing_encumbered,2017,154220.18,71220.40,N,0,Whitaker Precision Components LLC,Term A collateral
+FIX-EXIST-22,Legacy fixture crib,Fixtures_encumbered,2016,62440.18,18820.55,N,0,Whitaker Precision Components LLC,Term A
+QC-CMM-01,Hexagon CMM,QC_encumbered,2021,88420.40,51220.18,N,0,Whitaker Precision Components LLC,Capex note collateral
+COMP-AIR-03,Atlas Copco compressor,Plant_support,2015,41220.18,12440.55,N,0,Whitaker Precision Components LLC,Not requested for new pledge
+VEH-F150,Ford F-150 shop truck,Vehicle,2021,38440.22,18420.18,N,0,Whitaker Precision Components LLC,Excluded from industrial advance
+IT-SRV-01,Shopfloor server rack,IT,2023,22480.40,8840.22,N,0,Whitaker Precision Components LLC,Excluded
+TOOL-CRIB,Consumable tooling inventory,Inventory,2026,112880.55,112880.55,N,0,Whitaker Precision Components LLC,Revolver blanket — not this term loan
+WIP-FLOOR,WIP / finished goods,Inventory,2026,288440.18,288440.18,N,0,Whitaker Precision Components LLC,Revolver blanket
+LAND-VACANT,Vacant parcel sold FY2025 (historical),RealEstate_sold,1998,0.00,0.00,N,0,n/a,Gain already recognized; not collateral
+CNC-QUOTE-99,Optional 4th machine (not in request),CNC_optional,2026,540220.18,410880.40,N,0,Whitaker Precision Components LLC,Borrower may add later — out of scope
+LEASEHOLD-IMP,Leasehold paint / epoxy (related building),Leasehold,2019,88420.18,22440.55,Y,40,Whitaker Realty LLC,Improvements on related-party realty

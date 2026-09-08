@@ -1,0 +1,89 @@
+payment_id,payment_date,claim_number,accident_year,claimant,payment_type,amount,check_ref,memo
+PAY-0001,2025-04-05,CLM-2022-0198,2022,R. Kessler,Indemnity,12420.18,CHK-8001,TPA weekly funding
+PAY-0002,2025-07-12,CLM-2022-0198,2022,R. Kessler,Medical,8110.40,CHK-8002,TPA weekly funding
+PAY-0003,2025-10-19,CLM-2022-0198,2022,R. Kessler,Indemnity,3220.55,CHK-8003,TPA weekly funding
+PAY-0004,2025-03-05,CLM-2022-0311,2022,J. Okonkwo,Indemnity,22840.22,CHK-8004,TPA weekly funding
+PAY-0005,2025-06-12,CLM-2022-0311,2022,J. Okonkwo,Medical,6480.00,CHK-8005,TPA weekly funding
+PAY-0006,2025-09-05,CLM-2023-0088,2023,A. Nguyen,Indemnity,18220.40,CHK-8006,TPA weekly funding
+PAY-0007,2025-12-12,CLM-2023-0088,2023,A. Nguyen,Medical,14880.15,CHK-8007,TPA weekly funding
+PAY-0008,2025-03-19,CLM-2023-0088,2023,A. Nguyen,Indemnity,9410.22,CHK-8008,TPA weekly funding
+PAY-0009,2025-06-06,CLM-2023-0088,2023,A. Nguyen,Medical,4120.00,CHK-8009,TPA weekly funding
+PAY-0010,2025-01-05,CLM-2023-0275,2023,S. Patel,Indemnity,31640.18,CHK-8010,TPA weekly funding
+PAY-0011,2025-04-12,CLM-2023-0275,2023,S. Patel,Medical,12200.55,CHK-8011,TPA weekly funding
+PAY-0012,2025-07-19,CLM-2023-0275,2023,S. Patel,Indemnity,7880.40,CHK-8012,TPA weekly funding
+PAY-0013,2025-06-05,CLM-2023-0442,2023,M. Ortega,Indemnity,28400.00,CHK-8013,TPA weekly funding
+PAY-0014,2025-09-12,CLM-2023-0442,2023,M. Ortega,Medical,15220.18,CHK-8014,TPA weekly funding
+PAY-0015,2025-12-19,CLM-2023-0442,2023,M. Ortega,Indemnity,9880.40,CHK-8015,TPA weekly funding
+PAY-0016,2025-11-05,CLM-2024-0044,2024,L. Briggs,Indemnity,24110.22,CHK-8016,TPA weekly funding
+PAY-0017,2025-02-12,CLM-2024-0044,2024,L. Briggs,Medical,18640.55,CHK-8017,TPA weekly funding
+PAY-0018,2025-05-19,CLM-2024-0044,2024,L. Briggs,Indemnity,11200.18,CHK-8018,TPA weekly funding
+PAY-0019,2025-08-06,CLM-2024-0044,2024,L. Briggs,Medical,6480.40,CHK-8019,TPA weekly funding
+PAY-0020,2025-12-05,CLM-2024-0612,2024,K. Chen,Indemnity,16880.40,CHK-8020,TPA weekly funding
+PAY-0021,2025-03-12,CLM-2024-0612,2024,K. Chen,Medical,9220.18,CHK-8021,TPA weekly funding
+PAY-0022,2025-06-19,CLM-2024-0612,2024,K. Chen,Indemnity,5410.00,CHK-8022,TPA weekly funding
+PAY-0023,2025-12-05,CLM-2024-1187,2024,D. Vasquez,Indemnity,42200.18,CHK-8023,TPA weekly funding
+PAY-0024,2025-03-12,CLM-2024-1187,2024,D. Vasquez,Medical,28110.00,CHK-8024,TPA weekly funding
+PAY-0025,2025-06-19,CLM-2024-1187,2024,D. Vasquez,Indemnity,18110.00,CHK-8025,TPA weekly funding
+PAY-0026,2025-01-05,CLM-2025-0012,2025,T. Quinn,Indemnity,8420.18,CHK-8026,TPA weekly funding
+PAY-0027,2025-04-12,CLM-2025-0012,2025,T. Quinn,Medical,6110.40,CHK-8027,TPA weekly funding
+PAY-0028,2025-07-19,CLM-2025-0012,2025,T. Quinn,Indemnity,4880.22,CHK-8028,TPA weekly funding
+PAY-0029,2025-06-05,CLM-2025-0188,2025,N. Blake,Indemnity,12640.55,CHK-8029,TPA weekly funding
+PAY-0030,2025-09-12,CLM-2025-0188,2025,N. Blake,Medical,9220.18,CHK-8030,TPA weekly funding
+PAY-0031,2025-06-05,CLM-2025-0330,2025,H. Park,Indemnity,5880.40,CHK-8031,TPA weekly funding
+PAY-0032,2025-09-12,CLM-2025-0330,2025,H. Park,Medical,3210.15,CHK-8032,TPA weekly funding
+PAY-0033,2025-12-19,CLM-2025-0330,2025,H. Park,Indemnity,2640.00,CHK-8033,TPA weekly funding
+PAY-0034,2025-04-05,CLM-2025-0419,2025,I. Mendel,Indemnity,7220.18,CHK-8034,TPA weekly funding
+PAY-0035,2025-12-18,CLM-2024-0901,2024,C. Delgado,Indemnity,2140.55,CHK-8035,Final indemnity — claim closed
+PAY-0036,2025-12-18,CLM-2024-0901,2024,C. Delgado,Medical,880.20,CHK-8036,Final medical — claim closed
+PAY-0037,2025-08-14,CLM-2025-0012,2025,T. Quinn,Medical,1880.40,CHK-VOID-441,VOID — duplicate of CHK-8041; do not count
+PAY-0038,2025-08-15,CLM-2025-0012,2025,T. Quinn,Medical,-1880.40,CHK-VOID-441R,Reversal of VOID duplicate
+PAY-0039,2025-02-09,CLM-2022-0402,2022,P. Nanda,Medical,4220.18,CHK-8039,TPA weekly funding
+PAY-0040,2025-07-11,CLM-2022-0402,2022,P. Nanda,Indemnity,2110.40,CHK-8040,TPA weekly funding
+PAY-0041,2025-09-10,CLM-2023-0510,2023,E. Soto,Medical,6840.22,CHK-8041,TPA weekly funding
+PAY-0042,2025-04-27,CLM-2023-0510,2023,E. Soto,Indemnity,3220.15,CHK-8042,TPA weekly funding
+PAY-0043,2025-08-07,CLM-2024-0777,2024,B. Mooney,Medical,9110.40,CHK-8043,TPA weekly funding
+PAY-0044,2025-01-27,CLM-2024-0777,2024,B. Mooney,Indemnity,4880.18,CHK-8044,TPA weekly funding
+PAY-0045,2025-05-24,CLM-2024-0777,2024,B. Mooney,Medical,2640.55,CHK-8045,TPA weekly funding
+PAY-0046,2025-06-26,CLM-2025-0502,2025,F. Noor,Indemnity,3420.18,CHK-8046,TPA weekly funding
+PAY-0047,2025-08-19,CLM-2025-0502,2025,F. Noor,Medical,1880.40,CHK-8047,TPA weekly funding
+PAY-0048,2025-05-10,CLM-2025-0555,2025,G. Alvarez,Indemnity,2640.22,CHK-8048,TPA weekly funding
+PAY-0049,2025-01-02,CLM-2022-6000,2022,W. Harlan,Medical,3032.07,CHK-9049,Aged claim residual payment
+PAY-0050,2025-02-03,CLM-2023-6001,2023,M. Duarte,Indemnity,4616.07,CHK-9050,Aged claim residual payment
+PAY-0051,2025-03-04,CLM-2024-6002,2024,S. Kowalski,Indemnity,4804.60,CHK-9051,Aged claim residual payment
+PAY-0052,2025-04-05,CLM-2025-6003,2025,J. Belmont,Medical,1358.17,CHK-9052,Aged claim residual payment
+PAY-0053,2025-05-06,CLM-2022-6004,2022,A. Freitag,Indemnity,2310.48,CHK-9053,Aged claim residual payment
+PAY-0054,2025-06-07,CLM-2023-6005,2023,C. Yuen,Indemnity,4986.46,CHK-9054,Aged claim residual payment
+PAY-0055,2025-07-08,CLM-2024-6006,2024,D. McBride,Medical,2860.58,CHK-9055,Aged claim residual payment
+PAY-0056,2025-08-09,CLM-2025-6007,2025,L. Sabatini,Indemnity,3675.42,CHK-9056,Aged claim residual payment
+PAY-0057,2025-09-10,CLM-2022-6008,2022,R. Holcomb,Indemnity,1621.39,CHK-9057,Aged claim residual payment
+PAY-0058,2025-10-11,CLM-2023-6009,2023,T. Ibarra,Medical,4675.22,CHK-9058,Aged claim residual payment
+PAY-0059,2025-11-12,CLM-2024-6010,2024,E. Dunlap,Indemnity,4243.52,CHK-9059,Aged claim residual payment
+PAY-0060,2025-12-13,CLM-2025-6011,2025,N. Varela,Indemnity,915.02,CHK-9060,Aged claim residual payment
+PAY-0061,2025-01-14,CLM-2022-6012,2022,P. Okafor,Medical,3200.61,CHK-9061,Aged claim residual payment
+PAY-0062,2025-02-15,CLM-2023-6013,2023,H. Lindgren,Indemnity,4790.69,CHK-9062,Aged claim residual payment
+PAY-0063,2025-03-16,CLM-2024-6014,2024,B. Castor,Indemnity,1871.99,CHK-9063,Aged claim residual payment
+PAY-0064,2025-04-17,CLM-2025-6015,2025,K. Mendez,Medical,2794.33,CHK-9064,Aged claim residual payment
+PAY-0065,2025-05-18,CLM-2022-6016,2022,F. Whitaker,Indemnity,1919.94,CHK-9065,Aged claim residual payment
+PAY-0066,2025-06-19,CLM-2023-6017,2023,G. Ramos,Indemnity,1312.70,CHK-9066,Aged claim residual payment
+PAY-0067,2025-07-20,CLM-2024-6018,2024,I. Sheffield,Medical,4695.07,CHK-9067,Aged claim residual payment
+PAY-0068,2025-08-21,CLM-2025-6019,2025,O. Banerjee,Indemnity,3162.09,CHK-9068,Aged claim residual payment
+PAY-0069,2025-09-22,CLM-2022-6020,2022,U. Carmichael,Indemnity,2647.35,CHK-9069,Aged claim residual payment
+PAY-0070,2025-10-23,CLM-2023-6021,2023,V. Horton,Medical,3438.85,CHK-9070,Aged claim residual payment
+PAY-0071,2025-11-24,CLM-2024-6022,2024,Y. Petrov,Indemnity,2364.21,CHK-9071,Aged claim residual payment
+PAY-0072,2025-12-25,CLM-2025-6023,2025,Z. Quintero,Indemnity,2614.56,CHK-9072,Aged claim residual payment
+PAY-0073,2025-01-26,CLM-2022-6024,2022,Q. Ambrose,Medical,3048.96,CHK-9073,Aged claim residual payment
+PAY-0074,2025-02-02,CLM-2023-6025,2023,X. Navarro,Indemnity,2932.79,CHK-9074,Aged claim residual payment
+PAY-0075,2025-03-03,CLM-2024-6026,2024,S. Redding,Indemnity,1554.57,CHK-9075,Aged claim residual payment
+PAY-0076,2025-04-04,CLM-2025-6027,2025,J. Pfeiffer,Medical,3438.60,CHK-9076,Aged claim residual payment
+PAY-0077,2025-05-05,CLM-2022-6028,2022,M. Solano,Indemnity,1357.66,CHK-9077,Aged claim residual payment
+PAY-0078,2025-06-06,CLM-2023-6029,2023,A. Beckett,Indemnity,2505.76,CHK-9078,Aged claim residual payment
+PAY-0079,2025-07-07,CLM-2024-6030,2024,C. Unger,Medical,922.14,CHK-9079,Aged claim residual payment
+PAY-0080,2025-08-08,CLM-2025-6031,2025,D. Farley,Indemnity,4392.78,CHK-9080,Aged claim residual payment
+PAY-0081,2025-09-09,CLM-2022-6032,2022,L. Cho,Indemnity,1341.66,CHK-9081,Aged claim residual payment
+PAY-0082,2025-10-10,CLM-2023-6033,2023,R. Estes,Medical,2721.06,CHK-9082,Aged claim residual payment
+PAY-0083,2025-11-11,CLM-2024-6034,2024,T. Gagnon,Indemnity,3075.17,CHK-9083,Aged claim residual payment
+PAY-0084,2025-12-12,CLM-2025-6035,2025,E. Prado,Indemnity,2151.33,CHK-9084,Aged claim residual payment
+PAY-0085,2025-01-13,CLM-2022-6036,2022,N. Ashford,Medical,3061.47,CHK-9085,Aged claim residual payment
+PAY-0086,2025-02-14,CLM-2023-6037,2023,P. Rhee,Indemnity,1061.21,CHK-9086,Aged claim residual payment
+PAY-0087,2025-03-15,CLM-2024-6038,2024,H. Boone,Indemnity,1548.87,CHK-9087,Aged claim residual payment
+PAY-0088,2025-04-16,CLM-2025-6039,2025,B. Langston,Medical,1709.29,CHK-9088,Aged claim residual payment

@@ -1,0 +1,30 @@
+slug: harborview-q1-consolidation
+seed_id: harborview-q1-consolidation
+
+onet:
+  occupation: Treasurers and Controllers
+  code: 11-3031.01
+  tasks:
+    - Prepare or direct preparation of financial statements, business activity reports, financial position forecasts, annual budgets, or reports required by regulatory agencies.
+    - Analyze the financial details of past, present, and expected operations to identify development opportunities and areas where improvement is needed.
+    - Advise management on short-term and long-term financial objectives, policies, and actions.
+  skills:
+    - Mathematics
+    - Critical Thinking
+    - Reading Comprehension
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: consolidated_review_harborview_media_group.xlsx
+  format: xlsx
+
+input_files:
+  - harborview_media_group_brand_ledger.csv
+  - lattice_digital_acquisition_memo.txt
+  - cascade_creative_fx_and_period_reference.txt
+
+sector: Finance and Insurance

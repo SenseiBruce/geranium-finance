@@ -4,14 +4,33 @@ A step-based authoring factory for **Project Geranium** submissions in the **Fin
 
 ## Quick Start
 
-1. Read [`workflow-prompts.md`](workflow-prompts.md) for the full 7-step pipeline.
-2. Start a **fresh Cursor chat** for each step — do not combine steps in one conversation.
-3. Pick a task slug and create `tasks/<slug>/` following the per-step prompts in [`prompts/`](prompts/).
+1. Set up the environment:
 
 ```bash
-# Example: validate a task before platform upload
-python3 scripts/task_readiness.py tasks/<slug> --strict
+cd ~/Projects/geranium-finance
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
+
+2. Read [`docs/chat-commands.md`](docs/chat-commands.md) — **trigger everything from Cursor chat** (see below).
+3. Read [`workflow-prompts.md`](workflow-prompts.md) for the full 7-step pipeline.
+
+## Chat commands (no terminal needed)
+
+Say any of these in Cursor chat; the agent runs `scripts/gf.py` for you:
+
+| Say this | What happens |
+|----------|----------------|
+| `/gf status` | Show all tasks and next steps |
+| `/new task renewal desk for Acme Corp` | Create seed + task folder from archetype |
+| `/generate seed consolidation for Apex Media` | Suggest and register a seed |
+| `run step 2b for my-slug` | Build inputs + run gates |
+| `validate my-slug` | Full pre-submit check + package |
+
+Archetypes: `consolidation`, `renewal_desk`, `valuation`, `reconciliation`
+
+Full reference: [`docs/chat-commands.md`](docs/chat-commands.md)
 
 ## Pipeline Overview
 

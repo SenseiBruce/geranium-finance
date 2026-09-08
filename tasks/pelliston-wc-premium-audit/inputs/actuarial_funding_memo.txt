@@ -1,0 +1,49 @@
+NORTH RIVER ACTUARIAL CONSULTING
+Self-Insured Workers Compensation — Year-End Funding Memo
+Insured: Pelliston Machine Works | FEIN 34-2187741 | Program SI-WC-OH-2025
+Valuation date: 2025-12-31 | Issued: 2026-01-12 | Attention: Controllers
+
+PURPOSE
+This memo governs the calendar-year 2025 self-insured workers compensation reserve Controllers will book for external audit and the bank borrowing-base certificate. Source data for Controllers are pelliston_claims_payment_ledger.csv (cash payments and voids) and pelliston_open_claims_triangle.xlsx (Open Inventory of open claims plus the AY Triangle of accident-year cumulative paid). Where TPA case estimates and this memo conflict on retention, IBNR factors, or subrogation, this memo controls.
+
+SELF-INSURED RETENTION
+Pelliston Machine Works retains the first $350,000.00 of loss and allocated loss adjustment expense per occurrence. Cap each claim's self-insured case reserve at the lesser of the TPA case estimate and $350,000.00. Amounts above the retention are recoverable from the excess carrier and must not remain in the self-insured case reserve on Controllers' SI liability. For claim CLM-2024-1187, the TPA case reserve of $412,800.00 exceeds the retention. Cap the SI case portion at $350,000.00. Record the uncapped excess as ceded / excess recoverable for disclosure, not as SI liability. Keep the retention limit in a central assumptions area and reference it in the case inventory.
+
+BEGINNING RESERVE
+The audited self-insured reserve at 2024-12-31 was $1,842,660.40 (case plus IBNR combined). Use that figure as the opening balance in the 2025 rollforward. Do not rebuild 2024 from the current triangle.
+
+CUMULATIVE PAID FOR IBNR
+Apply IBNR factors to (cumulative paid_to_date + SI case reserve after retention caps) by accident year. Cumulative paid_to_date for this calculation means accident-year lifetime paid through 2025-12-31 for the full AY population, including closed claims. That measure is on the AY Triangle sheet as cumulative_paid_as_of_2025_12. Open Inventory paid_to_date is claim-level detail for open claims only and is not a substitute for AY-level cumulative paid on mature years, where closed-claim payments sit outside the open subset. If Open Inventory open-claim paid for an accident year exceeds the Triangle's AY cumulative paid, Controllers must document the conflict, select the Triangle as the AY-level paid source for IBNR, and note that the two figures cannot both be literal cumulative measures of the same population. Do not invent a bridge the source workbook does not provide.
+
+IBNR FACTORS BY ACCIDENT YEAR
+Factors are expressed as IBNR divided by (cumulative paid + SI case). Use:
+
+Accident year 2022: 0.04
+Accident year 2023: 0.11
+Accident year 2024: 0.28
+Accident year 2025: 0.52
+
+A mid-year 2025 planning exhibit used factor 0.40 for accident year 2025. That exhibit is superseded. Do not use 0.40 for year-end funding. Factors come from North River's Ohio manufacturing SI development study for similar retention programs; cite this memo and keep the four factors in the workpaper assumptions area.
+
+CLOSED CLAIMS STILL SHOWN OPEN
+Claim CLM-2024-0901 appears on the Open Inventory with a case reserve, but the payment ledger shows final indemnity and medical on 2025-12-18 with a closed memo. Remove CLM-2024-0901 from the SI case inventory (case = 0). Do not carry its leftover TPA case into the reserve. Closed claims remain in the AY Triangle cumulative paid totals; they should not be double-counted as open case.
+
+SUBROGATION
+Claim CLM-2023-0442 shows expected subrogation of $64,250.00. Controllers' policy and this funding memo require recognition only when cash is received. Do not reduce case reserves or IBNR for expected recoveries that remain unpaid at valuation date. Keep the SI case at $41,200.00 without a subrogation credit.
+
+VOIDS
+Paired VOID and reversal rows in the payment ledger net to zero. Exclude them from paid totals used in the rollforward paid leg. Net calendar-year 2025 paid for the rollforward comes from the ledger after that exclusion.
+
+ROLLFORWARD STRUCTURE
+Ending SI reserve = SI case reserves (after retention caps and closed-claim removals) + IBNR by accident year.
+Rollforward identity Controllers should show: Beginning reserve + Net incurred − Net paid = Ending reserve.
+Net paid is calendar-year 2025 payments from the ledger excluding void pairs. Net incurred is the plug that makes the identity hold once ending reserve is computed from case + IBNR.
+
+DOCUMENTATION EXPECTATIONS
+The Controllers workpaper should be formula-driven where amounts are derived: retention-capped case = MIN(TPA case, retention), IBNR = IBNR base × factor, and rollforward ending balances linked to case and IBNR totals. Centralize the retention, beginning reserve, and IBNR factors. Cite actuarial_funding_memo.txt, the AY Triangle, and the Open Inventory wherever source choice or memo treatment drives a booking decision. Document any material cross-file conflict (including AY2024 paid) on a Notes or methodology tab.
+
+CONTROLLER DELIVERABLE
+Produce self_insured_wc_reserve_pelliston.xlsx with a retention-capped case inventory, accident-year IBNR, excess/ceded bridge for the large loss, a rollforward to 2025-12-31, and a short recommendation Controllers can drop into the audit PBC and bank certificate pack. Do not rewrite excess policy wording; flag the recoverable only.
+
+DISTRIBUTION
+Controllers, CFO, external audit PBC folder, lender reporting pack. Not for TPA redistribution.

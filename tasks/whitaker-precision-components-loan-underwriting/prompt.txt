@@ -1,0 +1,5 @@
+Whitaker Precision Components LLC filed commercial equipment term loan application CL-2026-4418 to finance three CNC machines and fixtures for the Rockford, Illinois shop. Relationship-manager notes in the borrower package still push Approve at the full requested amount on "management EBITDA." Credit committee meets 2026-09-18 and needs a path decision with a sized commitment if policy requires it.
+
+The following input files: whitaker-precision-components_borrower_financials.xlsx, whitaker-precision-components_collateral_schedule.csv, credit_policy_and_exception_memo.txt.
+
+Deliver loan_underwriting_decision_whitaker-precision-components.xlsx. Rebuild Adjusted EBITDA under the memo rules, test DSCR and leverage at the full request and at any sized commitment, determine eligible collateral and LTV on appraisal NOLV, and state Approve, Approve with conditions, or Decline with the commitment and conditions that follow from the memo path matrix. Where the RM notes or application conflict with the credit policy memo, the memo governs.

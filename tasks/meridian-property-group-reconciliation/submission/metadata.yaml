@@ -1,0 +1,29 @@
+slug: meridian-property-group-reconciliation
+seed_id: meridian-property-group-reconciliation
+
+onet:
+  occupation: Treasurers and Controllers
+  code: 11-3031.01
+  tasks:
+    - Prepare or direct preparation of financial statements, business activity reports, financial position forecasts, annual budgets, or reports required by regulatory agencies.
+    - Analyze the financial details of past, present, and expected operations to identify development opportunities and areas where improvement is needed.
+  skills:
+    - Mathematics
+    - Critical Thinking
+    - Reading Comprehension
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: cam_trueup_meridian_commons.xlsx
+  format: xlsx
+
+input_files:
+  - meridian_commons_expense_ledger.csv
+  - tenant_lease_abstracts.xlsx
+  - prior_cam_billing_register.txt
+
+sector: Finance and Insurance

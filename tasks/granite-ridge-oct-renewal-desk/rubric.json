@@ -1,0 +1,221 @@
+{
+  "criteria": [
+    {
+      "id": "deliverable_filename",
+      "text": "The final deliverable is an Excel workbook named renewal_underwriting_review.xlsx.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "routing_completeness",
+      "text": "Every one of the 36 accounts on the account routing section receives exactly one disposition from Quote, Refer, Decline, or Ask Broker.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "structure"
+    },
+    {
+      "id": "location_exceptions_present",
+      "text": "The workbook includes a clearly labeled Location Exceptions section that is present and usable for reviewing flagged locations.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "structure"
+    },
+    {
+      "id": "loss_reconciliation_present",
+      "text": "The workbook includes a clearly labeled Loss Reconciliation section that presents the reconciliation framework comparing account-list and loss-run ratios.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "structure"
+    },
+    {
+      "id": "disposition_summary_present",
+      "text": "The workbook includes a disposition summary that counts Quote, Refer, Decline, and Ask Broker assignments for the October batch.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "structure"
+    },
+    {
+      "id": "gr2018_quote",
+      "text": "Account GR-2018 is assigned Quote on the account routing section.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "gr2047_quote",
+      "text": "Account GR-2047 is assigned Quote on the account routing section because occupancy_pct 94.0% does not imply full occupancy under Section 6 of granite_ridge_routing_notes.txt, HAB-2047-B has broker_confirmation=yes documenting turnover vacancy, and no other Section 3–10 referral trigger is active.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "gr2089_refer",
+      "text": "Account GR-2089 is assigned Refer on the account routing section for expired sprinkler inspection.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "gr2113_refer",
+      "text": "Account GR-2113 is assigned Refer on the account routing section for stale unit count and TIV relative to granite_ridge_location_schedule.csv.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "gr2162_refer",
+      "text": "Account GR-2162 is assigned Refer on the account routing section with a recomputed attritional incurred loss ratio of 67.5% from granite_ridge_loss_run_36mo.csv and HAB-2162-C total incurred of $260,120, applying the Section 3 referral thresholds in granite_ridge_routing_notes.txt (loss ratio at or above 45% and below 70%, and/or single-location incurred of $250,000 or more).",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "gr2074_refer_pool",
+      "text": "Account GR-2074 is assigned Refer on the account routing section because location HAB-2074-A has pool_liability_flag pending_fence_po (pending pool-fence work) on granite_ridge_location_schedule.csv under Section 5 of granite_ridge_routing_notes.txt.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "gr2195_decline",
+      "text": "Account GR-2195 is assigned Decline on the account routing section.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "gr2033_ask_broker",
+      "text": "Account GR-2033 is assigned Ask Broker on the account routing section.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "gr2007_refer_appetite",
+      "text": "Account GR-2007 (Campus Edge Housing Co.) is assigned Refer on the account routing section because Section 10 of granite_ridge_routing_notes.txt requires GRP-APPETITE review before bind, and the Location Exceptions section includes a Section 10 appetite note for GR-2007 stating that GRP-APPETITE review must be submitted before bind.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "gr2065_refer_appetite",
+      "text": "Account GR-2065 (Campus Edge Housing Co.) is assigned Refer on the account routing section because Section 10 of granite_ridge_routing_notes.txt requires GRP-APPETITE review before bind.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "subsidized_endorsement_flags",
+      "text": "The location exception documentation flags at least three subsidized-housing locations requiring endorsement review.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "rules_source_cited",
+      "text": "The workbook cites granite_ridge_routing_notes.txt for routing thresholds and referral triggers.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "loss_run_reconciliation",
+      "text": "The loss reconciliation section shows recomputed loss ratios wherever granite_ridge_renewal_accounts.csv differs from granite_ridge_loss_run_36mo.csv by more than five points.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "loss_run_controls_routing",
+      "text": "Where granite_ridge_renewal_accounts.csv and granite_ridge_loss_run_36mo.csv loss ratios differ by more than five points, the account routing disposition uses the recomputed loss-run ratio as the controlling routing metric.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "gr2195_recomputed_lr",
+      "text": "Account GR-2195 recomputed 36-month loss ratio is approximately 292.3%.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "summary_quote_count",
+      "text": "The disposition summary reports 25 Quote assignments.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "summary_refer_count",
+      "text": "The disposition summary reports 9 Refer assignments.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "summary_decline_ask_broker_counts",
+      "text": "The disposition summary reports 1 Decline assignment and 1 Ask Broker assignment, for a total of 36 routed accounts.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "routing_rationale",
+      "text": "Every Refer, Decline, and Ask Broker account includes a one-line rationale tied to granite_ridge_routing_notes.txt or a source file.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "summary_formulas",
+      "text": "Disposition summary counts use formulas referencing the account routing section rather than hard-coded totals.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "cat_loss_excluded_attritional",
+      "text": "The attritional loss-ratio calculation excludes the CAT-2408 catastrophe-coded loss for account GR-2071 per Section 9 of granite_ridge_routing_notes.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "gr2071_section9_rationale",
+      "text": "Account GR-2071 routing rationale cites Section 9 of granite_ridge_routing_notes.txt for excluding CAT-2408 from the attritional loss-ratio calculation.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "false_cat_exclusion_rationale",
+      "text": "The deliverable states that cat-coded rows were excluded from the attritional loss ratio for an account that has no catastrophe-coded loss on granite_ridge_loss_run_36mo.csv.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "false_quote_gr2195_decline_lr",
+      "text": "The account routing section recommends Quote for GR-2195 despite the recomputed attritional loss ratio of approximately 292.3% from granite_ridge_loss_run_36mo.csv exceeding the Section 3 decline threshold in granite_ridge_routing_notes.txt.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "false_appetite_clearance",
+      "text": "The deliverable states that GRP-APPETITE clearance has already been obtained for GR-2007 or GR-2065.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "false_broker_confirmation",
+      "text": "The deliverable states that broker confirmation is on file for HAB-2033-B while granite_ridge_location_schedule.csv shows broker_confirmation=no.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    }
+  ]
+}

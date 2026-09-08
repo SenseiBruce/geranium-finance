@@ -1,0 +1,54 @@
+Sawtooth Industrial Group — Commercial Property Renewal Routing Notes
+Program: SIG-CP-SE Manufacturing | Effective batch: July 1 | UW desk reference SIG-RNW-2025-07
+
+Purpose
+These notes govern July renewal routing for the Southeast manufacturing book. When the renewal account list export disagrees with the policy location schedule or 36-month loss run, apply the hierarchy in Section 1 before assigning Quote, Refer, Decline, or Ask Broker on renewal_underwriting_review.xlsx.
+
+Section 1 — Source hierarchy
+1. underwriting_rules_notes.txt (this file) controls routing thresholds and documentation requirements.
+2. loss_run_36mo.csv governs loss history and recomputed loss ratios when the account list loss ratio appears stale or incomplete.
+3. policy_location_schedule.csv governs location TIV, coastal wind zones, vacancy flags, and mitigation status.
+4. renewal_account_list.csv is a summary export only. Do not quote solely on account-level loss ratio or account TIV when location or loss detail conflicts.
+
+Section 2 — Disposition definitions
+Quote: Account meets appetite, documentation complete, no mandatory referral trigger active.
+Refer: Underwriter review required before bind; may quote after clearance.
+Decline: Account exceeds decline threshold or fails appetite.
+Ask Broker: Material exposure change pending broker confirmation; do not quote until updated.
+
+Section 3 — Loss ratio rules (36 months, attritional)
+Recompute account loss ratio as (sum of paid_amount + reserved_amount for all locations on the account) divided by expiring_premium, excluding rows with a non-blank cat_code.
+Decline if recomputed loss ratio is 70% or greater.
+Refer if recomputed loss ratio is 45% or greater but below 70%.
+Refer if any single location has total incurred (paid plus reserved) of $250,000 or more in the 36-month window, even when the account-level summary looks acceptable.
+
+Section 4 — TIV reconciliation
+Refer if absolute difference between account_tiv on the account list and the sum of building_tiv on the location schedule exceeds 3% of account_tiv.
+Document the variance on Loss_Reconciliation and Location_Exceptions.
+
+Section 5 — Mitigation and coastal wind
+Refer any account with mitigation_status of pending_roof_po or pending_hurricane_straps until completion evidence is uploaded.
+Locations with coastal_wind_zone CW-1 or CW-2 require coastal wind endorsement documentation on Location_Exceptions before Quote, even if the account summary is otherwise clean.
+Completed mitigation may be quoted if all other triggers are clear.
+
+Section 6 — Vacancy and broker confirmation
+Ask Broker when vacancy_flag is Y on any location and broker_confirmation is no on that row.
+Do not decline solely for vacancy without CUO sign-off; route Ask Broker first.
+
+Section 7 — Documentation requirements
+Account_Routing must list all accounts in the July batch (38 accounts in the current export).
+Every Refer, Decline, and Ask Broker row requires a one-line rationale citing the rule section and source file.
+Rules_Citations must cite this file for loss-ratio, mitigation, coastal, and TIV referral triggers.
+Loss_Reconciliation must show recomputed ratios wherever the account list ratio differs from the loss run by more than 5 points.
+
+Section 8 — Prior disposition field
+prior_disposition and renewal_ready_flag on the account list are informational. They do not override referral triggers from location or loss files.
+
+Section 9 — Cat losses
+Catastrophe-coded rows (cat_code populated) are tracked separately. Exclude them from attritional loss-ratio calculations unless CUO memo SIG-CAT-2025-02 applies; default treatment is exclusion for routing thresholds in Section 3.
+
+Section 10 — Desk contacts
+Renewal desk lead: J. Whitfield | Coastal referral queue: SIG-COAST | Broker update queue: SIG-BRK-UPD
+Questions on ambiguous occupancy changes go to SIG-APPETITE before bind.
+
+End of routing notes.

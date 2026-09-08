@@ -1,0 +1,271 @@
+{
+  "task": "northline-industrial-holdings-covenant-pack",
+  "criteria_count": 33,
+  "manual_review_required": true,
+  "items": [
+    {
+      "id": "deliverable_filename",
+      "weight": 2,
+      "type": "rigid",
+      "text": "The final deliverable is an Excel workbook named covenant_headroom_northline-industrial-holdings.xlsx.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "workbook_sections",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook includes a funded debt build, an Adjusted EBITDA build with add-back dispositions, covenant tests for leverage, interest coverage, and CapEx basket, an exception log, and an analyst recommendation; equivalent section labels are acceptable.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "funded_debt_total",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Consolidated Funded Debt as of 2026-06-30 equals approximately $67,784,620.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "term_and_revolver_included",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Funded Debt includes Term Loan A outstanding of $42,850,000 and Revolving Loans drawn of $18,250,000.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "seller_note_included",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The Bolt & Die seller note of $4,500,000 is included in Consolidated Funded Debt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "finance_leases_included",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Finance Lease Obligations of approximately $2,184,620 are included in Consolidated Funded Debt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "intercompany_excluded",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The $1,200,000 intercompany note owing to Northline Holdco LLC is excluded from Consolidated Funded Debt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "undrawn_lc_excluded",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The $3,200,000 undrawn standby letter-of-credit face amount is excluded from Consolidated Funded Debt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "stale_q1_not_used",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Funded Debt uses the 2026-06-30 Facilities balances rather than the superseded Draft_Q1 revolver balance of $16,400,000.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "adjusted_ebitda_total",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Consolidated Adjusted EBITDA for the trailing twelve months ended 2026-06-30 equals approximately $18,144,991.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "reported_ebitda_base",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Adjusted EBITDA starts from reported Consolidated EBITDA of approximately $14,228,440.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "sbc_allowed",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Non-cash stock-based compensation of approximately $412,880 is allowed as an Adjusted EBITDA add-back.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "restructuring_capped",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Dayton restructuring is allowed at only $2,000,000 under the Permitted Restructuring Charges cap, not the full borrower-claimed $2,840,000.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "acq_costs_allowed",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Bolt & Die transaction costs of approximately $685,220 are allowed as Permitted Acquisition fees.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "synergies_rejected",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Projected Bolt & Die run-rate synergies of $1,100,000 are excluded from Adjusted EBITDA.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "sponsor_fee_capped",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Ridgepath Capital sponsor management fee is allowed at only $500,000 for Northline Industrial Holdings, not the full borrower-claimed $750,000.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "inventory_stepup_allowed",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Inventory step-up amortization of approximately $318,450 is allowed as a non-cash purchase accounting add-back.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "warranty_litigation_rejected",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The $425,000 Atlas Forge / OEM warranty settlement is excluded from Adjusted EBITDA as an Ordinary Course Warranty Matter.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "leverage_ratio",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Total Leverage Ratio equals approximately 3.74x (Funded Debt divided by Adjusted EBITDA).",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "leverage_pass",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Total Leverage is marked PASS against the 4.50x maximum.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "interest_coverage_ratio",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Interest Coverage Ratio equals approximately 3.72x using Cash Interest Expense of approximately $4,882,110.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "icr_pass",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Interest Coverage is marked PASS against the 2.50x minimum.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "capex_usage",
+      "weight": 5,
+      "type": "rigid",
+      "text": "CapEx Basket Usage equals approximately $7,280,401 after carving out $1,840,000 of Bolt & Die Permitted Acquisition CapEx from gross YTD CapEx of approximately $9,120,401.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "capex_pass",
+      "weight": 4,
+      "type": "rigid",
+      "text": "CapEx Basket Usage is marked PASS against the $8,500,000 calendar-year limit with remaining basket of approximately $1,219,599.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "cash_interest_excludes_fees",
+      "weight": 3,
+      "type": "subjective",
+      "text": "Cash Interest Expense used for Interest Coverage excludes commitment fees and letter-of-credit fees per the credit agreement definition.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "exception_log_present",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The workbook documents lender dispositions for restructuring excess, run-rate synergies, sponsor fee excess, and ordinary-course warranty, with citations to credit_agreement_covenant_excerpts.txt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "recommendation_pass",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The analyst recommendation states PASS / certify compliance on Total Leverage, Interest Coverage, and CapEx basket using lender-adjusted figures rather than the borrower-claimed Adjusted EBITDA.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "live_formulas",
+      "weight": 4,
+      "type": "subjective",
+      "text": "Funded Debt total, Adjusted EBITDA total, leverage, interest coverage, and CapEx basket usage are formula-linked to their component inputs rather than solely hard-coded endpoints.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_full_restructuring",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs the committee to treat the full uncapped $2,840,000 Dayton restructuring charge as permitted Adjusted EBITDA.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_runrate_synergies",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs the committee to include the $1,100,000 projected Bolt & Die run-rate synergies in Adjusted EBITDA before the savings are reflected in consolidated results.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_undrawn_lc_in_debt",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs the committee to count the $3,200,000 undrawn letter-of-credit face amount in Consolidated Funded Debt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_intercompany_in_debt",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs the committee to include the $1,200,000 intercompany note owing to Northline Holdco LLC in Consolidated Funded Debt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_capex_ignore_carveout",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs the committee to fail the CapEx basket using gross YTD CapEx while ignoring the $1,840,000 Bolt & Die Permitted Acquisition CapEx carve-out.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    }
+  ]
+}

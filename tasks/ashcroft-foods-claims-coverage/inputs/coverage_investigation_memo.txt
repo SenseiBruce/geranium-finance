@@ -1,0 +1,139 @@
+ASHCROFT FOODS LLC — COVERAGE INVESTIGATION MEMO
+Claim: CLM-CP-2025-8841 | Policy: CP-OH-448291 | Loss date: 2025-11-18
+Prepared for file-review committee 2025-12-12 | Evaluation as of 2025-12-05
+Coverage unit: Midwest Property Claims — Columbus
+
+Purpose and source hierarchy
+This memo establishes the governing rules and evidence hierarchy for CLM-CP-2025-8841.
+It does not replace independent application of those rules to the claim file and policy
+schedule. Use all three packet sources. Where sources conflict on valuation basis,
+deductible selection, maintenance/protective-safeguards treatment, salvage treatment,
+stock eligibility, or business-income waiting-period application, control in this order:
+(1) this memo’s rules; (2) Active rows on ashcroft-foods_policy_schedule.csv;
+(3) contemporaneous claim-file evidence (Inventory, Equipment, BI Claim, Payments,
+Active adjuster notes); (4) superseded schedule rows and superseded field notes
+(including N-01) are non-governing for committee purposes. Broker advocacy favoring
+superseded schedule amounts or waiting-period waivers is advocacy only and does not
+control.
+
+Loss facts (investigation summary — not coverage conclusions)
+Ammonia refrigeration compressor #3 serving Zone B failed overnight on 2025-11-18.
+Product temperature loggers show approximately 14 hours of elevated
+temperatures before temporary cooling restored the room on the morning of 2025-11-19.
+Industrial hygiene swabs found no ammonia contact with product. Zone A remained within
+specification. The insured demands spoilage of frozen stock at selling price, repair or
+replacement of compressor #3 and related equipment, and business income for a multi-day
+customer reallocation period. Logger hours, inventory statuses, equipment quotes, BI
+worksheet metrics, maintenance dates, and payment/expense rows live in the claim file;
+coverage parts, deductibles, waiting periods, and endorsement statuses live on the
+policy schedule.
+
+Governing forms and endorsements
+Confirm Active schedule rows for: Spoilage Coverage endorsement CP 04 40 (on-premises
+mechanical refrigeration failure triggering temperature change to stock); Causes of Loss
+Special Form Mechanical Breakdown exclusion applicable to direct equipment repair or
+replacement; Business Income and Extra Expense CP 00 30 with its scheduled waiting
+period; CP 04 40 valuation clause; protective-safeguards / refrigeration maintenance
+conditions; and whether a selling-price valuation option was elected. Off-premises
+utility spoilage options that were not purchased do not respond to an on-premises
+compressor failure.
+
+Spoilage endorsement — stock trigger (rule)
+CP 04 40 responds to spoilage of “stock” caused by a change in temperature resulting
+from mechanical breakdown of refrigeration equipment on the described premises, subject
+to the spoilage sublimit, the governing deductible, the valuation clause, and protective-
+safeguards conditions. The Mechanical Breakdown exclusion bars direct repair or
+replacement of the failed equipment itself. That equipment exclusion does not, by itself,
+nullify a separate Spoilage endorsement response for stock when the endorsement’s
+triggering language is met. Whether stock, equipment, and business income each respond
+on this file must be determined by applying these rules to the claim-file facts and
+Active schedule terms — this memo does not pre-state those dispositions.
+
+Equipment coverage conditions (rule)
+Equipment rebuild, ammonia recharge, controls, crane premiums, and related mechanical
+repair quotes are evaluated under the Mechanical Breakdown exclusion and against whether
+any equipment floater or boiler & machinery coverage appears as Active on the schedule
+for compressor #3. Absence of such a floater on the schedule is material. Do not infer
+equipment indemnity solely because stock may be eligible under a separate endorsement.
+
+Business income waiting period (rule)
+The Business Income form’s waiting period is the Active schedule waiting_period_hours
+value for CP 00 30 (and related BI endorsements that retain that waiting period). The
+waiting period is measured against the duration of the covered interruption supported by
+logger / operations evidence, not against calendar days of customer reallocation after
+cooling is restored. Customer reallocation over subsequent calendar days does not restart
+or waive the waiting period. Extended period of indemnity, if present, still requires the
+waiting period to be satisfied first. Compare claim-file outage evidence to the schedule
+waiting period before posting any BI indemnity reserve.
+
+Definition of qualifying stock (rule)
+For this desk under CP 04 40, “stock” means perishable frozen food product held for sale
+or distribution. Packaging materials, corrugated cartons, dunnage, and staging supplies
+are not stock even when stored adjacent to a freezer zone. Eligible stock lines are Zone B
+inventory rows with status Open or Open-Salvage that meet this stock definition. Lines
+with status VOID are ineligible. Duplicate rekey lines are not separately eligible; retain
+only the original lot. Zone A lots and other unaffected-zone reference rows are outside
+this loss population. Apply these filters to the Inventory tab; do not copy claimant
+selling-price demand totals as the covered population.
+
+Valuation basis (rule)
+The CP 04 40 valuation clause and the schedule election status for selling-price valuation
+require invoice / replacement cost for stock when selling price was not elected. Field notes
+recommending provisional selling-price payment are non-governing when they conflict with
+this rule. Use line_cost (invoice) for eligible stock, not unit_selling_price aggregates,
+unless an Active schedule election expressly authorizes selling-price valuation.
+
+Salvage treatment (rule)
+Lots marked Open-Salvage remain partially recoverable. Credit salvage against that lot’s
+invoice cost at the recoverable percentage documented in the claim file (QA / inventory
+notes). Salvage credits apply only to covered stock indemnity — do not net salvage against
+equipment or business-income demands. Apply salvage to the covered stock loss before
+maintenance coinsurance and before the spoilage deductible.
+
+Delayed maintenance / protective safeguards (rule)
+OEM service intervals for compressor oil and filter service are required under the
+protective-safeguards schedule. The claim file records the last completed service date,
+OEM interval days, and any vendor cancellation near the loss. Desk practice for committee
+files: when service is overdue beyond a 7-day scheduling grace measured from
+the OEM interval, and a vendor cancellation is documented within 14 days of the loss,
+stock coverage under CP 04 40 remains available but a 25% coinsurance reduction applies
+(pay 75% of the otherwise covered stock loss after salvage). Do not void the entire
+spoilage claim solely on the maintenance condition when that documented vendor-cancellation
+safe harbor is met. Compute overdue days and confirm cancellation timing from the claim
+file before applying or declining this adjustment.
+
+Deductible hierarchy (rule)
+The governing spoilage deductible is the deductible on the Active CP 04 40 spoilage
+endorsement / sublimit rows on the policy schedule. Schedule rows with status Superseded
+(including mid-term deductible revisions later replaced) are non-governing. Building,
+BPP, wind/hail, or other unrelated deductibles do not substitute for the spoilage
+deductible on a covered spoilage indemnity. Apply the governing spoilage deductible to
+covered spoilage after valuation, salvage credit, and any applicable maintenance
+coinsurance.
+
+Indemnity reserve construction (rules — not a finished recipe)
+Any indemnity case reserve for accepted stock coverage must be formula-driven from the
+cleaned eligible inventory population and the adjustments above so that changing an
+eligible lot’s included amount changes the reserve and changing an excluded, VOID, or
+duplicate lot does not. Keep ALAE / expense payments from the Payments tab separate from
+the indemnity case reserve; do not roll adjuster, lab, or counsel expense into the
+indemnity recommendation. Payment proposals above $250,000 require manager approval;
+show whether the recommended indemnity reserve sits under or over that threshold.
+
+Committee workbook expectations
+Document Stage 1 coverage analysis (stock, equipment, BI) with source citations before
+Stage 2 financial build. Record material conflicts (stale notes vs memo; superseded vs
+Active schedule; selling-price demand vs valuation clause) with governing-source treatment.
+Show inventory reconciliation and valuation reconciliation. Perform a simple sensitivity
+check on covered vs excluded inventory. Derive dispositions and dollars from the rules and
+evidence; do not treat this memo as a completed coverage opinion.
+
+Documents reviewed
+ashcroft-foods_claim_file.xlsx (Loss Notice, Inventory, Equipment, BI Claim, Adjuster Notes,
+Payments); ashcroft-foods_policy_schedule.csv; refrigeration maintenance log excerpts
+supplied by the insured; Zone B logger export summary; North River cancellation email
+referenced in the claim-file notes.
+
+Distribution
+File-review committee; Columbus property desk; broker copy after committee (coverage
+position only — after independent determination).

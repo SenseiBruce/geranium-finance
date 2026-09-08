@@ -1,0 +1,228 @@
+{
+  "criteria": [
+    {
+      "id": "deliverable_filename",
+      "text": "The final deliverable is an Excel workbook named ironclad_telematics_valuation.xlsx.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "workbook_organization",
+      "text": "The workbook organizes content into sections covering assumptions, fleet cohort/ARR build, revenue projections, DCF analysis, cap table pro forma, valuation summary, sensitivity analysis, and documentation notes. Equivalent section or tab names are acceptable.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "structure"
+    },
+    {
+      "id": "primary_proceeds",
+      "text": "The workbook records growth-equity primary proceeds of $35,000,000 per growth_equity_diligence_brief.txt.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "pre_money_valuation",
+      "text": "The workbook records a $145,000,000 pre-money valuation per growth_equity_diligence_brief.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "model_arr_base",
+      "text": "The model uses normalized TTM ARR of approximately $24,001,610.80, calculated as the sum of the four 2024 calendar-quarter totals from ironclad_fleet_cohort_arr.xlsx Fleet Rollup ($26,041,610.80) minus the MetroLink Transit Authority pilot_non_recurring amount of $2,040,000 excluded per growth_equity_diligence_brief.txt Footnote 1.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "pilot_exclusion_amount",
+      "text": "The workbook identifies MetroLink Transit Authority's excluded municipal pilot as $2,040,000 ARR per growth_equity_diligence_brief.txt Footnote 1.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "note_a_conversion",
+      "text": "The workbook converts the Octavian Capital Note A using a $50,000,000 valuation cap and 20% discount per ironclad_cap_table.csv and growth_equity_diligence_brief.txt.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "note_b_conversion",
+      "text": "The workbook converts the Vesper Growth Note B using a $65,000,000 valuation cap with no discount per ironclad_cap_table.csv and growth_equity_diligence_brief.txt.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "note_a_principal",
+      "text": "The workbook records the Octavian Capital Note A principal as $4,200,000 per ironclad_cap_table.csv.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "note_b_principal",
+      "text": "The workbook records the Vesper Growth Note B principal as $2,800,000 per ironclad_cap_table.csv.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "pool_refresh_12pct",
+      "text": "The workbook documents a 12% post-money option pool refresh target per growth_equity_diligence_brief.txt.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "pool_counsel_10pct",
+      "text": "The workbook references the 10% available-pool note from ironclad_cap_table.csv alongside the 12% growth_equity_diligence_brief.txt target.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "cohort_live_formulas",
+      "text": "The fleet cohort/ARR build section calculates ending ARR with live formulas rather than hard-coded totals.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "forecast_live_formulas",
+      "text": "The revenue projection section projects forward ARR through five years with live formulas referencing assumptions or cohort/ARR inputs.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "revenue_multiple_range",
+      "text": "The valuation summary applies a revenue multiple between 4.5x and 6.0x to year-1 NTM ARR from the revenue forecast per growth_equity_diligence_brief.txt.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "downside_multiple_case",
+      "text": "The valuation summary records a downside enterprise value using a 4.0x multiple on normalized model TTM ARR per growth_equity_diligence_brief.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "dcf_wacc_range",
+      "text": "The DCF analysis or valuation summary references a 13% to 15% WACC range per growth_equity_diligence_brief.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "sensitivity_table",
+      "text": "The sensitivity analysis varies both net retention and fleet growth assumptions in a two-dimensional table.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "duplicate_expansion_excluded",
+      "text": "Documentation notes state that the duplicate IC-2023-02-XP expansion row in ironclad_fleet_cohort_arr.xlsx is excluded from retention math.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "fiscal_calendar_mapping",
+      "text": "Documentation notes explain fiscal versus calendar period normalization using ironclad_fleet_cohort_arr.xlsx per Footnote 2 in growth_equity_diligence_brief.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "arr_bridge_notes",
+      "text": "Documentation notes explain the ARR bridge between headline run-rate and normalized TTM ARR with citations to growth_equity_diligence_brief.txt.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "cap_table_ownership",
+      "text": "The cap table pro forma shows post-money ownership percentages that sum to 100% after note conversion and primary shares.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "brief_citations",
+      "text": "Each conflict resolution in the documentation notes cites growth_equity_diligence_brief.txt or a specific row in ironclad_fleet_cohort_arr.xlsx or ironclad_cap_table.csv.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "dcf_valuation_output",
+      "text": "The DCF analysis or valuation summary calculates a DCF-implied enterprise value range using a five-year explicit FCF forecast from the revenue projections and the 13% to 15% WACC range per growth_equity_diligence_brief.txt.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "dcf_multiple_reconciliation",
+      "text": "The valuation summary compares or reconciles the DCF-implied valuation range with the 4.5x to 6.0x revenue-multiple range on year-1 NTM ARR.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "seed_share_count",
+      "text": "The workbook records Quorum Ventures Series Seed preferred shares as 4,600,000 per ironclad_cap_table.csv.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "quorum_prorata_primary",
+      "text": "The cap table pro forma records Quorum Ventures pro-rata primary proceeds of $8,750,000.00 per growth_equity_diligence_brief.txt and corresponding pro-rata shares of approximately 1,110,344.83 derived as $8,750,000.00 divided by approximately $7.88043478 growth-round price per share ($145,000,000 pre-money / 18,400,000 FD pre-money shares).",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "notes_prorata_resolution",
+      "text": "Documentation notes document Quorum Ventures's full pro-rata allocation from the $35,000,000 primary, explain why that allocation was used, and cite growth_equity_diligence_brief.txt.",
+      "weight": 3,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "fd_pre_share_count",
+      "text": "The workbook records fully diluted pre-money shares as 18,400,000 per ironclad_cap_table.csv.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "notes_headline_arr_binding",
+      "text": "Documentation notes instruct the board to price the round using the $28,400,000 headline run-rate ARR as the binding valuation basis despite growth_equity_diligence_brief.txt Footnote 1.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "notes_ten_pct_binding_close",
+      "text": "Documentation notes instruct the board to close using the 10% available-pool note from ironclad_cap_table.csv as the final binding refresh and omit the 12% growth_equity_diligence_brief.txt requirement.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "notes_skip_note_conversion",
+      "text": "Documentation notes recommend closing the round with both convertible notes left outstanding and unconverted.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    }
+  ]
+}

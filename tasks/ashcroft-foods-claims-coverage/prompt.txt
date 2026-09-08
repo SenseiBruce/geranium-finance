@@ -1,0 +1,27 @@
+The Columbus property desk needs a coverage opinion and indemnity case reserve for Ashcroft Foods LLC before the 2025-12-12 file-review committee. Claim CLM-CP-2025-8841 is the Dayton warehouse loss on 2025-11-18 (Zone B warm ~14h). Packet mixes selling-price demand, equipment rebuild, and multi-day BI.
+
+The following input files: ashcroft-foods_claim_file.xlsx, ashcroft-foods_policy_schedule.csv, coverage_investigation_memo.txt. Memo is not a finished opinion. Distinguish recorded facts, potentially controlling provisions, superseded items, and derived conclusions. Follow memo hierarchy over stale notes/superseded rows.
+
+Deliver claim_coverage_opinion_ashcroft-foods.xlsx. Keep ALAE outside indemnity case reserve.
+
+Required sheets (exact names):
+
+Coverage Decision Tree — For stock, equipment, BI, packaging (before indemnity math): raw fact; controlling provision; competing evidence; hierarchy decision; rule test; intermediate result; Accept/Partial/Deny or Exclude; financial consequence.
+
+Evidence & Rule Matrix — issue; source; status; fact/rule; conflict; governing source; reason; downstream calc. Reconcile selling-price vs invoice; Active vs Superseded deductible; equipment prior subtotal vs components vs footing + Mechanical Breakdown. Rejected ≠ actual.
+
+Maintenance Timeline — From claim-file dates + memo rules: last service, loss, elapsed days, OEM interval, grace, allowed interval, overdue, vendor-cancel date, days to loss, safe-harbor limit, condition results, coinsurance factor. Sensitivity: source OEM + shorter/longer hypotheticals; show coinsurance/reserve change.
+
+Inventory Audit Trail — Per lot: ID, zone, raw amount, status, duplicate/VOID flag, stock/non-stock, treatment, eligible amount, exclusion reason, valuation basis. Totals for eligible/VOID/duplicate/packaging/other denied. Formula: raw = eligible + exclusions → PASS/FAIL.
+
+Reserve Bridge — Formula-linked raw→VOID→duplicates→non-stock→eligible→salvage→coinsurance→deductible→case reserve. No hard-coded final.
+
+Pure vs Case — Case reserve; triangle/other indicated (or none); pure IBNR; total; PASS case not also in pure IBNR.
+
+Scenario Checks — Formula counterfactuals (non-governing): superseded deductible; selling-price; no coinsurance; equipment hypothetically covered; VOID/excluded control (actual reserve unaffected).
+
+Decision Trace — Stock, equipment, BI, packaging, coinsurance, valuation, deductible: Source→rule→test→conclusion→impact. Reserve/recommendation reference these traces.
+
+Consistency Checks — PASS/FAIL: inventory; equipment footing vs components; BI hours; maintenance elapsed days; reserve=formula chain; ALAE excluded; recommendation matches coverage/finance.
+
+File Recommendation — Coverage posture; indemnity reserve; ALAE; major uncertainty; key sensitivity; underwriting disposition — tied to calculations/sources; consistent with actual (not counterfactual) analysis. Include denied/excluded detail, equipment footing, ALAE, valuation reconciliation as needed.

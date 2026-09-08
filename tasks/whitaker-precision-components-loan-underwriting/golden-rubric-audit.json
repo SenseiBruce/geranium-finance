@@ -1,0 +1,255 @@
+{
+  "task": "whitaker-precision-components-loan-underwriting",
+  "criteria_count": 31,
+  "manual_review_required": true,
+  "items": [
+    {
+      "id": "deliverable_filename",
+      "weight": 2,
+      "type": "rigid",
+      "text": "The final deliverable is an Excel workbook named loan_underwriting_decision_whitaker-precision-components.xlsx.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "workbook_sections",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook includes an Adjusted EBITDA build, DSCR and leverage tests, a collateral eligibility and LTV analysis, an exception log, and a credit path decision with conditions; equivalent section labels are acceptable.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "memo_hierarchy",
+      "weight": 5,
+      "type": "subjective",
+      "text": "The workbook states that credit_policy_and_exception_memo.txt governs over relationship-manager Approve-as-requested language in whitaker-precision-components_borrower_financials.xlsx.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "reported_ebitda_start",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The Adjusted EBITDA build starts from reported FY2025 EBITDA of approximately $1,248,620.18 from whitaker-precision-components_borrower_financials.xlsx.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "one_time_gain_excluded",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The Adjusted EBITDA build subtracts the FY2025 one-time parcel sale gain of approximately $185,400.00 from reported EBITDA.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "owner_addback_capped",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The Adjusted EBITDA build adds owner compensation of approximately $84,220.55 only, not the larger $210,000.00 relationship-manager claim.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "rent_addback_disallowed",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The Adjusted EBITDA build does not add back the $96,000.00 related-party rent normalization claimed in the borrower package.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "adjusted_ebitda_total",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Adjusted EBITDA equals approximately $1,147,440.73.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "related_party_building_ineligible",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The collateral analysis treats the Whitaker Realty LLC plant building as ineligible collateral for the equipment term loan.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "soft_costs_ineligible",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The collateral analysis treats install, freight, and deposit soft costs as ineligible for advance under the equipment term loan.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "leased_forklift_ineligible",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The collateral analysis treats the leased Toyota forklift as ineligible collateral.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "obsolete_mill_ineligible",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The collateral analysis treats the 1998 Bridgeport manual mill as ineligible under the age cutoff.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "cnc_advance_80",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Eligible new CNC assets are advanced at 80% of appraisal NOLV.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "fixture_advance_50",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Eligible fixtures are advanced at 50% of appraisal NOLV rather than the 70% relationship-manager claim.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "eligible_nolv",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Eligible collateral NOLV totals approximately $2,041,421.53.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "bankable_collateral",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Bankable collateral after policy advance rates equals approximately $1,568,673.10.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "binding_commitment",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The recommended commitment equals approximately $1,531,066.15, the lesser of bankable collateral and 75% of eligible NOLV.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "ltv_full_ask_fails",
+      "weight": 4,
+      "type": "rigid",
+      "text": "LTV at the full requested commitment of $2,847,500.00 exceeds the 75% maximum on eligible NOLV.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "debt_service_factor",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Proposed annual debt service uses the memo factor of $16.42 per $1,000 of commitment per month, annualized.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "existing_ds_used",
+      "weight": 3,
+      "type": "rigid",
+      "text": "DSCR tests include existing bank annual debt service of approximately $412,880.40.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "dscr_full_ask_below_min",
+      "weight": 5,
+      "type": "rigid",
+      "text": "DSCR at the full requested commitment is approximately 1.1781x and below the 1.25x Approve minimum.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "dscr_sized_passes",
+      "weight": 5,
+      "type": "rigid",
+      "text": "DSCR at the recommended commitment is approximately 1.6058x and meets the 1.25x threshold.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "leverage_sized_passes",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Leverage at the recommended commitment is approximately 3.2379x and does not exceed 3.50x.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "path_conditional",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The credit path decision is Approve with conditions, not Approve at the full request and not Decline.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "condition_tenor_60",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Conditions include shortening tenor to 60 months from the requested 84 months.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "condition_personal_guaranty",
+      "weight": 3,
+      "type": "subjective",
+      "text": "Conditions include an unlimited personal guaranty of the principal owner.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "notes_cite_before_rec",
+      "weight": 2,
+      "type": "subjective",
+      "text": "On the Notes section, or equivalent section label, citations to the input filenames and memo rules appear earlier than the committee path recommendation.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_full_ask_approve",
+      "weight": -5,
+      "type": "negative",
+      "text": "The workbook recommends approving the full requested commitment of $2,847,500.00 despite LTV and DSCR failure at the ask.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_related_party_collateral",
+      "weight": -5,
+      "type": "negative",
+      "text": "The workbook recommends treating Whitaker Realty LLC real estate as eligible collateral for the equipment term facility.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_mgmt_ebitda_dscr",
+      "weight": -4,
+      "type": "negative",
+      "text": "The workbook recommends measuring DSCR on management EBITDA that retains the one-time parcel gain and the disallowed related-party rent add-back.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_decline_without_sizing",
+      "weight": -4,
+      "type": "negative",
+      "text": "The workbook instructs Decline solely because the requested amount exceeds bankable collateral without presenting a sized Approve-with-conditions commitment.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    }
+  ]
+}

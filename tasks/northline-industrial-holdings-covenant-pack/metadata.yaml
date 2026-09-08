@@ -1,0 +1,30 @@
+slug: northline-industrial-holdings-covenant-pack
+seed_id: northline-industrial-holdings-covenant-pack
+
+onet:
+  occupation: Credit Analysts
+  code: "13-2041.00"
+  tasks:
+    - Analyze credit data and financial statements to determine the degree of risk involved in extending credit or lending money.
+    - Generate financial ratios, using computer programs, to evaluate customers' financial status.
+    - Prepare reports that include the degree of risk involved in extending credit or lending money.
+  skills:
+    - Critical Thinking
+    - Reading Comprehension
+    - Mathematics
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: covenant_headroom_northline-industrial-holdings.xlsx
+  format: xlsx
+
+input_files:
+  - northline-industrial-holdings_debt_schedule.xlsx
+  - northline-industrial-holdings_ebitda_bridge.csv
+  - credit_agreement_covenant_excerpts.txt
+
+sector: Finance and Insurance

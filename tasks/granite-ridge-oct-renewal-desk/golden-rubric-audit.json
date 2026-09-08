@@ -1,0 +1,255 @@
+{
+  "task": "granite-ridge-oct-renewal-desk",
+  "criteria_count": 31,
+  "manual_review_required": true,
+  "items": [
+    {
+      "id": "deliverable_filename",
+      "weight": 2,
+      "type": "rigid",
+      "text": "The final deliverable is an Excel workbook named renewal_underwriting_review.xlsx.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "routing_completeness",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Every one of the 36 accounts on the account routing section receives exactly one disposition from Quote, Refer, Decline, or Ask Broker.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "location_exceptions_present",
+      "weight": 2,
+      "type": "rigid",
+      "text": "The workbook includes a clearly labeled Location Exceptions section that is present and usable for reviewing flagged locations.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "loss_reconciliation_present",
+      "weight": 2,
+      "type": "rigid",
+      "text": "The workbook includes a clearly labeled Loss Reconciliation section that presents the reconciliation framework comparing account-list and loss-run ratios.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "disposition_summary_present",
+      "weight": 2,
+      "type": "rigid",
+      "text": "The workbook includes a disposition summary that counts Quote, Refer, Decline, and Ask Broker assignments for the October batch.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2018_quote",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Account GR-2018 is assigned Quote on the account routing section.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2047_quote",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Account GR-2047 is assigned Quote on the account routing section because occupancy_pct 94.0% does not imply full occupancy under Section 6 of granite_ridge_routing_notes.txt, HAB-2047-B has broker_confirmation=yes documenting turnover vacancy, and no other Section 3\u201310 referral trigger is active.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2089_refer",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Account GR-2089 is assigned Refer on the account routing section for expired sprinkler inspection.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2113_refer",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Account GR-2113 is assigned Refer on the account routing section for stale unit count and TIV relative to granite_ridge_location_schedule.csv.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2162_refer",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Account GR-2162 is assigned Refer on the account routing section with a recomputed attritional incurred loss ratio of 67.5% from granite_ridge_loss_run_36mo.csv and HAB-2162-C total incurred of $260,120, applying the Section 3 referral thresholds in granite_ridge_routing_notes.txt (loss ratio at or above 45% and below 70%, and/or single-location incurred of $250,000 or more).",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2074_refer_pool",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Account GR-2074 is assigned Refer on the account routing section because location HAB-2074-A has pool_liability_flag pending_fence_po (pending pool-fence work) on granite_ridge_location_schedule.csv under Section 5 of granite_ridge_routing_notes.txt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2195_decline",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Account GR-2195 is assigned Decline on the account routing section.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2033_ask_broker",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Account GR-2033 is assigned Ask Broker on the account routing section.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2007_refer_appetite",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Account GR-2007 (Campus Edge Housing Co.) is assigned Refer on the account routing section because Section 10 of granite_ridge_routing_notes.txt requires GRP-APPETITE review before bind, and the Location Exceptions section includes a Section 10 appetite note stating that GRP-APPETITE review must be submitted before bind.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2065_refer_appetite",
+      "weight": 2,
+      "type": "rigid",
+      "text": "Account GR-2065 (Campus Edge Housing Co.) is assigned Refer on the account routing section because Section 10 of granite_ridge_routing_notes.txt requires GRP-APPETITE review before bind, and the Location Exceptions section includes a Section 10 appetite note stating that GRP-APPETITE review must be submitted before bind.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "subsidized_endorsement_flags",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The location exception documentation flags at least three subsidized-housing locations requiring endorsement review.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "rules_source_cited",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The workbook cites granite_ridge_routing_notes.txt for routing thresholds and referral triggers.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "loss_run_reconciliation",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The loss reconciliation section shows recomputed loss ratios wherever granite_ridge_renewal_accounts.csv differs from granite_ridge_loss_run_36mo.csv by more than five points.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "loss_run_controls_routing",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Where granite_ridge_renewal_accounts.csv and granite_ridge_loss_run_36mo.csv loss ratios differ by more than five points, the account routing disposition uses the recomputed loss-run ratio as the controlling routing metric.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2195_recomputed_lr",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Account GR-2195 recomputed 36-month loss ratio is approximately 292.3%.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "summary_quote_count",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The disposition summary reports 25 Quote assignments.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "summary_refer_count",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The disposition summary reports 9 Refer assignments.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "summary_decline_ask_broker_counts",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The disposition summary reports 1 Decline assignment and 1 Ask Broker assignment, for a total of 36 routed accounts.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "routing_rationale",
+      "weight": 4,
+      "type": "subjective",
+      "text": "Every Refer, Decline, and Ask Broker account includes a one-line rationale tied to granite_ridge_routing_notes.txt or a source file.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "summary_formulas",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Disposition summary counts use formulas referencing the account routing section rather than hard-coded totals.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "cat_loss_excluded_attritional",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The attritional loss-ratio calculation excludes the CAT-2408 catastrophe-coded loss for account GR-2071 per Section 9 of granite_ridge_routing_notes.txt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "gr2071_section9_rationale",
+      "weight": 3,
+      "type": "rigid",
+      "text": "Account GR-2071 routing rationale cites Section 9 of granite_ridge_routing_notes.txt for excluding CAT-2408 from the attritional loss-ratio calculation.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "false_cat_exclusion_rationale",
+      "weight": -5,
+      "type": "negative",
+      "text": "The deliverable states that cat-coded rows were excluded from the attritional loss ratio for an account that has no catastrophe-coded loss on granite_ridge_loss_run_36mo.csv.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "false_quote_gr2195_decline_lr",
+      "weight": -5,
+      "type": "negative",
+      "text": "The account routing section recommends Quote for GR-2195 despite the recomputed attritional loss ratio of approximately 292.3% from granite_ridge_loss_run_36mo.csv exceeding the Section 3 decline threshold in granite_ridge_routing_notes.txt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "false_appetite_clearance",
+      "weight": -5,
+      "type": "negative",
+      "text": "The deliverable states that GRP-APPETITE clearance has already been obtained for GR-2007 or GR-2065.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "false_broker_confirmation",
+      "weight": -5,
+      "type": "negative",
+      "text": "The deliverable states that broker confirmation is on file for HAB-2033-B while granite_ridge_location_schedule.csv shows broker_confirmation=no.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Harborview Media Group — FX and Period Reference
+Treasury Policy Bulletin HM-FX-2025-02 | Effective Q1 2025
+Owner: Treasury Operations | Review cycle: Quarterly
+
+Reporting period
+Consolidated management reporting for board materials uses calendar Q1 2025: January 1, 2025 through March 31, 2025. Monthly management packs may use alternate cutoffs; this bulletin governs the board consolidation package only.
+
+Functional currency by label
+- Beacon Media: USD (report directly to consolidated USD)
+- Cascade Creative: CAD (convert to USD for consolidated view)
+- Lattice Digital: USD
+
+CAD/USD conversion
+Use the Q1 2025 planning rate of 0.74 USD per CAD for all Cascade Creative revenue in consolidated reporting. Do not use month-end spot rates, Bloomberg screen rates, or payment-date rates for this board package. If Cascade submits invoices in CAD, translate using 0.74 unless treasury publishes a superseding bulletin.
+
+Exclusions from consolidated Q1 revenue
+Exclude ledger rows with status void, cancelled, or out_of_period from consolidated revenue. Rows dated before January 1, 2025 are out of scope for Q1 even if marked posted. The December 2024 Beacon catch-up row HM-4001 is an example of a row that must not roll into Q1 consolidated totals.
+
+Reconciliation expectations
+Controllers should document excluded rows in the workbook reconciliation section with transaction id, status, and dollar impact. Where the ledger mixes currencies, show both native currency and consolidated USD.
+
+Contact
+Treasury Operations — treasury.ops@harborviewmedia.example
+Policy questions: HM-FX series mailbox

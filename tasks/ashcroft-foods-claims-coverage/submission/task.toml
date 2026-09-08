@@ -1,0 +1,36 @@
+# Harbor-compatible task metadata for CodeExecutionEnvironment packaging.
+# Keep in sync with metadata.yaml / portal Section 1.
+
+schema_version = "1.0"
+
+[metadata]
+sector = "Finance and Insurance"
+occupation = "Claims Adjusters, Examiners, and Investigators"
+occupation_code = "13-1031.00"
+difficulty_tier = "core"
+category = "finance"
+tags = [
+  "commercial-property",
+  "claims-coverage",
+  "spoilage",
+  "case-reserves",
+  "policy-interpretation",
+  "inventory-reconciliation",
+  "alae",
+]
+expert_time_estimate_hours = 5
+difficulty_explanation = "Multi-stage coverage decision tree with competing-evidence matrix, maintenance timeline + OEM sensitivity, inventory audit-trail control checks, formula-linked reserve bridge, Pure vs Case double-counting test, five counterfactual scenarios distinct from actual conclusions, decision-trace dependency graph, and committee recommendation consistency."
+
+[agent]
+timeout_sec = 1800.0
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+allow_internet = false

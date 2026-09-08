@@ -1,0 +1,32 @@
+Vesper Culinary Brands  -  FX and Period Reference
+Treasury Policy Bulletin VCB-FX-2025-03 | Effective Q3 2025
+Owner: Treasury Operations | Review cycle: Quarterly
+
+Reporting period
+Consolidated management reporting for the board packet uses calendar Q3 2025: July 1, 2025 through September 30, 2025. Weekly flash and monthly management packs may use alternate cutoffs for operational dashboards. This bulletin governs the board consolidation package only. Rows dated before July 1, 2025 or after September 30, 2025 are out of scope for Q3 consolidated net revenue even when the extract still lists them as posted.
+
+Functional currency by brand
+- Hearth Kitchen Co: USD (report directly to consolidated USD)
+- Brine & Barrel EU: EUR (convert to USD for consolidated view)
+- Kiln Spice Works: USD (subject to acquisition ownership rules in kiln_spice_acquisition_memo.txt; this bulletin does not establish Kiln ownership or proration mechanics)
+
+EUR to USD conversion for board consolidation
+Use the Q3 2025 board close rate of 1.0874 USD per EUR for all Brine & Barrel EU revenue in consolidated reporting. Do not use month-end spot rates, payment-date rates, or trader screens for this package. A desk note from August mentioned an informal spot of approximately 1.1025 during a volatile session; that aside is informational only and does not supersede this bulletin. If Brine submits invoices in EUR, translate using 1.0874 unless Treasury publishes a later VCB-FX bulletin that explicitly replaces the close rate.
+
+Status exclusion hierarchy
+Exclude ledger rows with status void, cancelled, duplicate, or out_of_period from consolidated revenue. Posted is the only status that may enter the recognition set, and even posted rows can be removed when they fail period or ownership tests. Duplicate rows often reuse the same commercial description as a valid posted invoice; keeping both would double-count. Cancelled and void rows may carry positive or negative amounts and must still be excluded rather than netted as if they were recognized adjustments unless a separate controller-approved reclass journal exists outside this extract.
+
+Period and ownership boundary rules
+- Any brand row dated before July 1, 2025 that remains in the extract is prior-period and must not enter Q3 consolidated totals.
+- Any brand row dated after September 30, 2025, including rows tagged out_of_period, is next-period and must stay out of Q3.
+- Kiln Spice Works ownership timing, including the August 12, 2025 close and the 50/92 proration (or optional transaction-date cutoff with controller sign-off), is governed by kiln_spice_acquisition_memo.txt. This bulletin defers to that memo for ownership/proration and does not restate a separate Treasury ownership formula.
+
+Reconciliation expectations
+Controllers should retain an exclusion trail for rows removed from consolidated revenue, including transaction id, brand, status or exclusion reason, native amount, and USD impact after FX where relevant. Where the ledger mixes currencies, show both native currency and consolidated USD. State the EUR rate used and the Kiln ownership method (transaction cutoff or 50/92) so board readers can follow the bridge from raw extract to the recommended consolidated figure.
+
+Governing FX rounding convention
+Brine EUR revenue is summed in native EUR before conversion to USD; the converted total is rounded to cents. Line-level USD rounding is not used for the consolidated Brine total. Multiply the aggregated eligible EUR amount by the 1.0874 board close rate, then round the USD product to cents once. Retain that sum-then-round treatment in the close support. A line-by-line convert-and-round-then-sum control will differ by one cent and is not the governing method for board consolidation. Do not blend the informal 1.1025 spot into any line. Hearth and Kiln USD lines do not need FX; they still need status, period, and (for Kiln) ownership filters before they enter the rollup.
+
+Contact
+Treasury Operations — VCB-FX series mailbox
+Policy questions: route through the VCB-FX distribution list

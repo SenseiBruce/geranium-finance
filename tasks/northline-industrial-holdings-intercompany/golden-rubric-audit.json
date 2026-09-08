@@ -1,0 +1,287 @@
+{
+  "task": "northline-industrial-holdings-intercompany",
+  "criteria_count": 35,
+  "manual_review_required": true,
+  "items": [
+    {
+      "id": "deliverable_filename",
+      "weight": 2,
+      "type": "rigid",
+      "text": "The final deliverable is an Excel workbook named intercompany_settlement_northline-industrial-holdings.xlsx.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "workbook_sections",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook includes an AR settlement population, an AP FX tie-out, an exception log with memo section 6 documentation fields, a section 6 exception-test evaluation, a self-consistency control, counterparty netting, and a September 3 wire recommendation; equivalent section labels are acceptable.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "appendix_a_six_invoices",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The AR settlement population covers the six Appendix A invoices INV-AR-8841, INV-AR-8790, INV-AR-8766, INV-AR-8812, INV-AR-8855, and INV-AR-8688.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "total_ar_settlement",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Total Appendix A AR settlement USD equals approximately $551,001.71.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "intransit_8841_included",
+      "weight": 5,
+      "type": "rigid",
+      "text": "InTransit INV-AR-8841 for $185,420.18 is included in the Canada AR settlement population under FOB shipping-point cut-off.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "intransit_8855_included",
+      "weight": 5,
+      "type": "rigid",
+      "text": "InTransit INV-AR-8855 for $128,440.00 is included in the Mexico AR settlement population under FOB shipping-point cut-off.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "s6_test1_void_ar",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Under memo section 6 test 1, Void AR invoice INV-AR-8820 (status_flag Void) is excluded from the AR settlement population and the September 3 wire.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "memo_cad_rate",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Canada AP tie-out uses the August 31 memo rate of 1.3724 CAD per USD.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "memo_mxn_rate",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Mexico AP tie-out uses the August 31 memo rate of 18.5800 MXN per USD.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "stale_rate_revalued",
+      "weight": 5,
+      "type": "rigid",
+      "text": "AP-C-441 is identified as booked at the stale July CAD rate of 1.3680 and is revalued at the August 31 memo CAD rate of 1.3724, producing approximately $92,582.62 USD.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "ap_c_441_fx_diff",
+      "weight": 5,
+      "type": "rigid",
+      "text": "AP-C-441 FX difference versus parent INV-AR-8790 after memo revaluation is approximately $297.78.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "matched_ap_examples",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Matched AP rows AP-C-441, AP-C-442, AP-M-210, and AP-M-205 reference the corresponding parent invoice IDs on the AR subledger.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "canada_ap_converted",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Canada matched Appendix A AP converts to approximately $133,802.80 USD at the memo rate.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "mexico_ap_converted",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Mexico matched Appendix A AP converts to approximately $103,040.95 USD at the memo rate.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "s6_test2_void_ap",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Under memo section 6 test 2, Void AP-C-448 (status_flag Void) is excluded from the Canada AP FX tie-out and is not wired.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "s6_test3_duplicate_ap",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Under memo section 6 test 3, AP-C-448 is identified as a Void duplicate sharing parent_invoice_ref INV-AR-8790 with Open AP-C-441, the Void row is excluded, and the Open payable is retained for tie-out.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "s6_test4_orphan_ap",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Under memo section 6 test 4, orphan payable AP-C-455 (Open with blank parent_invoice_ref) is excluded from the Canada settlement net and is not wired.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "s6_test7_intransit_not_orphan",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Under memo section 6 test 7, missing AP for InTransit Appendix A invoices INV-AR-8841 and INV-AR-8855 is treated as an expected FOB gap and is not classified as an orphan payable.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "s6_seven_tests_documented",
+      "weight": 5,
+      "type": "rigid",
+      "text": "The workbook documents all seven memo section 6 exception tests independently (Void AR; Void AP; duplicate AP; orphan AP; matched Open-only; matched parent_invoice_ref; InTransit missing AP not orphan) rather than collapsing them into fewer than seven tests.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "exception_log_seven_fields",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Each discovered exception in the exception log records the seven memo section 6 documentation fields: record ID, counterparty, exception type, source fact, governing memo rule, treatment, and settlement impact.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "exception_self_consistency",
+      "weight": 5,
+      "type": "rigid",
+      "text": "A self-consistency control compares row-level Include / settlement classification to the exception-log treatment and reports PASS only when there is no contradiction (for example, a row marked Include=Yes is not exception-excluded from settlement, and an exception-excluded row is not still Include=Yes).",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "parent_usd_governs_wire",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Wire instructions use parent invoice USD settlement totals rather than converted affiliate AP USD.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "canada_settlement_wire",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Canada Appendix A AR settlement for INV-AR-8841, INV-AR-8790, and INV-AR-8766 equals approximately $319,520.76, and that same amount is the recommended Canada wire to parent.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "mexico_settlement_wire",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Mexico Appendix A AR settlement for INV-AR-8812, INV-AR-8855, and INV-AR-8688 equals approximately $231,480.95, and that same amount is the recommended Mexico wire to parent.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "netting_direction",
+      "weight": 3,
+      "type": "subjective",
+      "text": "Counterparty netting states that each affiliate pays the parent for the Appendix A AR settlement amounts.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "cutoff_citation",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The Exceptions section, or equivalent section label, cites intercompany_cutoff_and_fx_memo.txt for FOB shipping-point treatment of in-transit invoices.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "memo_governs",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook states that intercompany_cutoff_and_fx_memo.txt governs where the AR and AP ledgers conflict.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "recommendation_sweep",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The controller recommendation states September 3 wires collecting Appendix A AR from Canada and Mexico and cites intercompany_cutoff_and_fx_memo.txt.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "live_formulas",
+      "weight": 4,
+      "type": "subjective",
+      "text": "AR settlement totals, AP memo conversions, FX differences, self-consistency PASS/FAIL, and wire amounts are formula-linked to component inputs rather than solely hard-coded endpoints.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_stale_cad_rate",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs Controllers to settle or revalue Canada AP using the stale July CAD rate 1.3680 instead of the August 31 memo rate 1.3724.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_settle_provisional",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs treasury to include Provisional month-end estimate invoices in the September 3 settlement wire.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_resweep_settled",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs Controllers to re-sweep Settled prior-period invoices from the July or early-August extracts on the September 3 wire cycle.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_below_materiality",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs treasury to settle Open AR lines below the Appendix A $35,000 materiality threshold on the September 3 wire cycle.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_contradictory_exceptions",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs treasury to wire a record that the same workbook's exception log excludes from settlement, or to exclude from the wire a record the same workbook marks Include=Yes for settlement.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_intransit_as_orphan",
+      "weight": -5,
+      "type": "negative",
+      "text": "The recommendation instructs Controllers to treat missing affiliate AP for InTransit Appendix A receivables as orphan payables and to exclude those InTransit AR invoices from the September 3 wire on that basis.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    }
+  ]
+}

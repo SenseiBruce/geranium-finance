@@ -1,0 +1,89 @@
+NORTHLINE INDUSTRIAL HOLDINGS, INC.
+Credit Agreement — Selected Covenant and Definition Excerpts
+First Lien Credit Agreement dated as of September 30, 2024, as amended by Amendment No. 1 (Bolt & Die acquisition consent) dated November 12, 2025
+Borrower: Northline Industrial Holdings, Inc. and certain subsidiaries as Guarantors
+Administrative Agent: Harbor Mid-Market Lending LLC
+Confidential — for credit file use
+
+These excerpts govern the Q2 2026-06-30 financial covenant certificate. Where borrower-prepared schedules conflict with this agreement, the agreement controls. Defined terms not set out below have the meanings given in §1.01 of the Credit Agreement.
+
+--------------------------------------------------------------------------------
+SECTION 1.01 — SELECTED DEFINITIONS
+--------------------------------------------------------------------------------
+
+"Cash Interest Expense" means, for any period, the consolidated interest expense of the Borrower and its Restricted Subsidiaries for such period determined in accordance with GAAP, but excluding (a) amortization of deferred financing fees, (b) non-cash interest or payment-in-kind interest, (c) commitment fees, ticking fees, and letter-of-credit fees, and (d) interest on Indebtedness owing to a Guarantor or other Restricted Subsidiary that is a Loan Party. For the avoidance of doubt, Cash Interest Expense includes cash interest on the Bolt & Die seller note.
+
+"Consolidated Adjusted EBITDA" means, for any period, Consolidated EBITDA for such period, adjusted by adding (without duplication) the following amounts to the extent deducted in arriving at Consolidated EBITDA and permitted under this definition:
+
+(a) non-cash stock-based compensation expense;
+
+(b) Permitted Restructuring Charges in an aggregate amount not to exceed $2,000,000 for any Trailing Twelve Month period;
+
+(c) fees, costs, and expenses incurred in connection with a Permitted Acquisition (including the Bolt & Die acquisition), limited to amounts actually paid or accrued within twelve (12) months of the applicable closing date;
+
+(d) non-cash purchase accounting adjustments, including amortization of inventory step-up;
+
+(e) management, monitoring, or similar fees payable to Ridgepath Capital LP or its Affiliates, in an aggregate amount not to exceed $500,000 in any Trailing Twelve Month period;
+
+(f) extraordinary, non-recurring litigation settlements that are not Ordinary Course Warranty Matters, limited to amounts disclosed in writing to the Administrative Agent.
+
+Notwithstanding anything to the contrary in this definition, Consolidated Adjusted EBITDA shall NOT include: (i) projected, run-rate, or "yet to be realized" cost synergies or savings; (ii) add-backs for Ordinary Course Warranty Matters (including product warranty disputes in the Borrower's historical lines of business); (iii) any portion of Permitted Restructuring Charges above the $2,000,000 Trailing Twelve Month cap; or (iv) management fees above the $500,000 Trailing Twelve Month basket in clause (e).
+
+"Consolidated Funded Debt" means, as of any date, the sum (without duplication) of (a) the outstanding principal amount of the Term Loans, (b) the outstanding Revolving Loans (drawn amounts only), (c) Finance Lease Obligations, (d) the outstanding principal amount of the Bolt & Die seller note, and (e) other Indebtedness for borrowed money of the Borrower and its Restricted Subsidiaries, but excluding:
+
+(1) undrawn letters of credit and undrawn revolving commitments;
+(2) Indebtedness owing to a Guarantor or other Loan Party (including the intercompany note payable to Northline Holdco LLC while it remains a Guarantor);
+(3) earn-out obligations until such obligations become fixed and payable.
+
+"Finance Lease Obligations" means obligations that are required to be classified and accounted for as finance leases on a balance sheet of such Person under GAAP.
+
+"Ordinary Course Warranty Matters" means product warranty, customer quality, or similar claims arising in the ordinary course of the Borrower's industrial components business, whether or not reserved or settled in a particular period.
+
+"Permitted Acquisition CapEx" means Capital Expenditures incurred within eighteen (18) months after the closing of a Permitted Acquisition that are (a) identified in the acquisition integration budget delivered to the Administrative Agent and (b) solely related to integration of the acquired business. Permitted Acquisition CapEx is excluded from the CapEx Basket Usage calculation in §6.12.
+
+"Permitted Restructuring Charges" means cash charges for severance, facility exit, and relocation incurred pursuant to a restructuring plan approved by the Board of Directors and disclosed to the Administrative Agent, subject to the $2,000,000 Trailing Twelve Month cap in the Consolidated Adjusted EBITDA definition.
+
+"Trailing Twelve Month" or "TTM" means the four fiscal quarters most recently ended on or prior to the applicable Test Date.
+
+--------------------------------------------------------------------------------
+SECTION 6.10 — FINANCIAL COVENANTS
+--------------------------------------------------------------------------------
+
+(a) Total Leverage Ratio. The Borrower will not permit the Total Leverage Ratio as of the last day of any Test Period to exceed 4.50 to 1.00.
+    Total Leverage Ratio = Consolidated Funded Debt / Consolidated Adjusted EBITDA.
+
+(b) Interest Coverage Ratio. The Borrower will not permit the Interest Coverage Ratio as of the last day of any Test Period to be less than 2.50 to 1.00.
+    Interest Coverage Ratio = Consolidated Adjusted EBITDA / Cash Interest Expense.
+
+Test Date for this certificate: 2026-06-30. Test Period: Trailing Twelve Months ended on the Test Date.
+
+--------------------------------------------------------------------------------
+SECTION 6.12 — CAPITAL EXPENDITURES BASKET
+--------------------------------------------------------------------------------
+
+The Borrower will not permit CapEx Basket Usage for any calendar year to exceed $8,500,000.
+CapEx Basket Usage = aggregate Capital Expenditures of the Borrower and its Restricted Subsidiaries during such calendar year, excluding Permitted Acquisition CapEx.
+
+For calendar year 2026, CapEx Basket Usage is measured year-to-date through the Test Date for interim certificates, against the full-year $8,500,000 basket (no proration of the basket itself).
+
+--------------------------------------------------------------------------------
+SECTION 6.05 — AFFILIATE TRANSACTIONS (excerpt)
+--------------------------------------------------------------------------------
+
+Management fees to Ridgepath Capital LP are permitted solely to the extent they do not exceed $500,000 in any Trailing Twelve Month period for purposes of Consolidated Adjusted EBITDA add-backs. Amounts paid above that basket remain Affiliate Transactions subject to other conditions and are not addable to Consolidated Adjusted EBITDA.
+
+--------------------------------------------------------------------------------
+AGENT INTERPRETIVE NOTES (credit file)
+--------------------------------------------------------------------------------
+
+1. The Draft_Q1 balances in any superseded workbook tab are not the Test Date balances. Use the as-of 2026-06-30 Facilities extract.
+
+2. Letter-of-credit undrawn face amounts are not Consolidated Funded Debt. If an LC is drawn, the resulting Revolving Loan or reimbursement obligation is included when outstanding.
+
+3. Borrower synergy trackers that label savings as "run-rate" or "annualized" do not satisfy clause (i) of the Consolidated Adjusted EBITDA negative list until the savings are reflected in consolidated results.
+
+4. The Atlas Forge / OEM warranty settlement pattern (recurring quality disputes on legacy product) is an Ordinary Course Warranty Matter under this agreement.
+
+5. These excerpts are controlling for the Q2 certificate. Do not rely on borrower pack narrative that restates definitions more loosely than the text above.
+
+End of excerpts.

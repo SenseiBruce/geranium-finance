@@ -1,0 +1,295 @@
+{
+  "task": "ashcroft-foods-claims-coverage",
+  "criteria_count": 36,
+  "manual_review_required": true,
+  "items": [
+    {
+      "id": "deliverable_filename",
+      "weight": 2,
+      "type": "rigid",
+      "text": "The final deliverable is an Excel workbook named claim_coverage_opinion_ashcroft-foods.xlsx.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "coverage_decision_tree",
+      "weight": 5,
+      "type": "subjective",
+      "text": "For spoiled stock, equipment, business income, and packaging, the workbook shows a multi-stage coverage decision tree covering raw fact identification, potentially controlling provision, competing evidence, hierarchy decision, rule test, intermediate result, final disposition, and financial consequence.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "evidence_matrix",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The workbook includes an evidence/rule matrix that distinguishes recorded, potentially controlling, superseded, and derived items and documents governing-source selection with downstream calculation impact.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "stock_partial_accept",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The workbook accepts coverage for cleaned Zone B spoiled stock under the Spoilage Coverage endorsement, subject to maintenance coinsurance.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "equipment_deny",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The workbook denies the compressor/equipment repair demand under the Mechanical Breakdown exclusion.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "bi_deny",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The workbook denies Business Income because the temperature outage of about 14 hours does not satisfy the 72-hour waiting period.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "overall_partial",
+      "weight": 3,
+      "type": "rigid",
+      "text": "The overall coverage determination is Partial Coverage (stock accepted with adjustment; equipment and Business Income denied).",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "valuation_reconciliation",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The workbook reconciles selling-price versus invoice/replacement-cost candidates, rejects selling price because the rider was not elected, and uses invoice/replacement cost for the actual covered amount.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "active_vs_superseded_deductible",
+      "weight": 4,
+      "type": "rigid",
+      "text": "The workbook selects the Active spoilage deductible of 5000.00 and documents that the Superseded 10000.00 schedule row is non-governing for the actual reserve.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "packaging_excluded",
+      "weight": 3,
+      "type": "rigid",
+      "text": "PKG-991 corrugated packaging is excluded from covered stock.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "void_excluded",
+      "weight": 3,
+      "type": "rigid",
+      "text": "LOT-B-099 with VOID status is excluded from covered stock.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "duplicate_excluded",
+      "weight": 3,
+      "type": "rigid",
+      "text": "LOT-B-218-DUP duplicate rekey is excluded from covered stock.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "inventory_audit_trail",
+      "weight": 4,
+      "type": "subjective",
+      "text": "Every inventory demand lot is traced through a status pipeline showing raw amount, status, duplicate/VOID flag, stock/non-stock class, coverage treatment, eligible amount, exclusion reason, and valuation basis, with separate totals for eligible, VOID, duplicate, and packaging amounts.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "inventory_control_check",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook includes a formula-driven inventory control check showing raw inventory equals eligible plus VOID, duplicate, and packaging exclusions, with an explicit PASS result.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "covered_stock_cost",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Cleaned covered stock invoice cost totals 254317.96.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "salvage_credit",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Salvage credit on LOT-B-441 is 12629.82 (30% of that lot's invoice cost).",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "maintenance_timeline",
+      "weight": 5,
+      "type": "subjective",
+      "text": "The workbook shows a maintenance timeline deriving elapsed days from last service 2025-08-12 to loss 2025-11-18, applying OEM interval, 7-day grace, overdue amount, vendor-cancellation timing, and the resulting coinsurance pay factor.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "coinsurance_75",
+      "weight": 4,
+      "type": "rigid",
+      "text": "Maintenance coinsurance applies a 75% pay factor (25% reduction) to the stock loss after salvage.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "oem_sensitivity_table",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook includes an OEM-interval sensitivity table with the source-supported interval plus shorter and longer hypothetical intervals, showing whether coinsurance and reserve change under each assumption.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "equipment_footing_documented",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook documents the equipment demand footing issue: prior EQ-SUB 84517.60 versus EQ-01 through EQ-05 component sum 82517.60 (variance 2000.00), selects the component sum as source of truth after desk correction, and states that the variance does not affect the indemnity reserve because equipment is denied.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "reserve_bridge",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The workbook presents a formula-linked reserve bridge from raw inventory through VOID/duplicate/non-stock exclusions, eligible stock, salvage, maintenance coinsurance, and Active deductible to the indemnity case reserve.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "case_reserve_amount",
+      "weight": 5,
+      "type": "rigid",
+      "text": "Recommended indemnity case reserve equals 176266.11.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "pure_vs_case",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook includes a Pure vs Case bridge showing the cleaned case reserve, any triangle/other indicated amount (or none), pure IBNR, total reserve, and an explicit PASS double-counting test that the case amount is not also booked in pure IBNR.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "scenario_checks",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The workbook includes formula-linked counterfactual scenarios for superseded deductible, selling-price basis, no maintenance coinsurance, equipment hypothetically covered, and excluded/VOID lot control, each marked as not used for the actual conclusion.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "decision_trace",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The workbook includes a decision trace from source evidence through rule, test, conclusion, and financial impact for stock, equipment, BI, packaging, maintenance coinsurance, valuation, and deductible, and links the final reserve to that trace.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "consistency_checks",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook includes explicit PASS/FAIL consistency checks covering inventory reconciliation, equipment footing, BI hours, maintenance elapsed days, reserve formula chain, ALAE exclusion from indemnity, and recommendation consistency.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "formula_linkage",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The indemnity case reserve is formula-linked to cleaned eligible inventory and the maintenance coinsurance factor so changing an eligible included amount or the timeline factor would change the reserve.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "alae_separate",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook keeps ALAE/expense payments outside the indemnity case reserve total.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "committee_recommendation",
+      "weight": 4,
+      "type": "subjective",
+      "text": "The File Recommendation separately addresses coverage posture, indemnity reserve, ALAE, major uncertainty, key financial sensitivity, and recommended underwriting disposition, and is consistent with Partial Coverage and the linked actual case reserve.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "memo_over_field_note",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook treats coverage_investigation_memo.txt as governing over Adjuster Notes N-01 selling-price / full-equipment guidance.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "endorsement_vs_exclusion",
+      "weight": 3,
+      "type": "subjective",
+      "text": "The workbook explains that the Spoilage endorsement can respond to temperature-driven stock loss from on-premises refrigeration breakdown while equipment repair remains excluded under Mechanical Breakdown.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_equipment_pay",
+      "weight": -5,
+      "type": "negative",
+      "text": "The workbook recommends paying or reserving the equipment repair under the property form despite the Mechanical Breakdown exclusion.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_approve_sell_price_pay",
+      "weight": -5,
+      "type": "negative",
+      "text": "The workbook recommends approving payment of the insured's full selling-price spoilage demand as presented on the claim file.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_bi_reserve",
+      "weight": -5,
+      "type": "negative",
+      "text": "The workbook recommends booking a Business Income case reserve despite the outage being shorter than the 72-hour waiting period.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_full_coverage_authorize",
+      "weight": -5,
+      "type": "negative",
+      "text": "The workbook recommends a Full Coverage accept disposition that authorizes payment of equipment repair and Business Income in addition to spoiled stock.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    },
+    {
+      "id": "neg_use_counterfactual_as_actual",
+      "weight": -5,
+      "type": "negative",
+      "text": "The workbook adopts a Scenario Checks counterfactual (superseded deductible, selling-price basis, no coinsurance, or equipment covered) as the actual committee indemnity conclusion.",
+      "golden_passes": null,
+      "notes": "Verify manually against golden solution"
+    }
+  ]
+}

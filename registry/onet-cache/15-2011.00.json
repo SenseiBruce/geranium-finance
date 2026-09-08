@@ -1,0 +1,44 @@
+{
+  "code": "15-2011.00",
+  "occupation": "Actuaries",
+  "task_choose_url": "https://www.onetonline.org/search/task/choose/15-2011.00",
+  "details_url": "https://www.onetonline.org/link/details/15-2011.00",
+  "tasks": [
+    "Analyze data to determine premium rates required and cash reserves and liabilities necessary to ensure payment of future benefits.",
+    "Analyze statistical information to estimate mortality, accident, sickness, disability, and retirement rates.",
+    "Design, review, and help administer insurance, annuity and pension plans, determining financial soundness and calculating premiums.",
+    "Collaborate with programmers, underwriters, accounts, claims experts, and senior management to help companies develop plans for new lines of business or improvements to existing business.",
+    "Provide advice to clients on a contract basis, working as a consultant.",
+    "Determine, or help determine, company policy, and explain complex technical matters to company executives, government officials, shareholders, policyholders, or the public.",
+    "Construct probability tables for events such as fires, natural disasters, and unemployment, based on analysis of statistical data and other pertinent information.",
+    "Determine equitable basis for distributing surplus earnings under participating insurance and annuity contracts in mutual companies.",
+    "Determine policy contract provisions for each type of insurance.",
+    "Provide expertise to help financial institutions manage risks and maximize returns associated with investment products or credit offerings.",
+    "Negotiate terms and conditions of reinsurance with other companies.",
+    "Testify before public agencies on proposed legislation affecting businesses.",
+    "Explain changes in contract provisions to customers.",
+    "Manage credit and help price corporate security offerings.",
+    "Testify in court as expert witness or to provide legal evidence on matters such as the value of potential lifetime earnings of a person disabled or killed in an accident."
+  ],
+  "essential_skills": [
+    "Mathematics",
+    "Reading Comprehension",
+    "Active Listening",
+    "Critical Thinking",
+    "Active Learning"
+  ],
+  "suggested_portal": {
+    "tasks": [
+      "Analyze statistical information to estimate mortality, accident, sickness, disability, and retirement rates.",
+      "Design, review, and help administer insurance, annuity and pension plans, determining financial soundness and calculating premiums.",
+      "Collaborate with programmers, underwriters, accounts, claims experts, and senior management to help companies develop plans for new lines of business or improvements to existing business.",
+      "Determine, or help determine, company policy, and explain complex technical matters to company executives, government officials, shareholders, policyholders, or the public."
+    ],
+    "skills": [
+      "Mathematics",
+      "Critical Thinking",
+      "Reading Comprehension"
+    ]
+  },
+  "portal_dropdown_note": "Snorkel portal often omits the cash-reserves/liabilities task (Analyze data… / Ascertain…). For claims-triangle/IBNR tasks use accident-rate statistical analysis instead of probability-tables (fires/natural disasters)."
+}

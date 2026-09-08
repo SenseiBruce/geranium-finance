@@ -1,0 +1,22 @@
+holder,security_type,shares,price,investment_usd,vesting_status,notes
+Jane Okonkwo,Common,4200000,,,n/a,Co-founder CEO
+Marcus Chen,Common,3800000,,,n/a,Co-founder CTO
+Forsyth Equity,Series A Preferred,6500000,1.82,11830000,n/a,2022-04 close
+2021 Stock Plan (allocated),Options,920000,0.84,,unvested,Grant tranche A
+2021 Stock Plan (allocated),Options,530000,1.12,,unvested,Grant tranche B
+2021 Stock Plan (available),Options,0,,,pool,Counsel side letter: 12% fully diluted post-Series B target (2023)
+Vesper Growth,SAFE,0,,2500000,outstanding,"Cap $45,000,000; 20% discount to Series B price; MFN clause outstanding"
+Quorum Ventures,SAFE,0,,1750000,outstanding,"Cap $55,000,000; no discount"
+Dr. Elena Ruiz,Advisor Warrant,85000,0.01,,partial,"42,000 exercised 2024-03-11; 43,000 unexercised in FD"
+Employee exercises (YTD),Common,118400,0.84,,vested,Routine option exercises
+Board observer pool,Options,64000,1.12,,unvested,2024 director grant
+Treasury shares,Common,24000,,,n/a,Repurchase reserve
+2020 advisor grant,Options,36000,0.42,,vested,Fully vested
+2022 refresh grant,Options,212000,1.24,,unvested,Engineering retention
+Strategic partner warrant,Warrant,150000,1.48,,unexercised,LabCorp partnership
+2021 Stock Plan (reserved),Options,180000,0.96,,unvested,Sales leadership
+Employee stock purchase,Common,48200,1.06,,vested,ESPP Q3 2024
+Forsyth Equity,Series B Pro-Rata (planned),0,,10816850.51,planned,"Full pro-rata share of $28,000,000 primary per investor_brief.txt (38.6316% of FD pre)"
+Helix Biotech (FD reconciliation),Reference,10325600,,,subtotal,"Sum of Common, Options, Warrant rows above (excludes Series A and SAFEs)"
+Helix Biotech (FD reconciliation),Reference,16825600,,,subtotal,Founders/employee FD subtotal plus Series A preferred shares
+Option pool refresh (proposed),Options,0,,,pool,Term sheet requests 15% post-money; counsel model shows 12%

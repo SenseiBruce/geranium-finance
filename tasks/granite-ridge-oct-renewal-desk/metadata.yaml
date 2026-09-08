@@ -1,0 +1,36 @@
+# O*NET and platform metadata — copy to tasks/<slug>/metadata.yaml
+
+slug: granite-ridge-oct-renewal-desk
+seed_id: granite-ridge-oct-renewal-desk
+
+onet:
+  occupation: Insurance Underwriters
+  code: 13-2053.00
+  tasks:
+    - Examine documents to determine degree of risk from factors such as applicant health, financial standing and value, and condition of property.
+    - Review company records to determine amount of insurance in force on single risk or group of closely related risks.
+    - Decline excessive risks.
+  skills:
+    - Critical Thinking
+    - Reading Comprehension
+    - Mathematics
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: renewal_underwriting_review.xlsx
+  format: xlsx
+
+input_files:
+  - granite_ridge_renewal_accounts.csv
+  - granite_ridge_location_schedule.csv
+  - granite_ridge_loss_run_36mo.csv
+  - granite_ridge_routing_notes.txt
+
+sector: Finance and Insurance
+occupation: Insurance Underwriters
+occupation_code: "13-2053.00"
+difficulty_tier: core

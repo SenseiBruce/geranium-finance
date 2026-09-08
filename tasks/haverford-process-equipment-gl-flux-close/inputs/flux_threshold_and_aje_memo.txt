@@ -1,0 +1,70 @@
+Haverford Process Equipment LLC
+Corporate Accounting — Month-End Flux & Adjusting Entry Policy
+Effective for closes on or after 2026-01-01
+Applies to: Lebanon, PA plant and corporate books
+Contact: close-desk@haverford.example (internal)
+
+1. Purpose
+This memo sets the governing rules for August (and subsequent) soft closes. It tells the close desk which period-over-period movements require investigation, which support mismatches require adjusting journal entries (AJEs), how CapEx vs expense is decided, and how to label close readiness. Where plant commentary conflicts with this memo, this memo controls.
+
+2. Hierarchy
+(a) This memo and attached support schedules govern soft-close decisions.
+(b) ERP trial-balance exports are the starting point for balances, not the final answer when support differs.
+(c) Plant controller emails or "Plant_Notes" language that the TB is "clean" or that "no AJEs" are needed do not clear required investigations or AJEs under this memo.
+(d) Relationship or operations narratives may explain volume, but they do not replace threshold tests or cut-off AJEs.
+
+3. Flux investigation thresholds
+Compare Current_TB natural-balance amounts to Prior_TB for the same account.
+
+3.1 P&L accounts (Type = PL)
+Investigate and document an explanation when BOTH are true:
+- Absolute flux |August − July| is at least $15,000, AND
+- Absolute flux is at least 10% of the absolute July balance (if July is zero, the percent test is treated as met whenever the absolute test is met).
+
+3.2 Balance-sheet accounts (Type = BS)
+Investigate and document an explanation when absolute flux is at least $25,000.
+
+3.3 Documentation standard
+Each investigated account needs a short cause statement tied to JE activity notes and/or support schedule lines. "Ops said it looks fine" is not sufficient.
+
+4. Mandatory AJE categories (book even if flux is below threshold)
+Propose AJEs before soft close when any of the following appear:
+
+4.1 Voided billing still in GL
+If billing voided an invoice but the original revenue and AR postings remain in the Current_TB, reverse the remaining GL amounts in full. Billing-void status alone is not a GL reverse.
+
+4.2 Accrual true-ups to support
+When Accrued Warranty, Accrued PTO, or Accrued Freight on the TB differs from the governing support ending balance or open-item total in the support schedules file, true the TB to support. Direction: reduce or increase the liability (and the matching expense) so the TB equals support.
+
+4.3 Prepaid amortization
+Commercial package insurance is amortized straight-line over twelve months. If the Current_TB prepaid balance shows no August amortization, book the monthly amount from the prepaid support schedule (annual premium / 12).
+
+4.4 Inventory physical vs book
+If physical inventory support total is below TB inventory, write the book balance down to physical through COGS (or inventory write-down expense mapped to 5100). Do not leave the difference as "monitoring."
+
+4.5 CapEx vs maintenance
+Capitalize a maintenance ticket to PP&E (account 1600) when ALL are true:
+- Amount is at least $5,000, AND
+- Useful life is greater than one year (per ticket / engineering note).
+Routine consumables and sub-threshold work stay in Maintenance & Repairs (5600).
+If a qualifying ticket was posted to 5600, reclassify to 1600; do not leave it in P&L.
+
+5. Close readiness matrix
+Assign exactly one status:
+
+- Ready — No required AJEs under sections 4.1–4.5; all threshold flux items explained.
+- Ready with AJEs — Required AJEs are identified and proposed in the close pack; soft close may proceed once those AJEs are posted.
+- Hold close — Required AJEs cannot be quantified from available files, or a threshold flux item cannot be explained with available support.
+
+A plant "clean close" note does not, by itself, produce Ready. Presence of flux explanations alone does not force Hold close if the AJE pack is complete.
+
+6. Deliverable expectations (for the close pack workbook)
+Corporate expects a workbook that includes: material flux workpaper, proposed AJEs with accounts and amounts, reconciliation notes citing support line IDs, the close-readiness status, and a short note on hierarchy when plant commentary conflicts with this memo.
+
+7. Illustrative non-authoritative notes for August 2026
+Operations mentioned higher maintenance around CNC spindle work and a late Keystone shipment. Those narratives may inform flux wording but do not override CapEx capitalization, void-JE reverse, warranty/PTO/freight true-ups, prepaid amort, or inventory write-down rules above. Soft-close calendar target remains 2026-09-05.
+
+8. Revision
+Supersedes the February 2025 draft flux checklist. Do not use plant informal checklists that omit mandatory AJE categories.
+
+— End of memo —

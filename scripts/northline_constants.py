@@ -1,0 +1,65 @@
+"""Shared constants for Northline Industrial Holdings covenant headroom pack."""
+
+from __future__ import annotations
+
+SLUG = "northline-industrial-holdings-covenant-pack"
+ENTITY = "Northline Industrial Holdings"
+ENTITY_SHORT = "Northline"
+AS_OF = "2026-06-30"
+TTM_LABEL = "TTM ended 2026-06-30"
+
+DELIVERABLE = "covenant_headroom_northline-industrial-holdings.xlsx"
+DEBT_XLSX = "northline-industrial-holdings_debt_schedule.xlsx"
+EBITDA_CSV = "northline-industrial-holdings_ebitda_bridge.csv"
+CA_TXT = "credit_agreement_covenant_excerpts.txt"
+
+# Facility balances as of AS_OF
+TERM_LOAN_A = 42_850_000.00
+REVOLVER_DRAWN = 18_250_000.00
+REVOLVER_COMMITMENT = 35_000_000.00
+FINANCE_LEASES = 2_184_620.18
+SELLER_NOTE = 4_500_000.00  # Bolt & Die — included in Funded Debt
+INTERCOMPANY_GUARANTOR = 1_200_000.00  # excluded
+LC_UNDRAWN = 3_200_000.00  # excluded when undrawn
+DRAFT_Q1_REVOLVER = 16_400_000.00  # stale Draft_Q1 tab — do not use
+
+FUNDED_DEBT = TERM_LOAN_A + REVOLVER_DRAWN + FINANCE_LEASES + SELLER_NOTE  # 67,784,620.18
+
+CASH_INTEREST_TTM = 4_882_110.40
+
+# EBITDA bridge
+REPORTED_EBITDA = 14_228_440.25
+ADD_SBC = 412_880.40
+ADD_RESTRUCT_CLAIMED = 2_840_000.00
+ADD_RESTRUCT_CAP = 2_000_000.00
+ADD_RESTRUCT_EXCESS = ADD_RESTRUCT_CLAIMED - ADD_RESTRUCT_CAP  # 840,000
+ADD_ACQ_COSTS = 685_220.18
+ADD_SYNERGY_RUNRATE = 1_100_000.00  # disallowed
+ADD_SPONSOR_FEE_CLAIMED = 750_000.00
+ADD_SPONSOR_FEE_CAP = 500_000.00
+ADD_SPONSOR_FEE_EXCESS = ADD_SPONSOR_FEE_CLAIMED - ADD_SPONSOR_FEE_CAP  # 250,000
+ADD_INVENTORY_STEPUP = 318_450.22
+ADD_LITIGATION = 425_000.00  # ordinary-course — disallowed
+
+ADJUSTED_EBITDA = round(
+    REPORTED_EBITDA
+    + ADD_SBC
+    + ADD_RESTRUCT_CAP
+    + ADD_ACQ_COSTS
+    + ADD_SPONSOR_FEE_CAP
+    + ADD_INVENTORY_STEPUP,
+    2,
+)  # 18,144,991.05
+
+MAX_LEVERAGE = 4.50
+MIN_ICR = 2.50
+LEVERAGE = round(FUNDED_DEBT / ADJUSTED_EBITDA, 4)  # 3.7357
+ICR = round(ADJUSTED_EBITDA / CASH_INTEREST_TTM, 4)  # 3.7166
+MAX_DEBT_AT_LIMIT = round(ADJUSTED_EBITDA * MAX_LEVERAGE, 2)
+DEBT_HEADROOM = round(MAX_DEBT_AT_LIMIT - FUNDED_DEBT, 2)
+
+CAPEX_GROSS_YTD = 9_120_400.55
+CAPEX_EXCLUDED_ACQ = 1_840_000.00
+CAPEX_BASKET_USAGE = round(CAPEX_GROSS_YTD - CAPEX_EXCLUDED_ACQ, 2)  # 7,280,400.55
+CAPEX_BASKET_LIMIT = 8_500_000.00
+CAPEX_REMAINING = round(CAPEX_BASKET_LIMIT - CAPEX_BASKET_USAGE, 2)  # 1,219,599.45

@@ -1,0 +1,36 @@
+# O*NET and platform metadata — copy to tasks/<slug>/metadata.yaml
+
+slug: ashcroft-foods-claims-coverage
+seed_id: ashcroft-foods-claims-coverage
+
+onet:
+  occupation: Claims Adjusters, Examiners, and Investigators
+  code: "13-1031.00"
+  tasks:
+    - Examine claims forms and other records to determine insurance coverage.
+    - Adjust reserves or provide reserve recommendations to ensure that reserve activities are consistent with corporate policies.
+    - Verify and analyze data used in settling claims to ensure that claims are valid and that settlements are made according to company practices and procedures.
+    - Analyze information gathered by investigation and report findings and recommendations.
+  skills:
+    - Critical Thinking
+    - Reading Comprehension
+    - Active Learning
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: claim_coverage_opinion_ashcroft-foods.xlsx
+  format: xlsx
+
+input_files:
+  - ashcroft-foods_claim_file.xlsx
+  - ashcroft-foods_policy_schedule.csv
+  - coverage_investigation_memo.txt
+
+difficulty_tier: core
+sector: Finance and Insurance
+occupation: Claims Adjusters, Examiners, and Investigators
+occupation_code: "13-1031.00"

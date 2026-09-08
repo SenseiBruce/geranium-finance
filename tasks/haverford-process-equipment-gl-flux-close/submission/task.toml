@@ -1,0 +1,36 @@
+# Harbor-compatible task metadata for CodeExecutionEnvironment packaging.
+# Keep in sync with metadata.yaml / portal Section 1.
+
+schema_version = "1.0"
+
+[metadata]
+sector = "Finance and Insurance"
+occupation = "Treasurers and Controllers"
+occupation_code = "11-3031.01"
+difficulty_tier = "core"
+category = "finance"
+tags = [
+  "month-end-close",
+  "gl-flux",
+  "adjusting-entries",
+  "trial-balance",
+  "support-reconciliation",
+  "manufacturing",
+  "soft-close",
+]
+expert_time_estimate_hours = 5
+difficulty_explanation = "August soft-close GL flux pack: apply BS/P&L thresholds across ~30 accounts, derive seven mandatory AJEs from TB/JE crumbs/support (including W-04 governing warranty with disclosed $6k detail-roll exception), and assign Ready/Ready with AJEs/Hold under memo hierarchy over plant clean-close language."
+
+[agent]
+timeout_sec = 1800.0
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+allow_internet = false

@@ -1,0 +1,43 @@
+entry_id,gl_date,gl_account,gl_account_name,vendor,amount,invoice_ref,memo
+JE-9001,2025-08-14,6210,Repairs & Maintenance,Summit Roofing LLC,186420.0,SR-4419,Full roof replacement — south wing
+JE-9002,2025-05-22,6225,HVAC,ClimateWorks Mechanical,42850.0,CW-2281,Rooftop unit replacement RTU-3
+JE-9003,2025-03-18,6300,Property Insurance,Midwest Mutual,118600.0,MM-2025-PREM,Annual property insurance premium
+JE-9004,2025-06-30,6450,Marketing & Promotions,Commons Marketing Co-op,27480.0,MKT-2025-Q2,Center-wide promo and events
+JE-9005,2025-04-09,6150,Landscaping,GreenRibbon Grounds,3240.0,EXP-4482,Spring plantings — frontage
+JE-9006,2025-04-11,6150,Landscaping,GreenRibbon Grounds,3240.0,EXP-4482,Spring plantings — frontage (repost)
+JE-9100,2025-01-05,6110,Common Area Electric,Buckeye Power,16000.77,INV-5200,Contract service
+JE-9101,2025-02-06,6120,Common Water/Sewer,City of Columbus Utilities,7736.01,INV-5201,Contract service
+JE-9102,2025-03-07,6130,Trash Removal,Republic Waste,11174.81,INV-5202,Contract service
+JE-9103,2025-04-08,6140,Snow Removal,Northland Plow,7080.82,INV-5203,Contract service
+JE-9104,2025-05-09,6150,Landscaping,GreenRibbon Grounds,13685.41,INV-5204,Contract service
+JE-9105,2025-06-10,6160,Parking Lot Maintenance,Asphalt Partners OH,16161.62,INV-5205,Contract service
+JE-9106,2025-07-11,6170,Janitorial Common,Sparkle Commons,7575.27,INV-5206,Contract service
+JE-9107,2025-08-12,6180,Security Patrol,Watchline Security,10274.24,INV-5207,Contract service
+JE-9108,2025-09-13,6190,Fire Monitoring,AlertNet,8504.1,INV-5208,Contract service
+JE-9109,2025-10-14,6225,HVAC,ClimateWorks Mechanical,7946.22,INV-5209,Contract service
+JE-9110,2025-11-15,6110,Common Area Electric,Buckeye Power,8173.28,INV-5210,Contract service
+JE-9111,2025-12-16,6120,Common Water/Sewer,City of Columbus Utilities,6411.35,INV-5211,Contract service
+JE-9112,2025-01-17,6130,Trash Removal,Republic Waste,12148.16,INV-5212,Contract service
+JE-9113,2025-02-18,6140,Snow Removal,Northland Plow,8701.69,INV-5213,Contract service
+JE-9114,2025-03-19,6150,Landscaping,GreenRibbon Grounds,15640.05,INV-5214,Contract service
+JE-9115,2025-04-20,6160,Parking Lot Maintenance,Asphalt Partners OH,6426.57,INV-5215,Contract service
+JE-9116,2025-05-21,6170,Janitorial Common,Sparkle Commons,14208.6,INV-5216,Contract service
+JE-9117,2025-06-22,6180,Security Patrol,Watchline Security,13269.12,INV-5217,Contract service
+JE-9118,2025-07-23,6190,Fire Monitoring,AlertNet,15242.88,INV-5218,Contract service
+JE-9119,2025-08-24,6225,HVAC,ClimateWorks Mechanical,13791.18,INV-5219,Contract service
+JE-9120,2025-09-05,6110,Common Area Electric,Buckeye Power,12917.86,INV-5220,Contract service
+JE-9121,2025-10-06,6120,Common Water/Sewer,City of Columbus Utilities,13081.06,INV-5221,Contract service
+JE-9122,2025-11-07,6130,Trash Removal,Republic Waste,13458.87,INV-5222,Contract service
+JE-9123,2025-12-08,6140,Snow Removal,Northland Plow,13147.97,INV-5223,Contract service
+JE-9124,2025-01-09,6150,Landscaping,GreenRibbon Grounds,9848.29,INV-5224,Contract service
+JE-9125,2025-02-10,6160,Parking Lot Maintenance,Asphalt Partners OH,11162.04,INV-5225,Contract service
+JE-9126,2025-03-11,6170,Janitorial Common,Sparkle Commons,14603.19,INV-5226,Contract service
+JE-9127,2025-04-12,6180,Security Patrol,Watchline Security,11644.54,INV-5227,Contract service
+JE-9128,2025-05-13,6190,Fire Monitoring,AlertNet,12836.05,INV-5228,Contract service
+JE-9129,2025-06-14,6225,HVAC,ClimateWorks Mechanical,6983.51,INV-5229,Contract service
+JE-9130,2025-07-15,6110,Common Area Electric,Buckeye Power,8196.17,INV-5230,Contract service
+JE-9131,2025-08-16,6120,Common Water/Sewer,City of Columbus Utilities,9254.56,INV-5231,Contract service
+JE-9132,2025-09-17,6130,Trash Removal,Republic Waste,14222.81,INV-5232,Contract service
+JE-9133,2025-10-18,6140,Snow Removal,Northland Plow,16294.98,INV-5233,Contract service
+JE-9134,2025-11-19,6150,Landscaping,GreenRibbon Grounds,7124.3,INV-5234,Contract service
+JE-9135,2025-12-20,6160,Parking Lot Maintenance,Asphalt Partners OH,14511.65,INV-5235,Contract service

@@ -1,0 +1,27 @@
+row_id,policy_number,coverage_part,description,limit_amount,deductible,waiting_period_hours,form_or_endorsement,status,effective_date,notes
+PS-01,CP-OH-448291,Building,Building — Dayton warehouse,8400000,25000,0,CP 00 10,Active,2025-03-01,Replacement cost
+PS-02,CP-OH-448291,BPP,Business personal property,3250000,10000,0,CP 00 10,Active,2025-03-01,Includes stock
+PS-03,CP-OH-448291,Spoilage,Spoilage coverage — refrigeration breakdown,750000,5000.0,0,CP 04 40,Active,2025-03-01,On-premises mechanical refrigeration failure
+PS-04,CP-OH-448291,Spoilage,Spoilage deductible — SUPERSEDED mid-term row,750000,10000.0,0,CP 04 40,Superseded,2025-03-01,Replaced by endorsement revision 2025-06-15; status Superseded
+PS-05,CP-OH-448291,Exclusion,Mechanical Breakdown — equipment,0,0,0,Causes of Loss Special,Active,2025-03-01,Bars direct equipment repair/replacement
+PS-06,CP-OH-448291,Business Income,Business Income and Extra Expense,500000,0,72,CP 00 30,Active,2025-03-01,72-hour waiting period
+PS-07,CP-OH-448291,Ordinance,Ordinance or Law Coverage A,500000,25000,0,CP 04 05,Active,2025-03-01,Not implicated
+PS-08,CP-OH-448291,Debris,Debris Removal,250000,10000,0,CP 00 10,Active,2025-03-01,Not claimed
+PS-09,CP-OH-448291,Spoilage,Spoilage valuation clause,750000,5000.0,0,CP 04 40 §Valuation,Active,2025-06-15,Stock at invoice / replacement cost — not selling price
+PS-10,CP-OH-448291,Condition,Protective safeguards — refrigeration maintenance,0,0,0,IL 04 15 / schedule,Active,2025-03-01,OEM service intervals required
+PS-11,CP-OH-448291,BPP,Peak season BPP increase,400000,10000,0,CP 12 30,Active,2025-10-01,Oct–Dec; separate from spoilage sublimit
+PS-12,CP-OH-448291,Liability,Premises liability (reference only),2000000,0,0,CG 00 01,Active,2025-03-01,Not this claim
+PS-13,CP-OH-448291,Auto,Hired/non-owned auto (reference),1000000,0,0,CA 00 01,Active,2025-03-01,Not this claim
+PS-14,CP-OH-448291,Spoilage,Power / utility service interruption spoilage,100000,5000,0,CP 04 40 opt,Not purchased,2025-03-01,Off-premises utility — N/A; loss is on-prem compressor
+PS-15,CP-OH-448291,BI,Extended period of indemnity,60,0,72,CP 15 05,Active,2025-03-01,Days after operations resume; waiting period still applies first
+PS-16,CP-OH-448291,Deductible,Wind/hail deductible separate,0,50000,0,Schedule,Active,2025-03-01,Not implicated
+PS-17,CP-OH-448291,Spoilage,Spoilage sublimit aggregate,750000,5000.0,0,CP 04 40,Active,2025-06-15,Per occurrence within BPP
+PS-18,CP-OH-448291,Condition,Cooperation / proof of loss,0,0,0,Common Policy Conditions,Active,2025-03-01,Standard
+PS-19,CP-OH-448291,Endorsement,Ammonia contamination exclusion (product),0,0,0,Manuscript,Active,2025-03-01,Not triggered — no ammonia product contact
+PS-20,CP-OH-448291,Endorsement,Delayed maintenance / protective safeguards,0,0,0,IL 04 15 schedule notes,Active,2025-03-01,See coverage investigation memo for committee practice
+PS-21,CP-OH-448291,BPP,Stock declaration — frozen foods,2100000,10000,0,Statement of Values,Active,2025-03-01,Subset of BPP
+PS-22,CP-OH-448291,Building,Sign coverage,25000,1000,0,CP 14 40,Active,2025-03-01,Not claimed
+PS-23,CP-OH-448291,BI,Ordinary payroll limitation 60 days,0,0,72,CP 15 10,Active,2025-03-01,Payroll not claimed
+PS-24,CP-OH-448291,Spoilage,Spoilage — selling price NOT elected,0,0,0,CP 04 40 options,Not elected,2025-03-01,Selling price valuation rider not on policy
+PS-25,CP-OH-448291,Exclusion,Wear and tear / inherent vice,0,0,0,Causes of Loss Special,Active,2025-03-01,Background; refrigeration breakdown addressed via spoilage form
+PS-26,CP-OH-448291,Contact,Carrier claims office,0,0,0,Declarations,Active,2025-03-01,Columbus property desk

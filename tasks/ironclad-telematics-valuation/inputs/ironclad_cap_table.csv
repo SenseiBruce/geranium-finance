@@ -1,0 +1,31 @@
+holder,security_type,shares,price,investment_usd,vesting_status,notes
+Maya Desai,Common,5100000,,,issued,Co-founder and CEO
+Thomas Becker,Common,4200000,,,issued,Co-founder and CTO
+Quorum Ventures,Series Seed Preferred,4600000,2.35,10810000,issued,2021 financing
+2021 Equity Plan (available),Options,1250000,,,pool,COUNSEL NOTE: 10% available pool shown in working capitalization extract.
+Employee option tranche 1,Options,650000,1.31,,unvested,2021/2023 grant vintages
+Employee option tranche 2,Options,420000,1.48,,unvested,2021/2023 grant vintages
+Employee option tranche 3,Options,310000,1.67,,unvested,2021/2023 grant vintages
+Employee option tranche 4,Options,180000,1.81,,unvested,2021/2023 grant vintages
+Employee option tranche 5,Options,95000,2.03,,unvested,2021/2023 grant vintages
+Priya Nandakumar,Common,250000,,,issued,Exercise ledger
+James Okafor,Common,180000,,,issued,Exercise ledger
+Elena Varga,Common,145000,,,issued,Exercise ledger
+Marcus Chen,Common,125000,,,issued,Exercise ledger
+Sofia Lindqvist,Common,110000,,,issued,Exercise ledger
+Derek Alvarez,Common,95000,,,issued,Exercise ledger
+Hannah Whitfield,Common,85000,,,issued,Exercise ledger
+Rajiv Mehta,Common,70000,,,issued,Exercise ledger
+Mobility channel partner,Warrant,160000,1.40,,partially exercised,"Original 240,000; 80,000 exercised in 2024; 160,000 remain outstanding."
+Naomi Kessler,Options,75000,1.05,,vested,Board-approved advisor grant
+Victor Lang,Options,60000,1.18,,vested,Board-approved advisor grant
+Aisha Rahman,Options,55000,1.26,,vested,Board-approved advisor grant
+Peter Holtz,Options,50000,1.41,,vested,Board-approved advisor grant
+Camille Fortin,Options,45000,1.52,,vested,Board-approved advisor grant
+Owen Bristow,Options,40000,1.59,,vested,Board-approved advisor grant
+Employee stock purchase clearing,Common,50000,,,issued,Q4 clearing balance
+Octavian Capital,Convertible Note A,0,,4200000,outstanding,"$50,000,000 valuation cap; 20% discount; converts before Note B per sponsor preference."
+Vesper Growth,Convertible Note B,0,,2800000,outstanding,"$65,000,000 valuation cap; no discount."
+Quorum Ventures,Growth round pro-rata (planned),0,,,planned,Sponsor permits full pro-rata participation.
+Hartwell Partners,Growth round lead (planned),0,,,planned,Remainder of primary financing.
+Ironclad Telematics FD reconciliation,Reference,18400000,,,subtotal,"Issued, options, and outstanding warrants above; excludes notes and planned round."

@@ -1,0 +1,33 @@
+line_id,section,description,amount,addback_code,borrower_treatment,source_ref,notes
+E-001,Reported,Consolidated EBITDA per borrower pack (TTM),14228440.25,,base,Borrower_Q2_pack_p12,TTM ended 2026-06-30
+E-010,Add-back,Non-cash stock-based compensation,412880.40,SBC,include,GL-7100,ASC 718 expense
+E-011,Add-back,Dayton plant consolidation restructuring,2840000.00,RESTRUCT,include,Project_Dayton_Closeout,"Severance, lease exit, move costs — borrower includes full amount"
+E-012,Add-back,Bolt & Die transaction costs (legal/advisory),685220.18,ACQ_TXN,include,Deal_room_invoice_roll,Closed 2025-11-18 Permitted Acquisition
+E-013,Add-back,Bolt & Die run-rate cost synergies (projected),1100000.00,SYNERGY,include,Synergy_tracker_v3,Annualized savings not yet fully in P&L; management estimate
+E-014,Add-back,Sponsor management fee — Ridgepath Capital,750000.00,MGMT_FEE,include,MSA_Ridgepath,Annual fee billed monthly
+E-015,Add-back,Inventory step-up amortization (purchase accounting),318450.22,PPA_NCI,include,Purchase_acct_memo,Non-cash; Bolt & Die opening balance sheet
+E-016,Add-back,Customer warranty dispute settlement,425000.00,LIT,include,Legal_reserve_Q2,Borrower codes as extraordinary litigation add-back
+E-101,Support,SBC — options tranche A,188220.18,SBC,detail,Equity_comp_roll,Rolls into E-010
+E-102,Support,SBC — RSUs tranche B,224660.22,SBC,detail,Equity_comp_roll,Rolls into E-010
+E-110,Support,Restructuring — severance,1420000.00,RESTRUCT,detail,HR_severance_file,Part of E-011
+E-111,Support,Restructuring — lease exit Dayton Bldg 2,680000.00,RESTRUCT,detail,Lease_exit_calc,Part of E-011
+E-112,Support,Restructuring — equipment move / dual-run,740000.00,RESTRUCT,detail,Ops_dual_run,Part of E-011
+E-120,Support,Acq costs — outside counsel,312440.18,ACQ_TXN,detail,Inv_Baker_legal,Part of E-012
+E-122,Support,Acq costs — success fee remainder,124560.00,ACQ_TXN,detail,Banker_fee_sched,Part of E-012
+E-122,Support,Acq costs — success fee remainder,124560.00,ACQ_TXN,detail,Banker_fee_sched,Part of E-012
+E-130,Support,Synergy — purchasing consolidation (est.),480000.00,SYNERGY,detail,Synergy_tracker_v3,Not booked
+E-131,Support,Synergy — headcount overlap (est.),420000.00,SYNERGY,detail,Synergy_tracker_v3,Not booked
+E-132,Support,Synergy — freight lane overlap (est.),200000.00,SYNERGY,detail,Synergy_tracker_v3,Not booked
+E-140,Support,Mgmt fee — Jul–Dec 2025,375000.00,MGMT_FEE,detail,MSA_Ridgepath,Part of E-014
+E-141,Support,Mgmt fee — Jan–Jun 2026,375000.00,MGMT_FEE,detail,MSA_Ridgepath,Part of E-014
+E-150,Support,PPA inventory step-up amort monthly avg,53075.04,PPA_NCI,detail,Purchase_acct_memo,x6 months in TTM window post-close
+E-160,Support,Warranty settlement — OEM customer Atlas Forge,425000.00,LIT,detail,Legal_reserve_Q2,Recurring product line dispute pattern 2023–2026
+E-200,Memo,Borrower claimed Adjusted EBITDA (sum of includes),,CLAIMED_TOTAL,memo,Borrower_Q2_pack_p14,Do not treat as lender figure
+E-201,Memo,Prior quarter lender-adjusted EBITDA (Q1 certificate),17640220.18,HIST,memo,Bank_Q1_cert,Reference only; not governing for Q2
+E-202,Memo,Board-approved restructuring plan date,0.00,RESTRUCT,memo,Board_minutes_2025-10-12,Plan dated; amount still subject to CA cap
+E-203,Memo,Void duplicate add-back row (cancelled),0.00,VOID,exclude,AP_void_log,Duplicate of E-011 portion — already zeroed
+E-300,Context,Net sales TTM (context),96440220.18,,context,Borrower_IS_TTM,Not an add-back; contextual only
+E-301,Context,COGS TTM (context),-68220440.55,,context,Borrower_IS_TTM,Not an add-back; contextual only
+E-302,Context,SG&A TTM before add-backs (context),-12840880.40,,context,Borrower_IS_TTM,Not an add-back; contextual only
+E-303,Context,D&A TTM already in EBITDA bridge start (context),4880220.18,,context,Borrower_IS_TTM,Not an add-back; contextual only
+E-304,Context,Other income/(expense) net (context),-1030679.16,,context,Borrower_IS_TTM,Not an add-back; contextual only

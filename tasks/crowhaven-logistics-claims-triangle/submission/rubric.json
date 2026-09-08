@@ -1,0 +1,221 @@
+{
+  "criteria": [
+    {
+      "id": "deliverable_filename",
+      "text": "The final deliverable is an Excel workbook named claims_reserve_opinion_crowhaven-logistics.xlsx.",
+      "weight": 1,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "section_case_inventory",
+      "text": "The workbook includes a cleaned open-claim inventory applying the memo closed-claim, duplicate latest-as-of, and VOID exclusion rules; equivalent section labels are acceptable.",
+      "weight": 1,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "section_ay_development",
+      "text": "The workbook includes accident-year paid development applying the memo governing paid LDFs to the triangle diagonal; equivalent section labels are acceptable.",
+      "weight": 1,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "section_reserve_summary",
+      "text": "The workbook includes a reserve opinion summary separately reporting cleaned case reserves of approximately $460,089.00, pure IBNR of approximately $94,892.67, and total reserve opinion of approximately $554,981.67; equivalent section labels are acceptable.",
+      "weight": 1,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "section_uw_recommendation",
+      "text": "The workbook includes an underwriting Quote/Refer/Decline recommendation section with a visible disposition; equivalent section labels are acceptable.",
+      "weight": 1,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "section_executive_explanation",
+      "text": "The workbook explains the indicated ultimate loss ratio relative to the actuarial_factor_memo.txt referral threshold for executives and underwriters; equivalent section labels are acceptable.",
+      "weight": 1,
+      "type": "subjective",
+      "category": "documentation"
+    },
+    {
+      "id": "governing_ldf_12",
+      "text": "Accident year 2025 paid development uses the governing 12-month paid LDF of 1.82 from actuarial_factor_memo.txt.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "governing_ldf_24",
+      "text": "Accident year 2024 paid development uses the governing 24-month paid LDF of 1.41 from actuarial_factor_memo.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "governing_ldf_36",
+      "text": "Accident year 2023 paid development uses the governing 36-month paid LDF of 1.18 from actuarial_factor_memo.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "governing_ldf_48",
+      "text": "Accident year 2022 paid development uses the governing 48-month paid LDF of 1.06 from actuarial_factor_memo.txt.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "memo_over_definitions",
+      "text": "The workbook uses the year-end governing paid LDFs from actuarial_factor_memo.txt rather than the mid-year DRAFT LDFs on the triangle Definitions sheet.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "closed_claim_removed",
+      "text": "CLM-AUTO-2024-0908 is excluded from cleaned case reserves based on the TPA note that the file closed after the 2025-12-12 final payment.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "void_ignored",
+      "text": "CLM-AUTO-2024-0000 with VOID status and a $99,999 case is excluded from cleaned case reserves.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "duplicate_latest_asof",
+      "text": "For duplicate claim CLM-GL-2025-0144, cleaned case uses the 2025-12-28 as-of amount of $19,850.55 rather than the 2025-11-30 preliminary $22,400.00.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "cleaned_case_total",
+      "text": "Cleaned case reserves after closed-claim, VOID, and duplicate rules total approximately $460,089.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "large_loss_paid_carved",
+      "text": "Accident year 2023 attritional paid excludes CLM-AUTO-2023-4412 paid of $185,220.40 before applying the 36-month LDF.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "large_loss_case_held",
+      "text": "CLM-AUTO-2023-4412 case of $142,880.40 is retained in cleaned case reserves.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "large_loss_no_triangle_ibnr",
+      "text": "The workbook does not generate pure IBNR on the carved-out CLM-AUTO-2023-4412 paid dollars; large-loss indicated ultimate equals paid plus case for that claim.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "ay2023_attritional_ultimate",
+      "text": "Accident year 2023 attritional indicated ultimate is approximately $522,963.99.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "ay2024_ultimate",
+      "text": "Accident year 2024 indicated ultimate is approximately $551,620.45.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "ay2025_ultimate",
+      "text": "Accident year 2025 indicated ultimate is approximately $270,525.80.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "pure_ibnr_definition",
+      "text": "Pure IBNR by accident year equals max(0, attritional ultimate minus attritional paid minus attritional cleaned case), so case is not double-counted inside IBNR.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "pure_ibnr_total",
+      "text": "Total pure IBNR across accident years is approximately $94,892.67.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "total_reserve_opinion",
+      "text": "Total reserve opinion (cleaned case plus pure IBNR) is approximately $554,981.67.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "indicated_ultimate_total",
+      "text": "Total indicated ultimate losses are approximately $2,110,822.02.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "earned_premium_basis",
+      "text": "Indicated ultimate loss ratio uses subject earned premium of $2,850,220.40 from actuarial_factor_memo.txt.",
+      "weight": 1,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "indicated_lr",
+      "text": "Indicated ultimate loss ratio is approximately 74.06%.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "recommendation_refer",
+      "text": "The workbook recommends Refer and supports that decision with the calculated 74.06% indicated ultimate loss ratio and the memo thresholds of 68.5% for referral and 85.0% for decline.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "judgment"
+    },
+    {
+      "id": "live_formulas",
+      "text": "Accident-year development uses live spreadsheet formulas for attritional paid, ultimate, pure IBNR, and totals rather than only hard-coded results.",
+      "weight": 1,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "neg_quote_despite_refer_lr",
+      "text": "The workbook recommends Quote at standard authority, or instructs underwriting to bind or renew Crowhaven at expiring terms with no regional referral, despite an indicated ultimate loss ratio above the 68.5% refer threshold in actuarial_factor_memo.txt.",
+      "weight": -5,
+      "type": "negative",
+      "category": "judgment"
+    },
+    {
+      "id": "neg_decline_in_refer_band",
+      "text": "The workbook recommends Decline for the 2026-03-01 Crowhaven renewal despite an indicated ultimate loss ratio below the 85.0% decline threshold in actuarial_factor_memo.txt.",
+      "weight": -5,
+      "type": "negative",
+      "category": "judgment"
+    }
+  ]
+}

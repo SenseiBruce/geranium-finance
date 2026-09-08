@@ -1,0 +1,25 @@
+transaction_id,brand,transaction_date,description,amount,currency,status
+HM-1001,Beacon Media,2025-01-08,Streaming licensing - Q1 advance,98234.17,USD,posted
+HM-1002,Beacon Media,2025-01-19,Ad network true-up,41208.44,USD,posted
+HM-1003,Beacon Media,2025-02-03,Podcast syndication,31877.62,USD,posted
+HM-1004,Beacon Media,2025-02-14,Platform rev share,88765.33,USD,posted
+HM-1005,Beacon Media,2025-02-27,Live event replay rights,22441.09,USD,posted
+HM-1006,Beacon Media,2025-03-06,Affiliate commission reversal,-4120.55,USD,void
+HM-1007,Beacon Media,2025-03-11,Merchandise licensing,55204.18,USD,posted
+HM-1008,Beacon Media,2025-03-18,Archive content sublicense,67955.73,USD,posted
+HM-1009,Beacon Media,2025-03-25,Quarter close adjustment,0.00,USD,cancelled
+HM-1010,Beacon Media,2025-03-29,Social clip package,34879.45,USD,posted
+HM-2001,Cascade Creative,2025-01-12,Design retainer - January,148322.41,CAD,posted
+HM-2002,Cascade Creative,2025-01-26,Motion graphics bundle,97218.66,CAD,posted
+HM-2003,Cascade Creative,2025-02-08,Brand refresh milestone,183044.92,CAD,posted
+HM-2004,Cascade Creative,2025-02-21,Agency pass-through,62417.88,CAD,posted
+HM-2005,Cascade Creative,2025-03-04,Interactive prototype,81209.37,CAD,posted
+HM-2006,Cascade Creative,2025-03-15,Print adaptation kit,39629.03,CAD,posted
+HM-3001,Lattice Digital,2025-01-17,SaaS onboarding - pre-close,84211.44,USD,posted
+HM-3002,Lattice Digital,2025-01-29,Annual support prepayment,119044.88,USD,posted
+HM-3003,Lattice Digital,2025-02-04,Post-close platform fees,286412.55,USD,posted
+HM-3004,Lattice Digital,2025-02-19,Implementation services,198377.21,USD,posted
+HM-3005,Lattice Digital,2025-03-03,Usage overage true-up,174233.67,USD,posted
+HM-3006,Lattice Digital,2025-03-20,Partner referral share,201347.90,USD,posted
+HM-3007,Lattice Digital,2025-04-02,April prepayment,-0.01,USD,out_of_period
+HM-4001,Beacon Media,2024-12-28,Prior-year catch-up,52000.00,USD,posted

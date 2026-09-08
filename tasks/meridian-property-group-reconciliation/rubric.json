@@ -1,0 +1,179 @@
+{
+  "criteria": [
+    {
+      "id": "deliverable_filename",
+      "text": "The final deliverable is an Excel workbook named cam_trueup_meridian_commons.xlsx.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "workbook_structure",
+      "text": "The workbook includes an eligible expense pool, tenant true-up allocation, exceptions, and a controller recommendation; equivalent section labels are acceptable.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "structure"
+    },
+    {
+      "id": "eligible_cam_pool",
+      "text": "The expense pool reports eligible shared CAM of approximately $412,680 after exclusions.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "roof_capital_excluded",
+      "text": "The expense pool excludes the $186,420 roof replacement coded to repairs and maintenance.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "hvac_capital_excluded",
+      "text": "The expense pool excludes the $42,850 HVAC unit replacement from CAM-eligible costs.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "insurance_excluded",
+      "text": "The expense pool excludes the $118,600 property insurance premium from CAM.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "duplicate_exp4482",
+      "text": "The expense pool counts invoice EXP-4482 landscaping once and excludes the duplicate repost.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "marketing_pool_exclusion",
+      "text": "Shared CAM excludes the $27,480 marketing spend from the common pool per tenant_lease_abstracts.xlsx.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "outfitters_marketing_addon",
+      "text": "Meridian Outfitters CAM charge includes a marketing add-on equal to its pro-rata share of the $27,480 marketing spend.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "ridgeway_cap",
+      "text": "Ridgeway Dental CAM charged amount is capped at approximately $13,774 ($4.85 per SF on 2,840 SF).",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "contour_expansion",
+      "text": "Contour Fitness allocation uses 18.2% for the first half of 2025 and 27.1% for the second half per tenant_lease_abstracts.xlsx.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "contour_trueup",
+      "text": "Contour Fitness true-up is an additional bill of approximately $25,913.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "harbor_credit",
+      "text": "Harbor Coffee Co true-up is a credit of approximately $1,107.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "outfitters_trueup",
+      "text": "Meridian Outfitters true-up is an additional bill of approximately $25,557.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "lakeside_credit",
+      "text": "Lakeside Books true-up is a credit of approximately $1,405.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "net_trueup",
+      "text": "Net additional CAM billings across tenants total approximately $48,958.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "vacancy_absorption",
+      "text": "Vacancy suite T-122 cost is absorbed by Meridian Outfitters and Contour Fitness per their tenants_absorb clauses, while Harbor, Ridgeway, and Lakeside are not grossed up.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "prior_billing_source",
+      "text": "Tenant true-up compares charged CAM to prior estimated billings from prior_cam_billing_register.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "exceptions_documented",
+      "text": "The exceptions section documents capital exclusions, the EXP-4482 duplicate, Ridgeway cap, Contour expansion, and vacancy absorption with source citations.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "pool_sumif_formula",
+      "text": "Eligible CAM pool total uses a formula over the classified expense lines rather than a hard-coded number alone.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "recommendation_invoices",
+      "text": "The recommendation states which tenants receive additional CAM invoices versus credits after the true-up.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "bill_roof_as_cam",
+      "text": "The Recommendation instructs Controllers to bill tenants for the $186,420 roof replacement as CAM.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "contour_full_year_old_share",
+      "text": "The Tenant True-up allocates Contour Fitness at 18.2% for the full year despite the July expansion in tenant_lease_abstracts.xlsx.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "ignore_ridgeway_cap",
+      "text": "The Tenant True-up charges Ridgeway Dental above the $4.85 per SF CAM cap without applying the lease cap.",
+      "weight": -4,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "include_insurance_in_pool",
+      "text": "The Expense Pool includes the $118,600 property insurance premium in eligible shared CAM.",
+      "weight": -3,
+      "type": "negative",
+      "category": "negative"
+    }
+  ]
+}

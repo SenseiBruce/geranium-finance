@@ -1,0 +1,36 @@
+{
+  "code": "13-2053.00",
+  "occupation": "Insurance Underwriters",
+  "task_choose_url": "https://www.onetonline.org/search/task/choose/13-2053.00",
+  "details_url": "https://www.onetonline.org/link/details/13-2053.00",
+  "tasks": [
+    "Examine documents to determine degree of risk from factors such as applicant health, financial standing and value, and condition of property.",
+    "Decline excessive risks.",
+    "Write to field representatives, medical personnel, or others to obtain further information, quote rates, or explain company underwriting policies.",
+    "Evaluate possibility of losses due to catastrophe or excessive insurance.",
+    "Review company records to determine amount of insurance in force on single risk or group of closely related risks.",
+    "Decrease value of policy when risk is substandard and specify applicable endorsements or apply rating to ensure safe, profitable distribution of risks, using reference materials.",
+    "Authorize reinsurance of policy when risk is high."
+  ],
+  "essential_skills": [
+    "Active Listening",
+    "Critical Thinking",
+    "Reading Comprehension",
+    "Speaking",
+    "Active Learning",
+    "Mathematics"
+  ],
+  "suggested_portal": {
+    "tasks": [
+      "Examine documents to determine degree of risk from factors such as applicant health, financial standing and value, and condition of property.",
+      "Review company records to determine amount of insurance in force on single risk or group of closely related risks.",
+      "Decline excessive risks."
+    ],
+    "skills": [
+      "Critical Thinking",
+      "Reading Comprehension",
+      "Active Learning"
+    ]
+  },
+  "portal_dropdown_note": "Portal Essential Skills for 13-2053.00 may omit Mathematics even though O*NET lists it; prefer Critical Thinking, Reading Comprehension, Active Learning."
+}

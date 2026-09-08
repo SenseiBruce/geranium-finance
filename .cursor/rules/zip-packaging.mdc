@@ -1,0 +1,65 @@
+---
+description: Always rebuild fresh platform zips; archive superseded copies per task
+alwaysApply: true
+---
+
+# Zip packaging discipline
+
+## Always rebuild — never reuse stale zips
+
+Whenever inputs or golden change, **before any platform upload or resubmit**, or after portal feedback fixes:
+
+1. **Rebuild** `inputs.zip` and/or `golden.zip` from `inputs/` and `golden/` source folders.
+2. **Archive** the previous zip(s) before replacing them.
+3. **Sync** `submission/` from the freshly built zips (not hand-copied old files).
+
+**Resubmit rule:** After any edit to inputs, golden, prompt, or rubric, run repackage before uploading again. Never re-upload zips with an old modified date.
+
+**Entity rename rule:** One rename must update inputs + golden + prompt + rubric together. Portal paste = find/replace delta only. Partial sync causes oracle ~0.66 and safety/alignment audits.
+
+**Float rule:** Cached formula values in golden xlsx must be rounded to cents (`round(x, 2)`) before packaging — IEEE tails fail LLM Generated Files.
+
+Use the repo tooling — do not manually zip in Finder.
+
+```bash
+cd ~/Projects/geranium-finance && .venv/bin/python scripts/gf.py repackage <slug>
+```
+
+Or lower-level:
+
+```bash
+cd ~/Projects/geranium-finance && .venv/bin/python scripts/package_zips.py tasks/<slug> --all --sync-submission
+```
+
+Or let gates do it:
+
+- `gf gate 2b <slug>` — rebuilds `inputs.zip` (archives prior)
+- `gf gate 4 <slug>` — rebuilds `golden.zip` (archives prior)
+- `gf gate 6 <slug> --package` — rebuilds **both** zips, validates, syncs `submission/`
+- **`gf repackage <slug>`** — rebuild both zips + sync `submission/` (use before every resubmit)
+
+## Archive layout (per task)
+
+```
+tasks/<slug>/
+  inputs.zip              ← latest (upload this after gate 6)
+  golden.zip
+  archives/zips/
+    20260901-223045/
+      inputs.zip          ← superseded copy
+    20260901-234512/
+      inputs.zip
+      golden.zip
+  submission/             ← portal-ready mirror of latest artifacts
+```
+
+Old zips live only under `archives/zips/<timestamp>/`. Never commit two tasks’ zips to the same folder.
+
+## Agent checklist
+
+After editing `inputs/`, `golden/`, `prompt.txt`, or `rubric.json`:
+
+- [ ] Run the matching `package_zips.py` or `gf gate` step
+- [ ] Confirm `inputs.zip` / `golden.zip` mtime updated
+- [ ] For submit: use `submission/` populated by `gf gate 6 <slug> --package`
+- [ ] Do not upload zips from a different task slug (e.g. harborview vs sawtooth)

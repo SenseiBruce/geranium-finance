@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "description": "Decision-structure skeletons for Geranium batch uniqueness. Portal Uniqueness fails when two tasks share a skeleton even with different nouns. Map every scaffold to exactly one skeleton; reuse of a skeleton is a hard gate error.",
+  "skeletons": {
+    "fx_acquisition_consolidation": {
+      "label": "Multi-entity FX + mid-period acquisition consolidation",
+      "decision_shape": "ledger rebuild + FX conversion + acquisition proration → consolidated totals + controller notes",
+      "scaffolds": ["multi_entity_consolidation_with_fx_and_acquisition"]
+    },
+    "renewal_path_routing": {
+      "label": "Insurance renewal desk Quote/Refer/Decline routing",
+      "decision_shape": "account vs location/loss conflicts → underwriting path decision workbook",
+      "scaffolds": ["renewal_desk_multi_file_routing"]
+    },
+    "live_formula_valuation": {
+      "label": "Live-formula valuation / cap-table model",
+      "decision_shape": "cohort + cap table + brief conflicts → formula model + sensitivity + notes",
+      "scaffolds": [
+        "live_formula_valuation_model",
+        "growth_equity_fleet_note_stack_valuation"
+      ]
+    },
+    "trueup_reconcile": {
+      "label": "Rebuild eligible amounts vs prior billings → true-up settlement",
+      "decision_shape": "rebuild pool/premium from source → apply governing rules → compare to billed/deposit → settle",
+      "scaffolds": [
+        "cam_annual_trueup_reconciliation",
+        "wc_premium_audit_payroll_reconciliation"
+      ],
+      "blocked_reason": "Portal Uniqueness FAIL (Pelliston attempt 1 vs Meridian). Do not add another true-up scaffold."
+    },
+    "si_reserve_rollforward": {
+      "label": "Self-insured reserve: case + IBNR + retention + rollforward",
+      "decision_shape": "case inventory + retention/excess + AY IBNR factors → liability rollforward + booking rec",
+      "scaffolds": ["self_insured_wc_reserve_rollforward"]
+    },
+    "covenant_headroom_pack": {
+      "label": "Credit / loan covenant headroom and exception pack",
+      "decision_shape": "debt schedule + EBITDA bridge + covenant defs → headroom workbook + exception memo",
+      "scaffolds": ["covenant_headroom_credit_pack"],
+      "blocked_reason": "Portal Uniqueness FAIL (Northline attempt 1). Do not add another lender re-test of borrower covenant certificate scaffold."
+    },
+    "intercompany_settlement": {
+      "label": "Intercompany balance settlement with FX and cut-off",
+      "decision_shape": "AR/AP mirrors + FX + cut-off disputes → settlement worksheet + netting recommendation",
+      "scaffolds": ["intercompany_fx_cutoff_settlement"]
+    },
+    "claims_reserve_triangle": {
+      "label": "Insured/claims-side triangle + case vs IBNR (non-SI program)",
+      "decision_shape": "loss triangle + open inventory + actuarial factors → reserve opinion (distinct from SI retention corridor)",
+      "scaffolds": ["claims_triangle_case_ibnr_opinion"]
+    },
+    "claims_coverage_determination": {
+      "label": "Single-claim coverage determination + case reserve",
+      "decision_shape": "policy/endorsements + loss notice + investigation notes → coverage decision + case reserve (not portfolio triangle/IBNR, not SI rollforward)",
+      "scaffolds": ["single_claim_coverage_reserve_opinion"]
+    },
+    "commercial_loan_underwriting": {
+      "label": "Commercial loan Approve / Conditional / Decline underwriting pack",
+      "decision_shape": "borrower financials + collateral/appraisal + credit policy → path decision + exception documentation (new facility request, not existing-facility covenant retest)",
+      "scaffolds": ["commercial_loan_credit_decision_pack"]
+    },
+    "gl_flux_close_pack": {
+      "label": "Month-end GL flux analysis + adjusting entry close pack",
+      "decision_shape": "current vs prior TB + support schedules + materiality/threshold rules → material flux explanations + proposed AJEs + close readiness (not consolidation, not IC settlement, not billed true-up)",
+      "scaffolds": ["month_end_gl_flux_aje_close_pack"]
+    }
+  },
+  "available_for_new_tasks": [],
+  "notes": [
+    "valuation / consolidation / renewal already have 2 tasks — prefer a FREE skeleton from available_for_new_tasks.",
+    "trueup_reconcile is CLOSED after Pelliston Uniqueness FAIL.",
+    "covenant_headroom_pack is CLOSED after Northline Uniqueness FAIL vs existing portal covenant work.",
+    "commercial_loan_underwriting is IN USE (whitaker).",
+    "gl_flux_close_pack is IN USE (haverford) — Treasurers and Controllers (11-3031.01); Accountants 13-2011.00 is NOT Finance & Insurance sector-valid.",
+    "When inventing a scaffold, add its name under the chosen skeleton in this file BEFORE gf seed register."
+  ]
+}

@@ -1,0 +1,54 @@
+HELIX BIOTECH — SERIES B DILIGENCE BRIEF (DRAFT)
+Prepared for board finance committee review
+Date: November 14, 2024
+Lead investor draft: Octavian Capital
+
+Executive summary
+Octavian Capital is prepared to lead a $28,000,000 primary Series B at a $112,000,000 pre-money valuation, subject to model sign-off and final docs. Helix sells lab-informatics subscriptions to hospital networks and regional reference labs. Expansion within installed cohorts has held up; management still thinks $60M+ ARR is reachable inside 24 months if the Apex Diagnostics renewal closes on schedule.
+
+Transaction terms (indicative)
+- Primary proceeds: $28,000,000 (total new primary; includes Forsyth Equity pro-rata)
+- Pre-money valuation: $112,000,000
+- Post-money valuation (before option pool refresh mechanics): $140,000,000
+- Target post-money option pool: 15% (refresh from current allocated pool)
+- Forsyth Equity pro-rata primary allocation: $10,816,850.51 (38.6316% of FD pre-money)
+- Octavian Capital lead primary allocation: $17,183,149.49 (remainder of primary)
+- Board seat: Octavian Capital designated director at close
+
+Pre-money FD share count (from cap_table.csv)
+- Founders, employees, options, and warrants (excluding Series A): 10,325,600 shares
+- Forsyth Equity Series A preferred: 6,500,000 shares
+- Total FD pre-money: 16,825,600 shares
+
+ARR and growth
+Management quotes a November run-rate of $42,100,000 including one pending enterprise renewal. Finance's cohort export runs lower once calendar quarters are normalized. We think the gap is mostly timing on Apex Diagnostics plus a duplicate expansion row in the FY2023-Q2 export.
+
+Footnote 1 (modeling convention): For valuation modeling purposes, exclude the Apex Diagnostics enterprise renewal ($2,252,680 ARR) until contract execution. Use normalized calendar-quarter cohort totals for TTM ARR rather than the headline run-rate figure above.
+
+Footnote 2 (fiscal labels): cohort_summary.xlsx uses fiscal quarter labels on Cohort Detail. Map to calendar_quarter before computing trailing growth or net retention.
+
+Footnote 3 (DCF inputs): Build a five-year explicit free-cash-flow forecast using 22% FCF margin on ARR, revenue growth of 28% / 24% / 20% / 16% / 14% in years 1–5, WACC 14%–16%, and 3.0% terminal growth. The DCF is a cross-check only. Apply the 5.5x–7.0x underwriting range to year-1 NTM revenue from that forecast (built off normalized TTM ARR); reserve the 5.0x downside multiple for normalized TTM ARR.
+
+Comparable public diagnostics / informatics multiples (EV / NTM revenue)
+- Peer set median: 6.1x
+- Underwriting range: 5.5x to 7.0x NTM revenue
+- Downside case multiple: 5.0x on normalized TTM ARR
+
+Capitalization notes
+Two outstanding SAFE instruments convert into the Series B:
+1) Vesper Growth — $2,500,000 invested; valuation cap $45,000,000 with 20% discount to Series B price (MFN clause noted on cap_table.csv)
+2) Quorum Ventures — $1,750,000 invested; valuation cap $55,000,000 with no discount
+
+Counsel's cap-table extract still shows a 12% post-money pool side letter. The term sheet requires a 15% post-money pool refresh at closing. Model both references and document board-approved treatment.
+
+Outstanding diligence items
+- Confirm duplicate expansion line on FY2023-Q2 / 2023-Q4 cohort export
+- Reconcile fiscal vs calendar quarter labels before publishing net retention
+- Verify warrant exercise log matches cap_table.csv partial exercise on advisor tranche
+- Confirm SAFE conversion order does not change Forsyth Equity pro-rata allocation
+- Document treatment of Vesper Growth MFN clause relative to Series B price
+
+Requested deliverable for Monday board call
+Finance should circulate one Excel valuation workbook that ties cohort retention math to a forward revenue view, shows fully diluted ownership after the proposed primary and SAFE conversions, documents ARR bridge decisions, cross-checks valuation using revenue-multiple and DCF ranges, and includes sensitivity on growth and net retention. No PDF cap-table screenshots.
+
+Confidential — Helix Biotech board materials only.

@@ -1,0 +1,10 @@
+{
+  "tasks_submitted": 0,
+  "tasks_accepted": 0,
+  "tasks_needs_revision": 0,
+  "tasks_ready_local": 1,
+  "auto_eval_pass_rates": {},
+  "average_rubric_criteria": 18,
+  "average_negative_weight_pct": 25,
+  "batch_strip_test_passes": 1
+}

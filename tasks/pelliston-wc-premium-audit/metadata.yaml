@@ -1,0 +1,30 @@
+slug: pelliston-wc-premium-audit
+seed_id: pelliston-wc-premium-audit
+
+onet:
+  occupation: Treasurers and Controllers
+  code: 11-3031.01
+  tasks:
+    - Handle all aspects of employee insurance, benefits, and casualty programs, including monitoring changes in health insurance regulations and creating budgets for benefits and worker's compensation.
+    - Conduct or coordinate audits of company accounts and financial transactions to ensure compliance with state and federal requirements and statutes.
+    - Analyze the financial details of past, present, and expected operations to identify development opportunities and areas where improvement is needed.
+  skills:
+    - Mathematics
+    - Critical Thinking
+    - Reading Comprehension
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: self_insured_wc_reserve_pelliston.xlsx
+  format: xlsx
+
+input_files:
+  - pelliston_claims_payment_ledger.csv
+  - pelliston_open_claims_triangle.xlsx
+  - actuarial_funding_memo.txt
+
+sector: Finance and Insurance

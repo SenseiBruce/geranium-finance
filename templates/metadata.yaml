@@ -1,0 +1,26 @@
+# O*NET and platform metadata — copy to tasks/<slug>/metadata.yaml
+
+slug: ""
+seed_id: ""
+
+onet:
+  occupation: ""
+  code: ""
+  tasks:
+    - ""
+  skills:
+    - ""
+
+platform:
+  multimodal: false          # true only if images/audio/video alongside text
+  web_search_allowed: false  # true only if task requires external research
+  time_estimate_hours: 5     # minimum 3; aim 5+
+
+deliverable:
+  filename: ""
+  format: ""                 # xlsx, docx, pptx, pdf
+
+input_files:
+  - ""
+
+sector: Finance and Insurance

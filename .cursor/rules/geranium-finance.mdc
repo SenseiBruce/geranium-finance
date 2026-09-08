@@ -1,0 +1,91 @@
+---
+description: Geranium Finance task authoring pipeline rules
+alwaysApply: true
+---
+
+# Geranium Finance Workflow
+
+You are authoring Project Geranium tasks for Finance & Insurance.
+
+## Chat-first orchestration
+
+The user triggers everything from this chat. **You run the commands** — they should not need the terminal.
+
+Always use the repo venv Python:
+
+```bash
+cd ~/Projects/geranium-finance && .venv/bin/python scripts/gf.py <command>
+```
+
+Full command reference: [`docs/chat-commands.md`](docs/chat-commands.md)
+
+### Chat triggers → actions
+
+| User says | You do |
+|-----------|--------|
+| `/gf status` or "show pipeline" | `gf status` or `gf status <slug>` |
+| `/new task …` or "new task for …" | `gf new --archetype <pick> --entity "…"` then fill `task-spec.md` |
+| `/generate seed …` or "suggest seed …" | `gf seed suggest --archetype … --register` |
+| "what's next for \<slug\>" | `gf next <slug>`, then execute that step |
+| "run step 2a/2b/3/4/5/6 for \<slug\>" | Do step work per `prompts/step*.md`, then `gf gate <step> <slug>` |
+| "validate \<slug\>" / "package for submit" | `gf validate <slug> --strict --package` or `gf gate 6 <slug> --package` |
+| "preflight \<slug\>" / "ready to upload \<slug\>" | `gf preflight <slug>` — **run before every upload/resubmit** |
+| "portal-drift \<slug\>" | `gf portal-drift <slug>` — entity sync card before paste |
+| "skeleton status" | `gf skeleton status` — FREE / IN USE / CLOSED decision shapes |
+| "repackage \<slug\>" / "resubmit \<slug\>" | `gf repackage <slug>` (always before portal re-upload) |
+| "portal for \<slug\>" / "portal form" | `gf portal <slug>` — Section 1 `portal-submission.md`; **paste the pack in chat** |
+| "portal2 for \<slug\>" / "section 2 form" | `gf portal2 <slug>` — Section 2 golden + rubric `portal-section2.md`; **paste criteria in chat** |
+| autopilot through last step / ready to upload | Finish gates, then follow `prompts/step7-submit.md` — dump zip paths + Section 1/2 paste blocks in chat |
+| "onet for \<slug\>" / "onet dropdown" | `gf onet <slug>` — exact portal task/skill strings from cache |
+| "consistency check \<slug\>" | `package_consistency_check.py` — entity drift, float artifacts, stale zips |
+
+Archetypes for `gf new`: `consolidation`, `renewal_desk`, `valuation`, `covenant_pack`, `intercompany`, `claims_triangle`  
+(`reconciliation` is CLOSED — true-up skeleton). Bare `/new` → `gf new --auto`.
+
+### Step execution pattern
+
+1. Read `gf next <slug>` to see current step
+2. Read the matching file in `prompts/step*.md`
+3. Create or edit artifacts for that step only
+4. Run `gf gate <step> <slug>` (add `--confirm-audit` for step 5 after completing `golden-rubric-evidence.md`)
+5. Report pass/fail and what's next
+
+## Pipeline discipline
+
+- Prefer one step per user request unless they say "run through step X"
+- Step 2a output is only `task-spec.md`. Step 2b reads only the spec.
+- Do not skip `gf gate` before writing `.stepN-complete` markers
+
+## Before every portal upload
+
+```bash
+cd ~/Projects/geranium-finance && .venv/bin/python scripts/gf.py preflight <slug>
+```
+
+Rebuilds both zips, runs drift checks (entity rename, float artifacts, stale zips, tab grounding), refreshes both portal forms. Upload only from `tasks/<slug>/submission/`.
+
+**Rename discipline:** an entity rename must land in constants + inputs + golden + prompt + rubric in one turn. On the portal, apply a **find/replace delta** — never wipe and re-enter every criterion.
+
+## Zip packaging (always fresh)
+
+- **Never** hand-edit or reuse stale `inputs.zip` / `golden.zip` without repackaging.
+- `gf gate 2b` / `gf gate 4` rebuild zips and archive prior copies under `tasks/<slug>/archives/zips/<timestamp>/`.
+- `gf gate 6 <slug> --package` rebuilds **both** zips, validates, then syncs `submission/`.
+- **`gf repackage <slug>`** — run before **every** portal resubmit (rebuilds zips, archives old, syncs `submission/`).
+- Upload from `tasks/<slug>/submission/` only after repackage or step 6.
+
+## Quality bar
+
+- Practitioner voice; situation-first prompts; 3–5+ hour tasks
+- Input files: substantial, authentic, no leakage, exact names in prompt
+- Golden: human-verified; spreadsheets use live formulas
+- Rubric: 15–60 atomic criteria; golden scores 100; ≥2 negatives
+
+## Portal rubric (Section 2)
+
+Before `gf portal2 <slug>`, rubric must pass portal heuristics in `lint_rubric.py --strict`. See [`docs/portal-rubric-quality.md`](docs/portal-rubric-quality.md).
+
+- Grade the **submitted deliverable** only — never `golden.zip` root/layout criteria
+- Negatives = **prohibited board/closing recommendations** (`recommends`/`instructs`), not omission mirrors of positives
+- Sequencing = **document order on a tab** ("appears earlier than…"), not process timing ("before recommending…")
+- Copy criteria **verbatim** from `portal-section2.md` — no weights or agent notes in text fields

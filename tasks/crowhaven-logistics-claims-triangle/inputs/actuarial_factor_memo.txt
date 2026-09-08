@@ -1,0 +1,98 @@
+Crowhaven Logistics
+Primary Package Reserve Factor Memo — Year-End 2025-12-31
+Policy PKG-CA-GL-IN-2025-4418 | Renewal target 2026-03-01
+Prepared for Midwest Regional Underwriting Desk
+Consulting Actuary: Northbridge Reserve Advisors LLC
+
+Purpose
+This memo sets the governing factors and claim-handling rules for the 2025-12-31 loss
+reserve opinion on Crowhaven Logistics. Crowhaven buys a fully insured primary commercial
+auto liability and general liability package. There is no self-insured retention, no
+deductible funding corridor, and no captive. No per-claim retention cap is applied to
+case reserves because no such cap is specified in the governing materials.
+
+Evaluation basis
+Use the TPA cumulative paid triangle (latest year-end diagonal only) and the open-claim
+case listing extracted as of 2025-12-31. Ignore interim 6-month and 18-month snapshot
+rows that appear in the triangle extract; those are warehouse artifacts from mid-year
+pricing drafts.
+
+Governing paid loss development factors (to ultimate)
+The year-end paid LDFs below replace every mid-year draft factor printed on the triangle
+workbook Definitions sheet. The Definitions table labeled DRAFT 2025-06-30 is superseded
+as of 2025-12-15 and must not be used for this opinion.
+
+Development age (months) | Paid LDF to ultimate
+12 | 1.82
+24 | 1.41
+36 | 1.18
+48 | 1.06
+
+Apply each accident year's LDF to attritional cumulative paid at the matching maturity:
+AY 2022 at 48 months, AY 2023 at 36 months, AY 2024 at 24 months, AY 2025 at 12 months.
+
+Large-loss carve-out — CLM-AUTO-2023-4412
+CLM-AUTO-2023-4412 is a multi-vehicle severity claim in accident year 2023. Cumulative paid on
+that claim is $185,220.40 and the TPA case reserve is $142,880.40.
+For triangle development, remove that claim's paid dollars from AY 2023 cumulative paid
+before multiplying by the 36-month LDF. Do not generate pure IBNR on the carved-out paid.
+Hold the large-loss case reserve in the case inventory. Indicated ultimate for the large
+loss equals paid plus case (no additional pure IBNR). Attritional pure IBNR for AY 2023
+equals attritional ultimate minus attritional paid minus attritional cleaned case.
+
+Case inventory cleaning rules
+1. Drop any claim whose TPA note states the file closed after a final payment even if
+   status still reads Open. Specifically, remove CLM-AUTO-2024-0908 (final payment
+   2025-12-12; inventory lag).
+2. If the same claim_number appears more than once, keep the row with the latest
+   as_of_date and discard earlier duplicates. For CLM-GL-2025-0144, keep the 2025-12-28 row
+   (case $19,850.55) and discard the 2025-11-30 preliminary case of
+   $22,400.00.
+3. Ignore rows with status VOID, including CLM-AUTO-2024-0000.
+4. Expected salvage or subrogation that has not been received in cash must not reduce
+   case or pure IBNR.
+
+Indicated ultimate and pure IBNR
+For each accident year after large-loss carve-out:
+  Attritional ultimate = attritional cumulative paid × governing LDF
+  Pure IBNR = max(0, attritional ultimate − attritional cumulative paid − attritional cleaned case)
+Total reserve opinion = cleaned case (all retained open claims, including large-loss case)
+  + pure IBNR across accident years.
+Do not double-count case inside pure IBNR.
+
+Premium and referral thresholds
+Subject earned premium for the experience used in this opinion is $2,850,220.40.
+Target ultimate loss ratio for quote authority is 68.5% of that premium.
+If indicated ultimate loss ratio exceeds 68.5%, recommend Refer to regional
+referral underwriting. If indicated ultimate loss ratio exceeds 85.0%,
+recommend Decline. Otherwise recommend Quote at standard authority.
+
+Booked context
+The prior booked total reserve (case + IBNR combined) at 2024-12-31 was
+$1,104,220.18. Use that figure only for narrative context in the
+opinion; this assignment is not a self-insured liability rollforward.
+
+What this memo does not provide
+This memo supplies governing factors and claim-handling rules only. Final reserve
+totals, the cleaned open inventory, and the Quote / Refer / Decline disposition are
+determined in the underwriting reserve opinion workbook after the triangle,
+inventory, and rules above are reconciled.
+
+Distribution
+For underwriting desk use on Crowhaven Logistics 2026-03-01 renewal pricing only.
+Not for reclaim to the insured.
+
+Additional working notes for desk reviewers
+Commercial auto dominates Crowhaven's historical paid emergence; GL is thinner but more
+volatile on premise and dock claims at the Indianapolis and Louisville terminals. When
+an accident year shows Mixed Auto/GL on the triangle roll-up, still apply a single paid
+LDF by maturity — do not blend stale mid-year Auto-only and GL-only draft factors from
+the June pricing pack. Those line-level drafts were never adopted for year-end.
+
+Case reserves are not reduced by an informal retention-style ceiling; Crowhaven's
+primary policy responds within limits on a fully insured basis. Excess above policy
+limits is outside this opinion's scope and is not a self-insured layer on Crowhaven's
+balance sheet.
+
+Document control: Memo YE-2025-Crowhaven-LDF-03, supersedes YE-2025-Crowhaven-LDF-02
+(mid-year). Questions to Northbridge Reserve Advisors, Midwest casualty practice.

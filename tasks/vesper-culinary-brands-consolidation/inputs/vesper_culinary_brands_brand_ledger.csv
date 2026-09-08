@@ -1,0 +1,38 @@
+transaction_id,brand,transaction_date,description,amount,currency,status
+VC-66208,Hearth Kitchen Co,2025-06-28,June sell-in catch-up,41000.00,USD,posted
+VC-78421,Hearth Kitchen Co,2025-07-03,Retail sell-in - Northeast DSD,128447.36,USD,posted
+VC-55102,Brine & Barrel EU,2025-07-08,DE grocery sell-in - Q3 wave 1,118622.47,EUR,posted
+KS-33408,Kiln Spice Works,2025-07-09,Club channel sell-in - Midwest,88412.33,USD,posted
+VC-79104,Hearth Kitchen Co,2025-07-11,Club channel slotting fee recovery,38412.88,USD,posted
+VC-55840,Brine & Barrel EU,2025-07-18,NL foodservice distributor draw,64218.93,EUR,posted
+VC-80233,Hearth Kitchen Co,2025-07-22,Foodservice distributor rebate true-up,22109.54,USD,posted
+KS-34155,Kiln Spice Works,2025-07-23,Foodservice distributor draw,51207.18,USD,posted
+VC-56411,Brine & Barrel EU,2025-07-29,FR specialty retail booking,89104.55,EUR,posted
+KS-34802,Kiln Spice Works,2025-08-04,Private label trial shipment,37664.90,USD,posted
+VC-81055,Hearth Kitchen Co,2025-08-05,Private label co-pack milestone,97533.17,USD,posted
+VC-81091,Hearth Kitchen Co,2025-08-05,Private label co-pack milestone,97533.17,USD,duplicate
+VC-57188,Brine & Barrel EU,2025-08-09,BE club trial shipment,45781.26,EUR,posted
+KS-35220,Kiln Spice Works,2025-08-11,Retail sell-in - early August,22918.45,USD,posted
+KS-36001,Kiln Spice Works,2025-08-12,Close-day retail sell-in,67428.56,USD,posted
+VC-82107,Hearth Kitchen Co,2025-08-14,E-commerce marketplace settlement,61208.43,USD,posted
+KS-36544,Kiln Spice Works,2025-08-19,Club pack first post-close order,95817.22,USD,posted
+VC-58204,Brine & Barrel EU,2025-08-21,EU trade promo clawback,-6233.48,EUR,void
+VC-82591,Hearth Kitchen Co,2025-08-27,Seasonal SKU promo accrual reverse,-8416.22,USD,void
+KS-37102,Kiln Spice Works,2025-08-28,Spice blend co-pack milestone,81244.67,USD,posted
+VC-59033,Brine & Barrel EU,2025-09-02,DE reorder - autumn assortment,102447.18,EUR,posted
+VC-83340,Hearth Kitchen Co,2025-09-04,Grocery chain scan-down billback,44917.65,USD,posted
+KS-37888,Kiln Spice Works,2025-09-05,Grocery scan-down recovery,44109.38,USD,posted
+VC-59710,Brine & Barrel EU,2025-09-11,UK broker settlement (EUR billed),73819.64,EUR,posted
+VC-84012,Hearth Kitchen Co,2025-09-12,Club pack extension order,88344.91,USD,posted
+KS-38401,Kiln Spice Works,2025-09-15,Voided duplicate broker fee,-3900.00,USD,void
+VC-60144,Brine & Barrel EU,2025-09-18,Cancelled sample program invoice,12800.00,EUR,cancelled
+VC-84108,Hearth Kitchen Co,2025-09-19,Quarter close stub - zeroed,0.00,USD,cancelled
+KS-39055,Kiln Spice Works,2025-09-22,Foodservice September draw,70355.14,USD,posted
+VC-60882,Brine & Barrel EU,2025-09-24,Nordics distributor true-up,56933.71,EUR,posted
+VC-84776,Hearth Kitchen Co,2025-09-26,Export broker commission offset,31782.09,USD,posted
+KS-39510,Kiln Spice Works,2025-09-27,E-comm marketplace settlement,38912.80,USD,posted
+VC-61205,Brine & Barrel EU,2025-09-28,Close-week EU DSD residual,41408.82,EUR,posted
+KS-39788,Kiln Spice Works,2025-09-29,Cancelled inventory transfer bill,15000.00,USD,cancelled
+VC-84991,Hearth Kitchen Co,2025-09-29,Late September DSD catch-up,52961.78,USD,posted
+KS-39902,Kiln Spice Works,2025-09-30,Quarter-end residual sell-in,26741.93,USD,posted
+VC-62091,Brine & Barrel EU,2025-10-03,October prebill - EU clubs,22000.00,EUR,out_of_period

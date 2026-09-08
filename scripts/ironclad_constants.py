@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+"""Shared constants for the Ironclad Telematics valuation task."""
+
+from __future__ import annotations
+
+LEAD_INVESTOR = "Hartwell Partners"
+SEED_INVESTOR = "Quorum Ventures"
+NOTE_A_HOLDER = "Octavian Capital"
+NOTE_B_HOLDER = "Vesper Growth"
+PILOT_CUSTOMER = "MetroLink Transit Authority"
+
+PRE_MONEY = 145_000_000
+PRIMARY = 35_000_000
+POST_MONEY = 180_000_000
+POOL_TARGET_PCT = 0.12
+COUNSEL_POOL_PCT = 0.10
+
+BRIEF_RUN_RATE = 28_400_000
+PILOT_ARR = 2_040_000
+ROLLUP_2024 = {
+    "2024-Q1": 5_712_480.35,
+    "2024-Q2": 6_184_925.80,
+    "2024-Q3": 6_752_340.45,
+    "2024-Q4": 7_391_864.20,
+}
+ROLLUP_TTM = round(sum(ROLLUP_2024.values()), 2)
+MODEL_ARR = round(ROLLUP_TTM - PILOT_ARR, 2)
+
+FD_PRE = 18_400_000
+SEED_SHARES = 4_600_000
+SEED_PRICE = 2.35
+EXISTING_AVAILABLE_POOL = 1_250_000
+
+NOTE_A_PRINCIPAL = 4_200_000
+NOTE_A_CAP = 50_000_000
+NOTE_A_DISCOUNT = 0.20
+NOTE_B_PRINCIPAL = 2_800_000
+NOTE_B_CAP = 65_000_000
+
+FORECAST_GROWTH = [0.26, 0.22, 0.18, 0.15, 0.12]
+FCF_MARGIN = 0.20
+WACC_LOW = 0.13
+WACC_HIGH = 0.15
+TERMINAL_GROWTH = 0.03
+MULT_LOW = 4.5
+MULT_HIGH = 6.0
+MULT_DOWN = 4.0

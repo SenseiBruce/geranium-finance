@@ -1,0 +1,38 @@
+IRONCLAD TELEMATICS — GROWTH EQUITY DILIGENCE BRIEF
+Prepared for the Board Finance Committee
+Draft date: January 16, 2025
+Lead sponsor: Hartwell Partners
+
+Transaction overview
+Hartwell Partners has proposed a $35,000,000 primary growth-equity financing at a $145,000,000 pre-money valuation. The stated post-money value before option-pool mechanics is $180,000,000. Ironclad Telematics sells connected-vehicle workflow and compliance subscriptions to trucking fleets, service contractors, and municipal transit agencies. The round is intended to fund national account coverage, carrier integrations, and implementation capacity. The committee needs one defensible workbook rather than separate revenue and capitalization schedules.
+
+The sponsor term sheet requests a 12% fully diluted post-money option pool at closing. Counsel's capitalization extract still labels the available plan reserve as 10%; that label is not a board approval of the closing target. Model the 12% sponsor case as the primary pro forma and show the 10% counsel reference as an alternate case. Identify the incremental shares required in each case and do not assume that the existing reserve already satisfies the sponsor target.
+
+Primary allocation
+Quorum Ventures may exercise its full pro-rata right based on 4,600,000 Series Seed shares out of 18,400,000 fully diluted pre-money shares. At that participation level, Quorum Ventures would purchase $8,750,000.00 of the primary and Hartwell Partners would purchase the remaining $26,250,000.00. The allocation is a modeling convention for the board packet and remains subject to executed subscription documents.
+
+ARR bridge
+Management's operating update describes a $28,400,000 ARR run-rate. That headline includes contracted implementation uplift, a time-limited municipal deployment, and January activations that are outside the calendar-2024 cohort rollup. The finance export is lower. Use the sum of calendar 2024 quarters on the Fleet Rollup tab as the TTM reference, then apply the exclusion in Footnote 1. Do not force the cohort file to equal management's headline. Fleet Rollup fleet_arr is finance-recognized ARR; Cohort Detail ending_arr is gross contracted ARR by billing cohort. The Recognition Bridge tab states the identity that ties the two measures.
+
+Fiscal labels in Cohort Detail follow Ironclad's internal reporting calendar. FY25-M01, FY25-M04, and FY25-M07 are not calendar 2025 quarters; use the explicit calendar_quarter field when determining the trailing period. One fleet amendment was loaded under both IC-2022-04 and IC-2023-02-XP during the billing migration. The repeated expansion dollars should appear only once in retention and expansion analysis.
+
+Footnote 1 — run-rate convention
+The MetroLink Transit Authority deployment is tagged pilot_non_recurring in ironclad_fleet_cohort_arr.xlsx. Its $2,040,000 annualized value is the sponsor-approved award-year exclusion for valuation (one-year municipal pilot with no approved renewal). Cohort Detail row IC-MUNI-24 may show a higher current-period ending_arr after mid-pilot vehicle adds and rate schedule changes; that schedule difference is a documentation item, not a substitute for this footnote. Exclude $2,040,000 from model ARR and from the revenue-multiple base. Retain the reported Fleet Rollup TTM as a visible bridge item so reviewers can reconcile the source.
+
+Footnote 2 — period convention
+For trend, growth, and retention calculations, calendar_quarter governs. Fiscal-month labels are operational labels only. Exclude the duplicated IC-2023-02-XP expansion record identified in Cohort Detail. No other cohort rows should be removed solely because the fiscal label appears to fall in another year.
+
+Convertible notes
+Two notes remain outstanding and must convert in the proposed financing. Note A is held by Octavian Capital: $4,200,000 principal, a $50,000,000 valuation cap, and a 20% discount to the growth-round price. Use the more favorable of the cap price and discounted round price. Note B is held by Vesper Growth: $2,800,000 principal, a $65,000,000 cap, and no discount. Calculate each instrument against the fully diluted pre-money denominator stated in ironclad_cap_table.csv.
+
+The sponsor prefers Note A to be displayed before Note B in the conversion schedule. That preference is presentation and closing-sequence guidance; it does not permit a changing denominator between the two contractual conversion calculations. Show both price tests for Note A and the cap-only price for Note B. Both notes must be in post-money ownership.
+
+Forecast and valuation conventions
+Build a five-year forecast from normalized model ARR with annual growth of 26%, 22%, 18%, 15%, and 12%. Use a 20% free-cash-flow margin as a steady-state underwriting proxy. The DCF cross-check should use a 13% to 15% discount-rate range and 3% terminal growth. These are valuation scenarios, not management guidance.
+
+For the market cross-check, apply 4.5x to 6.0x to year-one NTM revenue. Use 4.0x on normalized TTM only for the downside case. The peer median currently sits near 5.2x NTM revenue. Keep multiple and DCF conclusions separate enough that reviewers can see the effect of growth assumptions instead of counting the same optimism twice.
+
+Requested board output
+Provide one Excel workbook tying fleet cohort retention and expansion to a formula-driven forecast, a DCF-style cross-check, market multiples, note conversion, primary issuance, and option-pool dilution. Include sensitivity to both fleet growth and net retention. Document the management run-rate difference, municipal pilot exclusion, Fleet Rollup versus Cohort Detail recognition bridge, duplicate expansion treatment, fiscal/calendar mapping, note order, and pool conflict with citations to growth_equity_diligence_brief.txt and the relevant source schedules.
+
+Confidential — Ironclad Telematics board materials.

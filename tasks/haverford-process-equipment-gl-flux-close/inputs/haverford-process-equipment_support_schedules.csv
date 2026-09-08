@@ -1,0 +1,36 @@
+schedule_type,line_id,as_of,account_hint,description,qty_or_units,amount,status,source_ref,notes
+warranty,W-01,2026-08,2200,Opening accrued warranty,,176110.55,Open,WR-ROLL,July ending
+warranty,W-02,2026-08,2200,Claims paid August,,-41220.18,Paid,CLM-8821,Paid from AP
+warranty,W-03,2026-08,2200,New reserves August,,18994.81,Open,WR-NEW,Ops estimate
+warranty,W-04,2026-08,2200,Support ending balance,,147885.18,Support,WR-ROLL,Governing support total
+warranty,W-05,2026-08,2200,TB accrued warranty (Current_TB),,182440.55,TB,ERP,Current GL balance differs from support schedule
+prepaid,P-01,2026-08,1400,Annual package premium (policy year),,101007.0,Active,POL-INS-26,Commercial package
+prepaid,P-02,2026-08,1400,Months remaining before Aug amort,,11,Calc,POL-INS-26,July booked 1/12
+prepaid,P-03,2026-08,1400,August amortization period under policy year,,,Calc,POL-INS-26,Policy POL-INS-26; annual prepaid amount on P-01
+prepaid,P-04,2026-08,1400,TB prepaid insurance balance,,92589.75,TB,ERP,August ledger review
+inventory,I-01,2026-08-31,1200,Physical finished goods,184,684220.18,Counted,CNT-AUG,Floor count
+inventory,I-02,2026-08-31,1200,Physical WIP,62,412880.4,Counted,CNT-AUG,Shop floor
+inventory,I-03,2026-08-31,1200,Physical raw / components,1,122773.97,Counted,CNT-AUG,Cage A
+inventory,I-04,2026-08-31,1200,Physical total,,1219874.55,Support,CNT-AUG,Sum of count lines
+inventory,I-05,2026-08-31,1200,TB inventory,,1248300.18,TB,ERP,August physical count compared with current ledger balance
+freight,F-01,2026-08,2210,LTL inbound — Mid-Atlantic Carriers,,12880.4,Open,BOL-4412,Open support item
+freight,F-02,2026-08,2210,Flatbed outbound — Susquehanna Heavy Haul,,18420.18,Open,BOL-4488,Open support item
+freight,F-03,2026-08,2210,Expedite — overnight spindle parts,,9987.82,Open,AWB-991,Open support item
+freight,F-04,2026-08,2210,Open freight total,,41288.4,Support,FR-OPEN,Open freight balance identified in August support
+freight,F-05,2026-08,2210,TB accrued freight,,0.0,TB,ERP,July ending cleared; August TB shows zero
+pto,T-01,2026-08,2220,Hourly PTO liability,4120 hrs,48220.18,Calc,HR-PTO,Rate file Aug
+pto,T-02,2026-08,2220,Salaried PTO liability,1880 hrs,23220.37,Calc,HR-PTO,Rate file Aug
+pto,T-03,2026-08,2220,Support PTO total,,71440.55,Support,HR-PTO,Governing
+pto,T-04,2026-08,2220,TB accrued PTO,,95220.18,TB,ERP,HR-supported PTO balance differs from the current GL balance
+capex,C-01,2026-08-12,5600,CNC spindle housing rebuild,1,62418.55,Posted-to-expense,CAP-8821,Useful life 5 years
+capex,C-02,2026-08-12,1600,CNC spindle rebuild; useful life 5 years,1,62418.55,Ticket,CAP-8821,Posted to Maintenance & Repairs
+capex,C-03,2026-08-08,5600,Routine coolant flush / filters,1,2240.18,Posted,WO-7712,"Amount $2,240.18; consumable maintenance"
+capex,C-04,2026-08-22,5600,Belt / seal kit replacements,1,1880.4,Posted,WO-7790,Consumables
+deposits,D-01,2026-08,2300,Customer deposit — Riverton Dairy,,41220.18,Open,DEP-2201,Still open
+deposits,D-02,2026-08,2300,Customer deposit — Blue Ridge Brewing,,46890.37,Open,DEP-2218,Still open
+ap,A-01,2026-08,2000,AP aging 0-30,,412880.4,Open,AP-AGE,Informational
+ap,A-02,2026-08,2000,AP aging 31-60,,184220.18,Open,AP-AGE,Informational
+ap,A-03,2026-08,2000,AP aging 61+,,41339.97,Open,AP-AGE,Informational
+sales,S-01,2026-08-19,4100,INV-9918 Keystone Foods (billing voided),,55280.4,Billing-void,INV-9918,Original billing remains in the ledger after customer cancellation
+sales,S-02,2026-08-26,4100,INV-9940 Susquehanna Water Authority,,88420.18,Open,INV-9940,Valid sale
+payroll,H-01,2026-08,2100,Accrued payroll support,,151880.4,Support,PR-ACC,Matches TB

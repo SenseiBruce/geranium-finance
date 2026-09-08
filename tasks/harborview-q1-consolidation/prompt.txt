@@ -1,0 +1,5 @@
+Our team handles consolidated reporting across three labels under Harborview Media Group. I report to the CFO, and we're closing Q1 2025 (January 1 through March 31) for the board meeting next week. Revenue came in from each label's billing system and it doesn't reconcile cleanly when you roll it up.
+
+I've pulled harborview_media_group_brand_ledger.csv, lattice_digital_acquisition_memo.txt, and cascade_creative_fx_and_period_reference.txt from finance and treasury. The ledger has about 25 posted rows across Beacon Media, Cascade Creative, and Lattice Digital, mixes USD and CAD, and includes void, cancelled, out-of-period, and pre-close rows that don't belong in Q1. The acquisition memo and FX bulletin don't always agree with how those rows are tagged.
+
+I need a single Excel workbook named consolidated_review_harborview_media_group.xlsx that shows consolidated revenue per label and overall for the quarter, flags transactions that shouldn't count toward the total, and gives a short recommendation for the board. Where the source files disagree or require a judgment call, document what you did and why in the workbook.

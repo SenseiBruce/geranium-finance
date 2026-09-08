@@ -1,0 +1,75 @@
+Northline Industrial Holdings — Intercompany Cut-off and FX Memo
+Month-end: 2026-08-31
+Prepared by: Corporate Controllers / Treasury
+Distribution: Entity controllers (US, Canada, Mexico); Treasury ops
+Classification: Internal — closing file
+
+1. Purpose
+This memo sets the governing rules for the September 3, 2026 intercompany cash sweep covering open affiliate balances as of 2026-08-31. Controllers must apply these rules to the parent AR subledger and the Canada / Mexico AP mirrors. Where the AR subledger, AP mirrors, and this memo conflict, this memo controls. Do not invent external FX rates, cut-off policies, or treasury systems outside this closing file and the two ledger extracts.
+
+2. Settlement population (Appendix A — material sweep)
+For the September 3 wire cycle, the Appendix A settlement population is defined by source attributes on the parent AR subledger — Controllers must identify qualifying invoices from the extract rather than from a pre-printed ID list.
+
+Include a parent AR invoice in Appendix A when ALL of the following are true as of 2026-08-31:
+(a) counterparty is Northline Canada Ltd or Northline Mexico SA de CV;
+(b) status_flag is Open or InTransit;
+(c) amount_usd is greater than or equal to $35,000.00 (materiality threshold for this sweep).
+
+Exclude from Appendix A (and from the September 3 wire) any AR line that fails the tests above, including:
+- status Settled (prior-period items retained on the extract for audit trail only);
+- status Provisional (month-end estimates awaiting a final invoice);
+- status Void (never settled);
+- Open or InTransit lines below the $35,000.00 materiality threshold (those roll to the mid-September cycle);
+- disputed warranty / pass-through rebills that do not meet the Appendix A tests.
+
+Apply the same materiality lens when selecting affiliate AP for the FX tie-out: only Open AP rows that reference an Appendix A parent invoice (via parent_invoice_ref) enter the matched AP conversion set, subject to the void / duplicate / orphan rules in section 6.
+
+3. Cut-off — FOB shipping point
+Intercompany product shipments use FOB shipping point. The parent recognizes AR when goods leave the US dock (ship_date on the AR subledger). The affiliate recognizes AP when goods are received at the affiliate facility.
+
+Consequence for 2026-08-31:
+- If ship_date is on or before 2026-08-31 and the affiliate has not received the goods (status_flag InTransit on AR; no matching AP row yet), any such invoice that otherwise meets Appendix A remains in the settlement population. No affiliate AP is expected for those lines on the September 3 wire cycle.
+- Do not drop InTransit AR from the sweep solely because the affiliate AP mirror has no matching row.
+- Affiliates will book AP on receipt in September; those future AP bookings are not required for the September 3 parent receivable wire instruction.
+- Controllers must discover InTransit Appendix A receivables by inspecting status_flag and ship_date on the AR extract and confirming the absence of a matching parent_invoice_ref on the AP mirror.
+
+4. Foreign exchange
+Governing August 31, 2026 month-end spots for converting affiliate local-currency AP to USD for tie-out:
+
+- CAD per 1 USD: 1.3724
+- MXN per 1 USD: 18.5800
+
+Superseded rates (do not use for this certificate):
+- July 31, 2026 CAD per 1 USD: 1.3680 (may still appear as fx_rate_used on some Canada AP bookings)
+- July average CAD and MXN rates in the treasury dashboard footnote
+
+Conversion formula for tie-out: USD equivalent = local currency amount ÷ (foreign units per 1 USD).
+
+Stale FX booking treatment: any Open affiliate AP row included in the matched Appendix A tie-out whose fx_rate_used differs from the August 31 memo spot for that currency must be revalued at the memo spot for the tie-out column. Controllers identify stale bookings by comparing fx_rate_used on the AP mirror to the rates in this section. Quantify the USD difference versus the related parent invoice USD. The cash settlement / wire for that pair remains the parent invoice USD under section 5.
+
+5. Settlement currency hierarchy
+Parent USD invoice amounts govern the cash settlement. Affiliate AP local balances are converted at the August 31 memo spots solely to tie out and to quantify FX differences. Do not replace parent invoice USD with the converted AP USD when instructing wires. Present both the parent AR settlement total and the memo-converted AP total so Treasury can see the FX tie-out without changing the wire basis.
+
+6. Voids, duplicates, and orphans
+Apply these status and reference rules after selecting the Appendix A AR population and candidate AP tie-out rows. Controllers must discover affected rows from status_flag, parent_invoice_ref, and duplicate indicators on the ledger extracts — this memo does not enumerate the exception IDs.
+
+- Void AR: any AR row with status_flag Void is excluded from settlement and from the September 3 wire, even if the dollar amount would otherwise meet materiality.
+- Void AP / duplicate AP: any AP row with status_flag Void is excluded from the AP FX tie-out and is not wired. When more than one AP row references the same parent_invoice_ref and one of those rows is Void (including a voided duplicate of an Open payable), exclude the Void row and retain only the eligible Open payable for tie-out.
+- Orphan AP: any Open AP row with a blank parent_invoice_ref is an orphan payable. Exclude it from the Canada / Mexico settlement net. Route it to entity controllers for local AP reclass; do not wire against it on September 3.
+- Matched AP only: for FX tie-out, include only Open (non-void, non-orphan) AP rows whose parent_invoice_ref equals an Appendix A AR invoice ID that is included in settlement. Missing AP for InTransit Appendix A AR is expected and is not an orphan.
+
+Document each discovered exception in the settlement workbook with the record ID, counterparty, exception type, source fact, governing memo rule, treatment, and settlement impact.
+
+7. Netting recommendation format
+Present, in USD:
+(a) Appendix A AR settlement total by counterparty (Canada; Mexico), including InTransit invoices that meet Appendix A and the FOB cut-off rule;
+(b) matched Appendix A AP converted at memo FX (excluding voids, orphans, and missing in-transit AP);
+(c) FX tie-out difference on matched pairs only, after revaluing any stale fx_rate_used bookings to the August 31 memo spots;
+(d) recommended September 3 wire: Canada pays parent the Canada Appendix A AR total; Mexico pays parent the Mexico Appendix A AR total.
+
+State the September 3 recommendation by counterparty for disbursement authorization. Distinguish settlement amounts (parent AR USD) from exception items that are logged but not wired.
+
+8. Prior-period note
+July and early-August Settled items remain on the extracts for audit trail only. Do not re-sweep them. Provisional estimates remain out of scope until Controllers replace them with final invoices in a later cycle.
+
+End of memo.

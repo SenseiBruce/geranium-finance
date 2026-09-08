@@ -1,0 +1,193 @@
+{
+  "criteria": [
+    {
+      "id": "deliverable_filename",
+      "text": "The final deliverable is an Excel workbook named self_insured_wc_reserve_pelliston.xlsx.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "workbook_sections",
+      "text": "The workbook includes retention-capped case reserves, accident-year IBNR, an excess/ceded bridge, a reserve rollforward, and a controller recommendation; equivalent section labels are acceptable.",
+      "weight": 3,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "si_case_total",
+      "text": "Self-insured case reserves after retention caps and closed-claim removals total approximately $745,065.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "large_loss_cap",
+      "text": "CLM-2024-1187 self-insured case is capped at $350,000 rather than the uncapped TPA case of $412,800.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "large_loss_excess",
+      "text": "Excess above retention on CLM-2024-1187 is approximately $62,800 and is treated as ceded / excess recoverable, not SI liability.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "closed_claim_removed",
+      "text": "CLM-2024-0901 is removed from self-insured case inventory (case $0) based on December final payments in pelliston_claims_payment_ledger.csv.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "subro_not_credited",
+      "text": "CLM-2023-0442 keeps its case reserve without reducing it for the $64,250 expected subrogation that has not been received.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "ibnr_factor_2025",
+      "text": "Accident year 2025 IBNR uses factor 0.52 from actuarial_funding_memo.txt.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "ibnr_factor_2024",
+      "text": "Accident year 2024 IBNR uses factor 0.28 from actuarial_funding_memo.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "ibnr_paid_from_triangle",
+      "text": "Accident-year IBNR bases use AY Triangle cumulative_paid_as_of_2025_12 as the cumulative paid component rather than Open Inventory open-claim paid alone for mature accident years.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "ibnr_total",
+      "text": "Total IBNR across accident years is approximately $333,679.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "ibnr_2025_amount",
+      "text": "Accident year 2025 IBNR is approximately $119,263.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "beginning_reserve",
+      "text": "The rollforward opening balance is $1,842,660.40 from actuarial_funding_memo.txt.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "ending_reserve",
+      "text": "Ending self-insured reserve at 2025-12-31 is approximately $1,078,744.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "rollforward_identity",
+      "text": "The rollforward presents beginning reserve, calendar-year paid, incurred, and ending reserve in a reconciling identity.",
+      "weight": 3,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "live_formulas",
+      "text": "Retention-capped case reserves use MIN formulas against a central retention assumption, and IBNR amounts are formula-driven as IBNR base times factor rather than solely hard-coded.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "ay2024_conflict_documented",
+      "text": "The workbook documents that AY2024 Open Inventory open-claim paid exceeds AY Triangle cumulative paid and records the selected Triangle paid source for IBNR.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "memo_citation_retention",
+      "text": "Retention capping documentation cites actuarial_funding_memo.txt for the $350,000 per-occurrence limit on CLM-2024-1187.",
+      "weight": 3,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "controller_book_amount",
+      "text": "The controller recommendation states booking self-insured WC liability of approximately $1,078,744 at 2025-12-31 for audit and the bank certificate pack.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "accuracy"
+    },
+    {
+      "id": "controller_flags_excess",
+      "text": "The recommendation discloses the large-loss excess as carrier recoverable and does not rewrite excess policy wording.",
+      "weight": 2,
+      "type": "subjective",
+      "category": "completeness"
+    },
+    {
+      "id": "paid_from_ledger",
+      "text": "Calendar-year 2025 net paid in the rollforward comes from pelliston_claims_payment_ledger.csv with void pairs netted.",
+      "weight": 3,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "ay2022_factor",
+      "text": "Accident year 2022 IBNR uses factor 0.04 from actuarial_funding_memo.txt.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "ay2023_factor",
+      "text": "Accident year 2023 IBNR uses factor 0.11 from actuarial_funding_memo.txt.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "neg_credit_subro",
+      "text": "The controller recommendation instructs Controllers to credit the $64,250 expected subrogation on CLM-2023-0442 against the SI reserve before cash is received.",
+      "weight": -5,
+      "type": "negative",
+      "category": "accuracy"
+    },
+    {
+      "id": "neg_uncapped_large",
+      "text": "The controller recommendation instructs Controllers to carry CLM-2024-1187 on the SI books at the full uncapped TPA case of $412,800.",
+      "weight": -5,
+      "type": "negative",
+      "category": "accuracy"
+    },
+    {
+      "id": "neg_stale_factor",
+      "text": "The workbook recommends applying the superseded mid-year factor 0.40 to accident year 2025 IBNR instead of the confirmed 0.52.",
+      "weight": -5,
+      "type": "negative",
+      "category": "accuracy"
+    },
+    {
+      "id": "neg_keep_closed",
+      "text": "The controller recommendation instructs Controllers to keep CLM-2024-0901 in SI case inventory despite the December final-payment closure in the ledger.",
+      "weight": -3,
+      "type": "negative",
+      "category": "accuracy"
+    }
+  ]
+}

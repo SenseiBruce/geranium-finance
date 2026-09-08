@@ -1,0 +1,32 @@
+Harborview Media Group — Lattice Digital Acquisition Memo
+Prepared by Corporate Development | January 28, 2025
+Distribution: Finance, Corporate Controller, Treasury Operations
+
+Summary
+Harborview Media Group closed the acquisition of Lattice Digital on February 1, 2025. Lattice is a performance marketing analytics platform serving mid-market advertisers. For Q1 2025 consolidated reporting, only revenue earned on or after the close date may be attributed to Harborview ownership in management and board materials.
+
+Background
+Lattice operated independently through January. Billing continued on the legacy entity code during the transition week. The corporate development team signed the stock purchase agreement on January 24, 2025, with economic transfer effective February 1 per the disclosure schedule. Finance should not treat January billings as Harborview consolidated revenue for Q1 even when the ledger still shows them as posted.
+
+Ownership and reporting
+- Legal close: February 1, 2025
+- Reporting entity: Lattice Digital LLC (wholly owned subsidiary)
+- Pre-close January activity remains outside consolidated Harborview totals for Q1 2025.
+- Post-close activity from February 1 through March 31 is in scope for Q1 consolidation subject to proration guidance below.
+
+Proration guidance for Q1 close
+Q1 2025 runs January 1 through March 31 (90 calendar days). Post-close ownership covers February 1 through March 31 inclusive (59 days). Treasury policy HM-FX-2025-02 directs finance to apply a 59/90 proration factor to Lattice gross Q1 revenue when consolidating unless transaction-level cutoffs are documented in the reconciliation workbook.
+
+The proration applies to the label gross after standard revenue exclusions (void, cancelled, out-of-period). Do not apply proration to individual January rows and also to the full-quarter gross; pick one method and document it.
+
+Systems note
+The brand ledger still contains January Lattice rows tagged posted from the pre-close billing run. Exclude pre-February 1 Lattice amounts from consolidated Q1 totals even if the row status is posted. HM-3001 and HM-3002 are the primary January rows reviewers should watch.
+
+Controller review points
+- Confirm acquisition date matches the signed APA schedule.
+- Tie February and March Lattice billings to post-close service delivery where possible.
+- Cross-check that April billings (for example HM-3007) stay out of Q1.
+
+Sign-off
+M. Okonkwo, VP Corporate Development
+cc: S. Menon, Corporate Controller

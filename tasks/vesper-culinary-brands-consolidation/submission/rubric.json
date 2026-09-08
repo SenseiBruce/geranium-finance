@@ -1,0 +1,179 @@
+{
+  "criteria": [
+    {
+      "id": "deliverable_filename",
+      "text": "The final deliverable is an Excel workbook named consolidated_review_vesper_culinary_brands.xlsx.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "deliverable"
+    },
+    {
+      "id": "reporting_period",
+      "text": "The workbook states the Q3 2025 reporting period of July 1, 2025 through September 30, 2025 and frames the analysis as of the Q3 2025 close in early October 2025.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "eur_usd_rate",
+      "text": "The workbook states the governing EUR-to-USD board close rate of 1.0874.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "kiln_ownership_start",
+      "text": "The workbook records Kiln Spice Works ownership starting August 12, 2025 as the modeling date from the acquisition memo, and distinguishes that modeling basis from independent supporting-evidence confirmation.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "kiln_method_and_approval",
+      "text": "The workbook identifies the transaction-date cutoff method and its memo rule, states that approval evidence is not present in the supplied packet (e.g. Approval evidence in supplied packet: not present), selects 50/92 proration from kiln_spice_acquisition_memo.txt as the final Kiln board treatment, treats cutoff as conditional only, and does not invent an approval record, approver, approval date, or sign-off.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "kiln_open_followups",
+      "text": "The workbook identifies as open follow-up items that Schedule 2.1 and bank wire confirmation for the August 12 Kiln ownership date are not in the supplied packet, and that post-close Kiln billing shipment or service support is not in the supplied packet.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "workbook_structure",
+      "text": "The workbook presents assumptions, line or source inventory, consolidated rollup by brand, reconciliation of excluded transactions, and a board-facing recommendation, or equivalent section labels.",
+      "weight": 2,
+      "type": "rigid",
+      "category": "structure"
+    },
+    {
+      "id": "reconciliation_bridge",
+      "text": "The workbook includes a formula-driven reconciliation bridge from raw extract gross by brand through exclusion/adjustment categories in the packet (void/cancelled, duplicate, period/out-of-period, and Kiln 50/92 ownership) to adjusted board amounts of about $565,717.81 Hearth, $644,106.78 Brine, and $339,572.04 Kiln (consolidated about $1,549,396.63), with a control total tying the bridge to the brand-level revenue rollup at a zero difference.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "total_consolidated_final",
+      "text": "The workbook reports selected final consolidated Q3 2025 net revenue of approximately $1,549,396.63 under 50/92 proration, equal to the sum of the workbook's Hearth, Brine, and selected-final Kiln consolidated figures. If a transaction-date cutoff total of approximately $1,634,434.29 appears, it is labeled as a Conditional transaction-date cutoff scenario with the missing approval-evidence limitation documented, not as the unqualified final board figure.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "hearth_consolidated",
+      "text": "Hearth Kitchen Co consolidated USD is approximately $565,717.81 for the full quarter after status and period exclusions.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "brine_consolidated",
+      "text": "Brine & Barrel EU consolidated USD is approximately $644,106.78, reflecting EUR-to-USD conversion at the 1.0874 board close rate using sum-then-round treatment (native EUR summed before conversion; not line-by-line USD rounding).",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "kiln_consolidated_final",
+      "text": "Kiln Spice Works selected-final consolidated USD is approximately $339,572.04 under 50/92 proration of post-exclusion full-quarter posted Kiln gross. A transaction-date cutoff amount of approximately $424,609.70 may be shown as a correctly calculated Conditional transaction-date cutoff scenario with the missing approval-evidence limitation noted, but must not be selected as the final Kiln board result when approval evidence is not present in the packet.",
+      "weight": 5,
+      "type": "rigid",
+      "category": "accuracy"
+    },
+    {
+      "id": "exclusion_log",
+      "text": "The reconciliation documentation identifies void, cancelled, duplicate, and out-of-period ledger rows excluded from consolidated revenue, and for excluded Brine & Barrel EU rows shows USD impact computed from the governing EUR/USD rate.",
+      "weight": 4,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "prior_period_exclusion",
+      "text": "The workbook excludes the June 2025 Hearth Kitchen Co prior-period catch-up row from consolidated Q3 revenue.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "fx_source_cited",
+      "text": "The workbook lists brine_barrel_fx_and_period_reference.txt among cited source files.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "acquisition_source_cited",
+      "text": "The workbook lists kiln_spice_acquisition_memo.txt among cited source files and attributes the 50/92 proration treatment to that memo.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "ledger_source_used",
+      "text": "The workbook reconciles brand totals to vesper_culinary_brands_brand_ledger.csv rather than introducing revenue figures absent from that ledger.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "rollup_formulas",
+      "text": "Derived consolidated figures are formula-linked to transaction detail so that changing an included transaction amount updates the full calculation chain—status or period inclusion or exclusion, brand native-currency gross, Brine EUR-to-USD conversion for EUR-denominated Brine transactions, Kiln ownership treatment, brand consolidated USD, and total consolidated revenue—rather than relying on manually typed brand gross or total constants alone.",
+      "weight": 3,
+      "type": "rigid",
+      "category": "method"
+    },
+    {
+      "id": "judgment_documented",
+      "text": "The workbook documents the governing FX-rate judgment call: selecting the 1.0874 board close rate from brine_barrel_fx_and_period_reference.txt and rejecting the informal 1.1025 spot aside for consolidated Brine reporting.",
+      "weight": 3,
+      "type": "subjective",
+      "category": "method"
+    },
+    {
+      "id": "board_recommendation_final",
+      "text": "The workbook includes a board-facing recommendation stating the selected final consolidated Q3 2025 revenue figure of approximately $1,549,396.63 and does not present the conditional cutoff total as the unqualified final board figure.",
+      "weight": 4,
+      "type": "subjective",
+      "category": "deliverable"
+    },
+    {
+      "id": "board_recommendation_kiln_ownership",
+      "text": "The board-facing recommendation states that Kiln Spice Works is included under the selected 50/92 ownership treatment from kiln_spice_acquisition_memo.txt and does not treat pre-ownership Kiln revenue as full unprorated consolidated revenue.",
+      "weight": 3,
+      "type": "subjective",
+      "category": "deliverable"
+    },
+    {
+      "id": "presentation_no_cell_refs",
+      "text": "The board-facing recommendation or board reporting note does not cite internal spreadsheet cell addresses.",
+      "weight": 2,
+      "type": "subjective",
+      "category": "structure"
+    },
+    {
+      "id": "recommends_spot_overrides_bulletin",
+      "text": "The board recommendation instructs converting Brine & Barrel EU revenue using the informal 1.1025 spot aside as superseding brine_barrel_fx_and_period_reference.txt / VCB-FX-2025-03 for the board package.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "recommends_salesops_full_quarter_kiln",
+      "text": "The board recommendation recommends adopting the sales operations full-quarter Kiln contribution note as the board consolidation figure in place of the acquisition memo ownership treatment.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    },
+    {
+      "id": "asserts_cutoff_approved_final",
+      "text": "The board recommendation presents the transaction-date cutoff consolidated total as the unqualified final board figure, or fabricates approval evidence (approver, approval date, or sign-off) that is not present in the supplied packet.",
+      "weight": -5,
+      "type": "negative",
+      "category": "negative"
+    }
+  ]
+}

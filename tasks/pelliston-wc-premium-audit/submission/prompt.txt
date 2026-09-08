@@ -1,0 +1,5 @@
+Pelliston Machine Works is preparing the 2025-12-31 self-insured workers' compensation reserve for external audit and the bank borrowing-base certificate. The company retains $350,000 per occurrence. Calendar-year TPA payments are in pelliston_claims_payment_ledger.csv. Open claims and the accident-year paid triangle are in pelliston_open_claims_triangle.xlsx. Retention, IBNR factors, closed-claim treatment, and subrogation recognition are governed by actuarial_funding_memo.txt.
+
+Input files: pelliston_claims_payment_ledger.csv, pelliston_open_claims_triangle.xlsx, actuarial_funding_memo.txt.
+
+Build self_insured_wc_reserve_pelliston.xlsx as the Controllers workpaper for the audit PBC and lender pack. Apply the memo retention cap to case reserves, compute accident-year IBNR from the memo factors using the appropriate cumulative-paid source, show the excess/ceded bridge for losses above retention, roll the reserve forward from the prior year-end balance, and include a short booking recommendation. Do not rewrite excess policy wording.

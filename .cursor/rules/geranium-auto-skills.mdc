@@ -1,0 +1,21 @@
+---
+description: Auto-load Geranium project skills without waiting for the user to name them
+alwaysApply: true
+---
+
+# Geranium — auto-invoke project skills
+
+Do **not** wait for the user to say the skill name. When a trigger matches, **immediately Read** the skill file and follow it before other work.
+
+| Trigger (any of these in the user message) | Read and follow |
+|--------------------------------------------|-----------------|
+| Pasted auto-eval / "Needs Revision" / golden solution check FAILED or PASSED / oracle rewards / dataset quality / LLM generated files / LLM-authorship / CodeExecutionEnvironment / portal audit / "revision needed" | `.cursor/skills/geranium-auto-eval-triage/SKILL.md` |
+| preflight / ready to upload / resubmit / package for submit / before upload / upload zips | `.cursor/skills/geranium-preflight/SKILL.md` |
+| rename entities / de-bias names / naming cluster / entity drift / rename investors / LLM naming habits | `.cursor/skills/geranium-entity-rename/SKILL.md` |
+
+## Rules
+
+1. Read the skill with the Read tool **first** (same turn as recognizing the trigger).
+2. Do not ask “should I use the triage skill?” — just use it.
+3. If more than one trigger matches (e.g. auto-eval paste that needs a rename), follow triage first, then rename/preflight as that skill directs.
+4. Paths are relative to the repo root `geranium-finance`.

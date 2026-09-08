@@ -1,0 +1,36 @@
+# Harbor-compatible task metadata for CodeExecutionEnvironment packaging.
+# Keep in sync with metadata.yaml / portal Section 1.
+
+schema_version = "1.0"
+
+[metadata]
+sector = "Finance and Insurance"
+occupation = "Actuaries"
+occupation_code = "15-2011.00"
+difficulty_tier = "core"
+category = "finance"
+tags = [
+  "claims-triangle",
+  "loss-development",
+  "ibnr",
+  "case-reserves",
+  "commercial-auto",
+  "general-liability",
+  "underwriting",
+]
+expert_time_estimate_hours = 5
+difficulty_explanation = "Year-end paid LDF development with large-loss carve-out, open-claim inventory cleaning (closed/duplicate/VOID), case vs pure IBNR separation, and Quote/Refer/Decline against memo LR thresholds."
+
+[agent]
+timeout_sec = 1800.0
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+allow_internet = false

@@ -1,0 +1,37 @@
+account_id,named_insured,state,expiring_premium,account_tiv,unit_count,occupancy_pct,subsidized_housing_flag,prior_disposition,account_loss_ratio_36mo,renewal_ready_flag
+GR-2001,Ashland Court Apts LP,IL,55299.51,11870554.0,183,95.3,N,Quoted,25.9,Y
+GR-2004,Berwyn Arms LLC,MN,75553.66,10119822.0,67,96.1,N,Quoted,12.8,Y
+GR-2007,Campus Edge Housing Co.,IN,67915.72,10381367.0,97,95.2,N,Quoted,17.9,Y
+GR-2010,Damen Square Residences,IA,87072.61,15930329.0,128,91.2,N,Quoted,17.1,Y
+GR-2013,Eastgate Manor LLC,IL,55911.94,10882945.0,163,92.4,N,Quoted,20.5,Y
+GR-2016,Fairmount Village Apts,IA,67173.6,14236352.0,172,91.9,N,Quoted,30.2,Y
+GR-2018,Glenwood Terrace LLC,IA,54820.0,9340000,112,97.2,N,Quoted,18.6,Y
+GR-2021,Halsted Walkup Partners,OH,69181.2,8365947.0,109,94.3,N,Quoted,26.8,Y
+GR-2024,Irving Park Rentals Inc,IL,67304.53,13032989.0,116,95.4,N,Quoted,17.4,Y
+GR-2027,Jefferson Grove MF LLC,OH,53257.33,8723089.0,132,96.7,N,Quoted,21.6,Y
+GR-2030,Kenwood Station Apts,IN,62730.46,13985036.0,68,92.1,N,Quoted,21.9,Y
+GR-2033,Lincolnwood Place LLC,MN,52180.0,6840000,72,88.4,N,Quoted,19.2,Y
+GR-2036,Monon Trail Residences,IN,52729.12,15151359.0,140,94.3,N,Quoted,13.1,Y
+GR-2039,Norwood Court Apts,MI,54743.51,8760788.0,144,94.4,N,Quoted,13.5,Y
+GR-2042,Ottawa River Flats,MI,68307.56,18278951.0,127,92.6,N,Quoted,16.3,Y
+GR-2045,Pullman Yard Housing,MO,95337.43,16888588.0,100,95.0,N,Quoted,27.2,Y
+GR-2047,Quincy Street Apts LLC,OH,61240.0,10280000,128,94.0,N,Quoted,21.3,Y
+GR-2050,Ravenswood Arms Co.,IA,80785.72,16631737.0,83,95.0,N,Quoted,19.1,Y
+GR-2053,Southport Lane LLC,OH,56098.72,8562115.0,104,92.6,Y,Quoted,31.4,Y
+GR-2056,Troy Hill Apartments,OH,44512.79,10406450.0,86,97.5,N,Quoted,33.9,Y
+GR-2059,Union Depot Lofts LLC,OH,88435.18,17028888.0,166,91.8,N,Quoted,23.2,Y
+GR-2062,Vernon Park Residences,IL,67739.13,11181395.0,149,92.5,N,Quoted,26.1,Y
+GR-2065,Campus Edge Housing Co.,OH,60820.87,18149517.0,131,97.7,N,Quoted,29.7,Y
+GR-2068,Westchester Court LLC,IL,84020.88,17390496.0,77,95.7,Y,Quoted,21.1,Y
+GR-2071,Buckeye Garden Apts LLC,MO,49959.06,9120000,104,95.1,N,Quoted,14.8,Y
+GR-2074,Yorktown Flats LLC,OH,61833.36,14238003.0,54,93.8,N,Quoted,25.3,Y
+GR-2077,Zion Road Residences,IA,74207.07,11919614.0,160,97.8,N,Quoted,15.5,Y
+GR-2080,Archer Avenue Apts LLC,IL,83442.5,13067392.0,74,97.4,N,Quoted,14.9,Y
+GR-2083,Belmont Court Partners,MI,77606.69,12526182.0,177,93.3,N,Quoted,28.4,Y
+GR-2086,Cermak Place LLC,MN,93807.95,12292897.0,52,96.1,N,Quoted,16.1,Y
+GR-2089,Devonshire Arms LLC,MN,67380.0,8960000,96,95.8,N,Renewal Ready,24.7,Y
+GR-2092,Elston Crossing Apts,OH,52150.45,14160417.0,76,95.6,Y,Quoted,16.0,Y
+GR-2113,Fulton Market Residences,IL,78450.0,11840000,142,96.1,N,Quoted,28.4,Y
+GR-2162,Grandview Portfolio LLC,OH,392850.0,48260000,412,93.4,N,Quoted,31.8,Y
+GR-2195,Humboldt Yard Apts LLC,MN,48620.0,7420000,88,92.6,N,Quoted,48.2,Y
+GR-2200,Indiana Ave Partners LLC,IN,82603.3,11805363.0,153,94.3,N,Quoted,26.3,Y

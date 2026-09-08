@@ -1,0 +1,31 @@
+slug: sawtooth-july-renewal-desk
+seed_id: sawtooth-july-renewal-desk
+
+onet:
+  occupation: Insurance Underwriters
+  code: 13-2053.00
+  tasks:
+    - Examine documents to determine degree of risk from factors such as applicant health, financial standing and value, and condition of property.
+    - Review company records to determine amount of insurance in force on single risk or group of closely related risks.
+    - Decrease value of policy when risk is substandard and specify applicable endorsements or apply rating to ensure safe, profitable distribution of risks, using reference materials.
+  skills:
+    - Critical Thinking
+    - Reading Comprehension
+    - Active Listening
+
+platform:
+  multimodal: false
+  web_search_allowed: false
+  time_estimate_hours: 5
+
+deliverable:
+  filename: renewal_underwriting_review.xlsx
+  format: xlsx
+
+input_files:
+  - renewal_account_list.csv
+  - policy_location_schedule.csv
+  - loss_run_36mo.csv
+  - underwriting_rules_notes.txt
+
+sector: Finance and Insurance
